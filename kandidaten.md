@@ -11,6 +11,13 @@ nennt das Modell (Opus bei offenen Lesarten oder Prosaänderungen,
 Sonnet bei reiner Mechanik), die erste Berichtszeile nennt das
 Modell, mit dem der Auftrag lief. Der Bericht nennt Abweichungen
 und Annahmen.
+Jeder Block läuft in einer frischen Sitzung: /clear geht als
+eigene Eingabe voraus (Ausnahmen: Nachfassen zum laufenden
+Auftrag, Zustandsklärung nach Abbruch); /clear steht nie im
+Block selbst, weil es nur als alleinige Eingabe wirkt. Die
+Bedienzeile an den Lehrer („Holger:") nennt neben Ordner und
+/clear auch das Zielmodell; im Block steht es zusätzlich,
+damit der Bericht es gegenprüfen kann.
 Grund: Ohne Prüfungen und Bericht bleibt unbemerkt, was das
 ausführende Werkzeug anders gemacht hat als gedacht.
 Herkunft: verbessereBlätter(), 2026-09-19.
