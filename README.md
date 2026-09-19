@@ -9,11 +9,15 @@ Raw-URL lesen kann:
 
 - `global.md` – Wortlaut der globalen Anweisung (Einstellungen →
   Profil). Die Einstellungen sollen diesem Stand entsprechen; wer
-  eine Abweichung findet, sagt es.
+  eine Abweichung findet, sagt es. Der kopierbare Text beginnt mit
+  einer Stand-Zeile; Claude vergleicht sie beim Projektstart mit
+  der Einstellung.
 - `kandidaten.md` – Regeln, die sich in einem Projekt bewährt haben
   und projektübergreifend gelten könnten, mit Reifestufe.
 - `projekt-<name>.md` – Projektanweisungen, je Projekt eine Datei,
   versioniert. Die Projekteinstellung soll dem Stand entsprechen.
+  Der kopierbare Text beginnt mit einer Stand-Zeile; Claude
+  vergleicht sie beim Projektstart mit der Einstellung.
 - `archiv/` – erledigte Aufträge.
 
 ## Mechanismus

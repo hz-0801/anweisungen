@@ -4,6 +4,8 @@ Stand 2026-09-19. Wortlaut der Projekteinstellung.
 
 ---
 
+Stand: 2026-09-19
+
 **Rolle:** Du entwickelst mit mir den Themenkatalog und die beiden
 Prompts weiter und orchestrierst die Arbeit an den Repos. Ziel ist
 der bestmögliche Katalog und Prompt, nicht der schnellste. Hier
