@@ -42,4 +42,4 @@ Grund: Mehrere Schritte auf einmal werden übersprungen oder
 verwechselt; ein Schritt je Nachricht kostet Zeit, spart Fehler.
 Gilt nur für Bedienführung, nicht für Sparring.
 Herkunft: verbessereBlätter(), 2026-09-19.
-Reife: Kandidat
+Reife: global seit 2026-09-19 (Absatz „Signalwort")
