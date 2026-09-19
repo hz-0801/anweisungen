@@ -43,3 +43,15 @@ verwechselt; ein Schritt je Nachricht kostet Zeit, spart Fehler.
 Gilt nur für Bedienführung, nicht für Sparring.
 Herkunft: verbessereBlätter(), 2026-09-19.
 Reife: global seit 2026-09-19 (Absatz „Signalwort")
+
+## Übergabe verweist statt zu wiederholen
+Regel: Die Übergabe nennt Entscheidungen und Befunde mit Verweis
+auf ihren dauerhaften Ort (konzept.md § 4, Profildateien) und
+wiederholt nur, was noch nirgends liegt. Was beim Umzug noch
+nicht abgelegt ist, wird als erster Auftrag des neuen Chats
+abgelegt. Der kurze Auftrag steht im Block zuerst, die lange
+Datei danach; kopiert wird mit dem Kopierknopf des Blocks.
+Grund: Übergabe 19c war 190 Zeilen, davon zwei Drittel
+Wiederholung.
+Herkunft: verbessereBlätter(), 2026-09-19.
+Reife: Kandidat
