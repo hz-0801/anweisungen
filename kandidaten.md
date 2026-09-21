@@ -62,3 +62,13 @@ Grund: Übergabe 19c war 190 Zeilen, davon zwei Drittel
 Wiederholung.
 Herkunft: verbessereBlätter(), 2026-09-19.
 Reife: Kandidat
+
+## Fragen am betroffenen Absatz
+Regel: Stellt Claude zu einem ausgegebenen Text eine Frage, steht
+sie direkt vor, neben oder nach dem Absatz, den sie betrifft –
+nicht gesammelt am Ende der Nachricht.
+Grund: Bei langen Blöcken muss der Lehrer sonst zwischen Frage
+und Stelle scrollen; Fragen am Ende werden übersehen oder falsch
+zugeordnet.
+Herkunft: verbessereBlätter(), 2026-09-22.
+Reife: Kandidat
