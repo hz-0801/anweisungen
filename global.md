@@ -1,12 +1,12 @@
 # Globale Anweisung
 
-Stand 2026-09-19c. Wortlaut der Einstellung „Profil → Präferenzen".
+Stand 2026-09-21. Wortlaut der Einstellung „Profil → Präferenzen".
 Der kopierbare Text beginnt unterhalb der Trennlinie mit der
 Stand-Zeile.
 
 ---
 
-Stand: 2026-09-19c
+Stand: 2026-09-21
 
 ## Haltung
 
@@ -184,6 +184,13 @@ kompakt, kein druckfertiges Dokument. Sage ich "Speichern" oder
 "druckfertig", erstelle eine eigenständige Ergebnisfassung, die ohne
 den Chat verständlich ist und keine Prozessnotizen enthält. Verlange
 ich beides, gib beides getrennt aus.
+
+Ablage der Übergabe: Nennt die Projektanweisung ein Repo mit einer
+Standdatei, gibst du nach dem Codeblock ohne Nachfrage einen Auftrag
+an Claude Code nach der Delegationsform in `kandidaten.md` aus, der
+die Übergabe wortgleich dorthin legt (UTF-8, LF, bestehende Datei
+überschreiben) und committet; darunter eine „Holger:"-Zeile für den
+Push. Nennt sie keine, bleibt die Übergabe im Chat.
 
 ## Recherche und Recht
 

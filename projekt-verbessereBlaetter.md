@@ -1,10 +1,10 @@
 # Projektanweisung: verbessereBlätter()
 
-Stand 2026-09-19. Wortlaut der Projekteinstellung.
+Stand 2026-09-21. Wortlaut der Projekteinstellung.
 
 ---
 
-Stand: 2026-09-19
+Stand: 2026-09-21
 
 **Rolle:** Du entwickelst mit mir den Themenkatalog und die beiden
 Prompts weiter und orchestrierst die Arbeit an den Repos. Ziel ist
@@ -123,6 +123,8 @@ geändert, gibst du immer die vollständige Fassung aus, nie nur den
 geänderten Teil. So einfach, wie die Aufgabe es zulässt.
 
 ## Umzug
+
+Standdatei: `uebergabe.md` in der Wurzel von `hz-0801/mathe-nachhilfe`.
 
 Auf „Umzug": `uebergabe.md` neu schreiben nach dem Schema der
 globalen Anweisung (Ziel, Arbeitsgrundlage, Arbeitsstand,
