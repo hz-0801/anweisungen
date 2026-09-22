@@ -63,16 +63,6 @@ Wiederholung.
 Herkunft: verbessereBlätter(), 2026-09-19.
 Reife: Kandidat
 
-## Fragen am betroffenen Absatz
-Regel: Stellt Claude zu einem ausgegebenen Text eine Frage, steht
-sie direkt vor, neben oder nach dem Absatz, den sie betrifft –
-nicht gesammelt am Ende der Nachricht.
-Grund: Bei langen Blöcken muss der Lehrer sonst zwischen Frage
-und Stelle scrollen; Fragen am Ende werden übersehen oder falsch
-zugeordnet.
-Herkunft: verbessereBlätter(), 2026-09-22.
-Reife: Kandidat
-
 ## Material am Handgriff
 Regel: Was der Lehrer kopieren, herunterladen oder einfügen soll,
 steht unmittelbar bei der Aufforderung: die „Holger:"-Zeile,
@@ -92,7 +82,7 @@ Zurufe von wenigen Zeilen.
 Grund: Nie .md: Die gerenderte Vorschau kopiert ohne „#" und mit
 „*" statt „-".
 Herkunft: verbessereBlätter(), 2026-09-22.
-Reife: Kandidat
+Reife: erprobt in verbessereBlaetter()
 
 ## Dateien nicht durch das Modell tragen
 Regel: Dateien wandern per Download und Shell; Claude Code
@@ -127,4 +117,41 @@ verpassen kann, liegen an Handgriffen, die er ohnehin macht.
 Grund: Ein unvorhersehbarer „Weiter"-Klick verzögert alles, wenn
 der Nutzer nicht am Rechner sitzt; Lauf 3 brauchte 24 Aufrufe.
 Herkunft: verbessereBlätter(), 2026-09-22.
+Reife: Kandidat
+
+## Frage als letzte Zeile
+Regel: Soll der Nutzer entscheiden, steht genau eine Frage in
+der Nachricht, als letzte Zeile, eingeleitet mit „Frage:".
+Mehrere Entscheidungen werden nacheinander gestellt, eine je
+Nachricht. Enthält eine Nachricht keine solche Zeile, ist
+nichts zu entscheiden.
+Grund: Fragen im Fließtext werden übersehen oder zusammen
+beantwortet; ein „ja" auf zwei Fragen ist keine Antwort.
+Ersetzt den Kandidaten „Fragen am betroffenen Absatz", der das
+Gegenteil verlangte.
+Herkunft: verbessereBlätter(), 2026-09-22.
+Reife: Kandidat
+
+## Referenzen altern
+Regel: Wird ein Ergebnis gegen ein früher abgelegtes Artefakt
+geprüft, gilt die Referenz nur, solange das erzeugende Werkzeug
+unverändert ist. Ändert sich das Werkzeug, bleibt die grobe
+Kennzahl (Seitenzahl, Zeilenzahl, Summe) gültig, das Bild nicht
+mehr. Die Übergabe sagt, welche Referenz noch trägt.
+Grund: Nach einer Layoutänderung wichen abgelegtes PDF und
+frisches Kompilat berechtigt voneinander ab; ohne die
+Unterscheidung wäre entweder die Änderung zurückgenommen oder
+die Prüfung entwertet worden.
+Herkunft: verbessereBlaetter(), 2026-09-22.
+Reife: Kandidat
+
+## Wiederkehrende Aufträge datiert archivieren
+Regel: Aufträge, die unter demselben Namen wiederkehren
+(auftrag-umzug, auftrag-ablage), wandern mit Datum im Namen ins
+Archiv. Trifft ein Auftrag dort auf eine gleichnamige Datei,
+wird sie nicht überschrieben, sondern der neue Name datiert.
+Grund: Das Archiv ist Geschichte, keine Ablage für die jeweils
+letzte Fassung; ein Überschreiben löscht einen Beleg.
+Herkunft: verbessereBlaetter(), 2026-09-22 (Claude Code hat die
+Kollision selbst gemeldet und richtig entschieden).
 Reife: Kandidat
