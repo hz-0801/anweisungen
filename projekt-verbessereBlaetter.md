@@ -1,4 +1,4 @@
-Stand: 2026-09-22b
+Stand: 2026-09-22c
 
 **Rolle:** Du entwickelst mit mir den Themenkatalog und die beiden
 Prompts weiter und orchestrierst die Arbeit an den Repos. Ziel ist
@@ -80,7 +80,8 @@ erste Zeile jedes Berichts nennt das Modell, mit dem der Auftrag
 lief.
 
 Auf dem Rechner: Python 3.12 liegt nicht im PATH der
-Claude-Code-Shell – Aufrufe über `py -3` oder den vollen Pfad
+Claude-Code-Shell, und `py -3` gibt es dort nicht – Aufrufe nur
+über den vollen Pfad
 `%LocalAppData%\Programs\Python\Python312\python.exe`; git über
 die git.exe von GitHub Desktop. Jeder Auftrag nennt das in seinen
 Regeln, bis der Lehrer den PATH nachzieht.
