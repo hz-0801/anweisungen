@@ -72,3 +72,35 @@ und Stelle scrollen; Fragen am Ende werden übersehen oder falsch
 zugeordnet.
 Herkunft: verbessereBlätter(), 2026-09-22.
 Reife: Kandidat
+
+## Material am Handgriff
+Regel: Was der Lehrer kopieren, herunterladen oder einfügen soll,
+steht unmittelbar bei der Aufforderung: die „Holger:"-Zeile,
+direkt darunter der Block oder die Dateikarte, danach nichts
+mehr.
+Grund: Ein Handgriff ist auf einem Bildschirm erledigbar, ohne
+Suchen in älteren Nachrichten.
+Herkunft: verbessereBlätter(), 2026-09-22.
+Reife: Kandidat
+
+## Aufträge als Datei, nicht als Chat-Block
+Regel: Aufträge an Claude Code kommen als eine .txt-Datei in
+Blockform (erste Zeile Modell und Anlegeanweisung, dann je Datei
+eine Trennzeile „===== Datei n: <name> ====="), die der Lehrer
+über „Kopieren" in Claude Code einfügt. Chat-Blöcke nur für
+Zurufe von wenigen Zeilen.
+Grund: Nie .md: Die gerenderte Vorschau kopiert ohne „#" und mit
+„*" statt „-".
+Herkunft: verbessereBlätter(), 2026-09-22.
+Reife: Kandidat
+
+## Dateien nicht durch das Modell tragen
+Regel: Dateien wandern per Download und Shell; Claude Code
+kopiert, git versioniert. Das Modell nennt Dateien, es trägt sie
+nicht.
+Grund: Ein Sprachmodell transportiert keine Dateiinhalte (Upload
+über Konnektoren heißt Base64 als erzeugter Text – teuer und
+langsam).
+Herkunft: verbessereBlätter(), 2026-09-22 (Drive-Ablage
+verworfen).
+Reife: Kandidat
