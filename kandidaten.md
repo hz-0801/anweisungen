@@ -236,3 +236,54 @@ Grund: Ein Prompt-Umbau galt als Fable-Arbeit, lief aber auf
 Opus; die falsche Angabe hätte die Auswertung verfälscht.
 Herkunft: verbessereBlaetter(), 2026-09-23.
 Reife: Kandidat
+
+## Kandidaten 2026-09-25 (Projekt verbessereBlaetter)
+
+**Unbeaufsichtigte Aufträge.** Ein Auftrag, der ohne den Lehrer
+laufen soll, hat: keine Rückfrage (Kopf des Blocks sagt es;
+was der Auftrag nicht regelt, entscheidet Code selbst und
+meldet es im Bericht), eine Standdatei, die nach jedem Teil
+fortgeschrieben wird und an der ein Neustart weitermacht, einen
+Commit je Teil, und für jeden Fehlerfall eine Regel
+(„nach zwei Anläufen: offen mit Grund, nächster Teil"). Nichts
+wartet auf den Lehrer. Herkunft: Gymnasialhefte-Erfassung
+23./24.09., Nachtauftrag 24.09., beide fehlerfrei durchgelaufen.
+
+**Holger-Zeile vor Code-Aufträgen.** Sie nennt Ordner, Modell,
+„Berechtigungen automatisch" und „/clear als eigene Eingabe".
+Die Berechtigungsabfrage ist die häufigste Abbruchursache; das
+Modell stellt sich nicht von selbst um (drei von vier Läufen
+liefen auf Sonnet statt Opus).
+
+**Sonnet für Mechanik, Abgleich danach.** Sonnet erledigt
+Erfassen, Skripte, Sichern und Commits fehlerfrei; es streut bei
+Etiketten (108 neue Typen für 248 Zeilen). Regel: Mechanik auf
+Sonnet, danach ein Abgleichlauf der Etiketten mit Opus oder im
+Chat; Urteil bleibt Fable/Chat.
+
+**Sammeln breit, auswerten schmal.** Sammeln ist billig und
+mechanisch, Auswerten ist Urteil je Einheit. Quellen werden breit
+gesichert (auch was heute keine Frage beantwortet); ausgewertet
+wird nur, was ein Ergebnis ändert, und jede Auswertung hat einen
+Prüfstein (ein Blatt, ein Lauf).
+
+**Deutsche Nationalbibliothek als Quelle.** Zu fast jedem in
+Deutschland verlegten Buch liegt das Inhaltsverzeichnis frei als
+PDF unter https://d-nb.info/<IDN>/04; Suche über die
+SRU-Schnittstelle (services.dnb.de/sru/dnb, CQL wie
+tit="…" and jhr=2025 oder num=<ISBN>, Ausgabe MARC21-xml, Feld
+856 $u mit /04 = Inhaltsverzeichnis). Ersetzt Leseproben,
+Warenkorb und Lehrerregistrierung. Skript:
+mathe-nachhilfe/werkzeuge/dnb-sru.py.
+
+**Material vom Lehrer.** Fotos oder Zurufe aus dem Alltag
+(Schülerbuch, Kapitelstand) werden im Chat gelesen und sofort als
+Zeile eingetragen; keine Ablage, kein Dateiname, kein Ordner.
+
+**Vorgaben hinterfragen, wenn die Datenbasis wechselt.** Eine
+Entscheidung, die auf einer dünnen Grundlage getroffen wurde
+(ein Buch, ein Heft), wird ungefragt neu vorgelegt, sobald die
+Grundlage breiter ist; sie wird nicht als beschlossen
+weitergetragen. Beispiel: „Klasse filtert keine Sprosse" galt für
+ein Gymnasialbuch gegen den Plan; mit sechs Landesausgaben gilt
+sie nicht mehr in dieser Form.
