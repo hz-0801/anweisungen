@@ -287,3 +287,22 @@ Grundlage breiter ist; sie wird nicht als beschlossen
 weitergetragen. Beispiel: „Klasse filtert keine Sprosse" galt für
 ein Gymnasialbuch gegen den Plan; mit sechs Landesausgaben gilt
 sie nicht mehr in dieser Form.
+
+## Zählgrenzen statt Zeitgrenzen
+
+Ein Auftrag an Claude Code, der begrenzt werden soll, nennt
+Zahlen (Abfragen, Dateien, Seiten, Bände je Teil), keine Minuten.
+Claude Code misst keine Zeit; eine Zeitgrenze wird als Erlaubnis
+aufzuhören gelesen und stets als „erreicht" gemeldet, auch wenn
+der ganze Lauf kürzer war als eine der Grenzen. Beleg: Auftrag
+Lehrwerke 24.09.2026 – drei Sorten je „90 Minuten erreicht",
+Commits zehn Minuten auseinander.
+
+## Beobachten hängt nicht an einer Datei
+
+Soll ein Auftrag etwas ansehen und beschreiben (Seitenaufbau,
+Formen, Dichte), dann ist das Ansehen die Aufgabe, nicht das
+Sichern. Eine Regel „nur Betrachter, kein Download → nichts
+sichern" hat am 24.09.2026 einen ganzen Auftragsteil leer
+gelassen, obwohl die Seiten am Bildschirm standen. Sichern, wo
+es geht; beschreiben in jedem Fall.
