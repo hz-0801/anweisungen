@@ -1,5 +1,7 @@
 # Regelkandidaten
 
+Stand: 2026-09-26
+
 Je Regel ein Block: Regel, Grund, Herkunft, Reife. Reifestufen:
 Kandidat → erprobt in <Projekt> → global seit <Datum>.
 Durchsicht einmal im Quartal oder ab zehn Kandidaten.
@@ -306,3 +308,46 @@ Sichern. Eine Regel „nur Betrachter, kein Download → nichts
 sichern" hat am 24.09.2026 einen ganzen Auftragsteil leer
 gelassen, obwohl die Seiten am Bildschirm standen. Sichern, wo
 es geht; beschreiben in jedem Fall.
+
+## Skripte samt Daten ins Repo
+
+Ein Auftrag, der eine abgeleitete Datei baut, legt das Skript
+und alle Daten, die es liest, im selben Commit ins Repo. Was nur
+im Arbeitsspeicher der Sitzung liegt, ist nach dem nächsten
+/clear weg, und die Datei ist nicht mehr neu zu bauen. Herkunft:
+verbessereBlaetter, Nacht 25.09.2026 (Bauskript für
+_klassen-belege.md lag nur im Scratchpad; Zuruf holte es nach).
+
+## Dateien ohne BOM schreiben (PowerShell)
+
+In Windows-PowerShell 5.1 schreibt Set-Content -Encoding UTF8
+und Out-File -Encoding utf8 eine Byte-Order-Mark. Aufträge
+nennen stattdessen [System.IO.File]::WriteAllText(pfad, text,
+(New-Object System.Text.UTF8Encoding($false))) und lassen nach
+dem Schreiben prüfen, dass keine BOM und kein CR entstanden
+sind. Herkunft: verbessereBlaetter, 25.09.2026.
+
+## Commit-Nachrichten mit Umlaut über -F
+
+PowerShell 5.1 verfälscht Umlaute in commit -m. Aufträge lassen
+die Nachricht in eine UTF-8-Datei schreiben und mit commit -F
+übergeben. Herkunft: verbessereBlaetter, Nacht 26.09.2026.
+
+## Gegenprobe erklärt, Skript bleibt
+
+Weicht eine Gegenprobe mit bekannten Werten ab, schreibt der
+Auftrag die Abweichung mit Erklärung in den Bericht und ändert
+das Skript nicht. Oft ist der bekannte Wert der falsche (von
+Hand gezählt, aus Textextraktion). Ob das Skript oder der Wert
+kippt, entscheidet der Chat. Herkunft: verbessereBlaetter,
+Nacht 26.09.2026 (54 Teilaufgaben statt 52).
+
+## Cloud-Sitzungen für Repo-und-Netz-Aufträge
+
+Claude Code im Web (claude.ai/code) klont das Repo und hat Netz,
+aber nicht den Rechner des Lehrers: kein MiKTeX, keine lokalen
+Ordner, keine PowerShell. Aufträge, die nur Repo und Netz
+brauchen (Verzeichnisse, Belege, Berichte), können dort laufen
+und pushen selbst; Aufträge mit LaTeX, lokalen Heften oder
+Windows-Werkzeugen bleiben im Code-Tab. Herkunft:
+verbessereBlaetter, 25.09.2026 (Bonusguthaben 250 $).
