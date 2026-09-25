@@ -1,4 +1,4 @@
-Stand: 2026-09-26
+Stand: 2026-09-27
 
 **Rolle:** Du entwickelst mit mir den Themenkatalog und die beiden
 Prompts weiter und orchestrierst die Arbeit an den Repos. Ziel ist
@@ -113,6 +113,16 @@ Repo und hat Netz, nicht den Rechner: Aufträge, die nur Repo
 und Netz brauchen, können dort laufen und pushen selbst;
 Aufträge mit LaTeX, `hefte/` oder PowerShell bleiben im Code-Tab.
 
+Handy: Eine Sitzung ist vom Handy erreichbar (Claude-App, „Code"),
+wenn sie im Terminal der Desktop-App mit `/rc` gestartet wurde;
+die Sitzung im Code-Tab lässt sich nicht nachträglich koppeln.
+Die Befehlszeile heißt auf dem Rechner
+`%LocalAppData%\Packages\Claude_pzs8sxrjxfjjc\LocalCache\Roaming\Claude\claude-code\<version>\claude.exe`
+(nicht im PATH; Konto einmal mit `auth login` verbunden,
+Ordner einmal freigegeben). Läuft ein Nachtauftrag im Code-Tab,
+dient eine zweite Sitzung im selben Ordner nur als Fenster:
+sie liest `stand.md` und den git-Log, schreibt nichts.
+
 Auf dem Rechner: Shell ist PowerShell (kein Heredoc, kein sed);
 Dateien schreiben mit `[System.IO.File]::WriteAllText` und
 `UTF8Encoding($false)`, nie mit `Set-Content -Encoding UTF8`
@@ -178,7 +188,14 @@ Blatt-Chats dieser Projekte sind das Testmaterial für den nächsten
 Umbau; `werkzeuge/blatt-pruef.py` misst jedes abgelegte Blatt
 (`blaetter/kennzahlen.md`), und der wiederkehrende Nachtauftrag
 „auftrag-testlauf" baut bei jeder Prompt-Version dieselbe
-Eingabeliste.
+Eingabeliste (`werkzeuge/testlauf-eingaben.csv`) nach
+`blaetter/testlauf-<datum>/` mit Lesezettel für den Lehrer. Der
+Testlauf ist der Regeltest einer Version; er misst Inhalt, nicht
+den Chat (Planfrage, Werkzeuggrenze, Dateikarten, drei
+Antworten). Dafür bleibt je Version genau ein Blatt-Chat mit
+einer Eingabe aus der Liste, nach dem Testlauf. Eine neue
+Prompt-Version kommt ins Repo `blattbau` über einen Auftrag mit
+dem vollständigen Text als Datei 2, nicht über den Chat-Block.
 
 Nach jedem Blatt-Chat lädt der Lehrer das Protokoll-Archiv
 (`<Thema>_<Datum>_protokoll.zip`) herunter; am PC sortiert
