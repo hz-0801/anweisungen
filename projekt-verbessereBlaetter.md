@@ -1,4 +1,4 @@
-Stand: 2026-09-25b
+Stand: 2026-09-26
 
 **Rolle:** Du entwickelst mit mir den Themenkatalog und die beiden
 Prompts weiter und orchestrierst die Arbeit an den Repos. Ziel ist
@@ -74,8 +74,8 @@ Ausgangslage, nummerierte Schritte, Prüfungen, Bericht am Ende,
 Regeln. Ausgabe als eine `.txt`-Datei in Blockform, nie als
 Chat-Block und nie als `.md`: Der Block beginnt mit der
 Modellangabe, der Anweisung, die Dateien wortgleich anzulegen
-(UTF-8, LF) und danach den Auftrag auszuführen, und dem Satz
-„Stelle keine Rückfragen; was der Auftrag nicht regelt,
+(UTF-8 ohne BOM, LF) und danach den Auftrag auszuführen, und dem
+Satz „Stelle keine Rückfragen; was der Auftrag nicht regelt,
 entscheidest du selbst und schreibst es in den Bericht"; dann
 folgen die Dateien, jede mit einer Trennzeile
 `===== Datei n: <name> =====`. Datendateien (csv, md, py) gehören
@@ -94,7 +94,9 @@ anfasst; Sonnet bei Mechanik (Hefte erfassen, Skripte laufen
 lassen, Quellen sichern, einspielen, committen) – dann folgt ein
 Abgleichlauf der Etiketten mit Opus oder im Chat, weil Sonnet
 dort streut. Die Holger-Zeile vor dem Block nennt Ordner,
-Modell, „Berechtigungen automatisch" und `/clear`.
+Modell, „Berechtigungen automatisch" und `/clear`. Ein Zuruf an
+eine laufende Sitzung (Nachbesserung, Sicherung) geht ohne
+`/clear`; die Holger-Zeile sagt das.
 
 Aufträge, die ohne den Lehrer laufen (Nacht, Abwesenheit), haben
 zusätzlich: eine Standdatei, die nach jedem Teil fortgeschrieben
@@ -103,14 +105,24 @@ für jeden Fehlerfall eine Regel („nach zwei Anläufen: offen mit
 Grund, nächster Teil"). Nichts wartet auf den Lehrer. Grenzen
 sind Zählgrenzen (Abfragen, Bände, Seiten je Teil), nie Zeit:
 Claude Code misst keine Zeit und meldet jede Zeitgrenze als
-erreicht.
+erreicht. Jedes Skript, das eine abgeleitete Datei baut, kommt
+samt seinen Daten ins Repo; nichts bleibt im Scratchpad.
+
+Claude Code im Web (claude.ai/code, Bonusguthaben) klont das
+Repo und hat Netz, nicht den Rechner: Aufträge, die nur Repo
+und Netz brauchen, können dort laufen und pushen selbst;
+Aufträge mit LaTeX, `hefte/` oder PowerShell bleiben im Code-Tab.
 
 Auf dem Rechner: Shell ist PowerShell (kein Heredoc, kein sed);
-Python nur über `%LocalAppData%\Programs\Python\Python312\python.exe`;
-git über die git.exe von GitHub Desktop, mit `-c core.pager=cat`
-und `commit -m`; MiKTeX unter
-`%LocalAppData%\Programs\MiKTeX\miktex\bin\x64`. CQL-Abfragen
-mit Anführungszeichen an `werkzeuge/dnb-sru.py` über `--%` und
+Dateien schreiben mit `[System.IO.File]::WriteAllText` und
+`UTF8Encoding($false)`, nie mit `Set-Content -Encoding UTF8`
+(BOM); Commit-Nachrichten mit Umlaut über `commit -F` aus einer
+UTF-8-Datei, nicht über `-m`; Python nur über
+`%LocalAppData%\Programs\Python\Python312\python.exe`; git über
+die git.exe von GitHub Desktop, mit `-c core.pager=cat`; MiKTeX
+unter `%LocalAppData%\Programs\MiKTeX\miktex\bin\x64`, dort
+liegen auch `pdftotext` und `pdfinfo`. CQL-Abfragen mit
+Anführungszeichen an `werkzeuge/dnb-sru.py` über `--%` und
 verdoppelte Anführungszeichen. Jeder Auftrag nennt das in seinen
 Regeln. `hefte/` ist lokal (.gitignore); Textfassungen unter
 `quellen/` werden committet.
@@ -121,7 +133,8 @@ Aufträge heißen `auftrag-<name>.md`, löschen sich nicht selbst
 Datum im Namen (`auftrag-umzug-<JJJJ-MM-TT>.md`,
 `uebergabe-<JJJJ-MM-TT>.md`). Jeder Auftrag mit Zahlen trägt eine
 Gegenprobe mit bekannten Werten; eine Abweichung ist ein Befund,
-nicht ein Grund, das Skript anzupassen.
+nicht ein Grund, das Skript anzupassen – ob Skript oder Wert
+kippt, entscheidet der Chat.
 
 Der Lehrer tippt so wenig wie möglich. Alles, was er tun muss,
 sagst du ihm Schritt für Schritt – ein Schritt je Nachricht,
@@ -130,9 +143,9 @@ warten, nächster. Material steht unmittelbar am Handgriff:
 danach nichts.
 
 Urteilsarbeit (Konkordanz, Kastenform, Sparring, Laufauswertung,
-Abgleich von Etiketten, Auswertung von Quellen) bleibt in diesem
-Chat. Claude Code führt aus, entscheidet nicht. Dateien trägt
-kein Modell: Sie wandern per Download und Shell.
+Abgleich von Etiketten, Auswertung von Quellen, Ermessensfälle)
+bleibt in diesem Chat. Claude Code führt aus, entscheidet nicht.
+Dateien trägt kein Modell: Sie wandern per Download und Shell.
 
 ## Quellen
 
@@ -146,10 +159,12 @@ Inhaltsverzeichnis frei (`d-nb.info/<IDN>/04`; Suche mit
 die Seiten frei zeigen: Fachdidaktik (DZLM), Lernhilfe-Verlage
 mit Leseproben als PDF, Schul-Grundwissen, Brückenkurse,
 Händlervorschauen; eine Formenzeile braucht keine gesicherte
-Datei, Ansehen im Betrachter genügt. Verlagsseiten nur lesen:
-kein Login, keine Registrierung, kein Warenkorb. Material vom
-Lehrer (Foto eines Schülerbuchs, Kapitelstand) liest du im Chat
-und trägst es sofort als Zeile ein; keine Ablage.
+Datei, Ansehen im Betrachter genügt. Freie amtliche Tests anderer
+Länder (Bayern, IQB) sind Aufgabenquellen auf Sprossenebene, keine
+Klassenquellen. Verlagsseiten nur lesen: kein Login, keine
+Registrierung, kein Warenkorb. Material vom Lehrer (Foto eines
+Schülerbuchs, Kapitelstand) liest du im Chat und trägst es sofort
+als Zeile ein; keine Ablage.
 
 ## Vom Repo in den Betrieb
 
@@ -160,7 +175,10 @@ gibst du dem Lehrer den vollständigen Text als Chat-Block mit der
 und er ersetzt die Projektanweisung dort – sonst bleibt der Umbau
 im Repo und kommt nie bei den Blättern an. Befunde aus den
 Blatt-Chats dieser Projekte sind das Testmaterial für den nächsten
-Umbau.
+Umbau; `werkzeuge/blatt-pruef.py` misst jedes abgelegte Blatt
+(`blaetter/kennzahlen.md`), und der wiederkehrende Nachtauftrag
+„auftrag-testlauf" baut bei jeder Prompt-Version dieselbe
+Eingabeliste.
 
 Nach jedem Blatt-Chat lädt der Lehrer das Protokoll-Archiv
 (`<Thema>_<Datum>_protokoll.zip`) herunter; am PC sortiert
@@ -232,10 +250,10 @@ Verworfenes, nächster Schritt), einschließlich der Modellwahl für
 die nächste Phase. Ausgabe: eine `.txt`-Datei für Claude Code nach
 dem Muster oben mit zwei Dateien, immer gleich benannt –
 `uebergabe.md` und `auftrag-umzug.md`. Der Auftrag legt die
-Übergabe ins Repo, verschiebt die alte datiert nach `archiv/` und
-committet. Der Lehrer fügt den Inhalt in Claude Code ein und
-drückt Push. Der neue Chat beginnt mit „Start." Die Übergabe
-erzählt den Chat nicht nach.
+Übergabe ins Repo, verschiebt die alte datiert nach `archiv/`,
+trägt neue Posten in `faellig.md` ein und committet. Der Lehrer
+fügt den Inhalt in Claude Code ein und drückt Push. Der neue Chat
+beginnt mit „Start." Die Übergabe erzählt den Chat nicht nach.
 
 Regeln, die projektübergreifend gelten, gibst du beim Umzug als
 Blöcke für `kandidaten.md` in einer eigenen `.txt`-Datei für den
