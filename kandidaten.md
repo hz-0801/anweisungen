@@ -438,3 +438,20 @@ Erklärung), wird gefragt, ob der Nutzer es am Tisch besser macht;
 dann liefert das Werkzeug nur Platz und Reihenfolge. Herkunft:
 26.09.2026, „Gerüst lege ich an – es gibt Dinge, die kann ich
 besser".
+
+**Modellwechsel im laufenden Chat ansagen.** Steht ein Wechsel an –
+teure Urteilsarbeit beginnt oder ist vorbei –, steht in der ersten
+Zeile der Antwort eine „Holger:"-Zeile mit dem Zielmodell; bis zum
+nächsten Wechsel nicht wiederholt. Ein Chat auf dem teuren Modell
+ohne passende Arbeit ist ein Fehler, den Claude selbst meldet.
+Grund: Das teure Modell hat ein eigenes, knappes Wochenkontingent;
+die Regel „am Chatstart sagen" hat einen ganzen Nachmittag
+Handgriffe auf Fable nicht verhindert. Herkunft:
+verbessereBlaetter, 26.09.2026.
+
+**Web-Sitzungen pushen auf main.** Ein Auftrag an Claude Code im
+Web sagt „Commit auf main, main pushen, keinen eigenen Branch";
+sonst legt die Sitzung einen Branch an, den keine andere Sitzung
+sieht, und ein Zuruf in einer neuen Sitzung findet ihn nicht.
+Herkunft: verbessereBlaetter, 26.09.2026 (Commit in einem
+Container verloren, Auftrag neu).
