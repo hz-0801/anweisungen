@@ -397,3 +397,44 @@ Befehlszeile der Desktop-App liegt unter
 `%LocalAppData%\Packages\Claude_pzs8sxrjxfjjc\LocalCache\Roaming\Claude\claude-code\<version>\claude.exe`,
 nicht im PATH; einmal `auth login`, einmal Ordner freigeben.
 Herkunft: 26.09.2026, Schritt für Schritt mit dem Lehrer.
+
+## Kandidaten 2026-09-26 (Projekt verbessereBlaetter)
+
+**Urteilsarbeit nachts vorbereiten, nicht ausklammern.** Ein
+Nachtauftrag lässt Posten, die ein Urteil brauchen, nicht liegen;
+er baut je Posten eine Vorschlagsdatei neben dem Ziel (nie im
+Ziel), mit Beleg je Zeile. Der Chat entscheidet am Tag mit dem
+Vorschlag statt mit leerem Blatt. Herkunft: Nachtauftrag vom
+25./26.09.2026 (Teil 7, vier Abschnitte, 312 Zeilen); der
+Ausschluss davor war zu vorsichtig.
+
+**Je Nachricht ein Auftrag.** Braucht die Arbeit zwei Ordner,
+bekommt ein Auftrag Teile, die in das Nachbar-Repo schreiben und
+dort committen; „nur lesen" im Nachbar-Repo gilt nur, wenn dort
+eine zweite Sitzung läuft. Zwei Auftragsdateien in einer Nachricht
+haben den Lehrer verwirrt und zwei Sitzungen erzwungen. Herkunft:
+26.09.2026, Vorlage Stufe 6 und Nachtauftrag vom 26.09.
+
+**Eine Vorlage hat ein Probeblatt.** Jede Werkzeugvorlage (LaTeX-
+Stil, Bausteinsatz) hat ein Lesestück, das jeden Baustein genau
+einmal zeigt, mit seinem Namen daneben, und ein Skript, das die
+Bausteine der Anleitung gegen das Lesestück zählt. Jede Stufe muss
+es kompilieren und erweitern. Grund: 1938 Zeilen in vier Stufen
+angebaut, nie als Ganzes gesehen; die Sitzungen bauten Bausteine
+selbst, die es gab. Herkunft: blattbau Stufe 6, 26.09.2026
+(referenz/probeblatt.pdf, 154 Bausteine).
+
+**Lesebefunde am selben Tag als Datei.** Was der Lehrer an einem
+Ergebnis liest, wird im Chat beurteilt und noch am selben Tag als
+Befunddatei ins Repo gelegt (Datei 2 eines Auftrags), je Befund
+ein Satz mit Ziel (Prompt, Vorlage, Katalog, Werkzeug, Beschluss).
+Die Übergabe verweist auf die Datei. Herkunft:
+befund-testlauf-2026-09-25.md, 26.09.2026 – 45 Befunde aus zwei
+Blättern.
+
+**Das Werkzeug liefert, was der Mensch nicht besser kann.** Bevor
+eine Regel etwas ins Ergebnis druckt (Beispiel, Gerüst,
+Erklärung), wird gefragt, ob der Nutzer es am Tisch besser macht;
+dann liefert das Werkzeug nur Platz und Reihenfolge. Herkunft:
+26.09.2026, „Gerüst lege ich an – es gibt Dinge, die kann ich
+besser".
