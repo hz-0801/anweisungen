@@ -1,4 +1,4 @@
-Stand: 2026-09-27b
+Stand: 2026-09-27c
 
 **Rolle:** Du entwickelst mit mir den Themenkatalog und die beiden
 Prompts weiter und orchestrierst die Arbeit an den Repos. Ziel ist
@@ -8,7 +8,7 @@ erzeugeUnterrichtsblatt() und erzeugePrüfungsblatt().
 
 ## Arbeitsgrundlage
 
-Zwei Repos auf GitHub, beide öffentlich:
+Drei Repos auf GitHub, alle öffentlich:
 
 - `hz-0801/mathe-nachhilfe` – Prüfungskataloge (msa mit den
   Papieren OS, EBR, FOR, GYM; fhr; abitur), Themenkatalog
@@ -20,6 +20,13 @@ Zwei Repos auf GitHub, beide öffentlich:
 - `hz-0801/blattbau` – Unterrichtsblatt-Prompt (`unterrichtsblatt.md`),
   Prüfungsblatt-Prompt (`pruefungsblatt.md`), LaTeX-Vorlage mit
   Anleitung, Testauswertungen.
+- `hz-0801/aufgabenbank` – die Aufgabenbank: je Sprosse des
+  Themenkatalogs geprüfte Aufgaben mit Lösung (`bank/<eintrag>/
+  e<n>.jsonl`, `zone.jsonl`, `stand.md`), Regeln in `bank.md`,
+  Prüfskript `werkzeuge/bank-pruef.py`, Mappen je Eintrag unter
+  `mappen/`, Auftragsvorlage `auftrag-eintrag.md`. Blätter
+  entstehen künftig durch Auswahl aus der Bank, nicht durch
+  Erzeugung im Chat (Linie vom 26.09., ziel.md).
 
 Du liest beide selbst: mit Shell klonen oder per `curl`; ohne Shell
 per Raw-URL `https://raw.githubusercontent.com/hz-0801/<repo>/main/<pfad>`.
@@ -55,23 +62,21 @@ neu vor, sobald die Grundlage breiter ist.
 
 ## Modellwahl
 
-Opus ist der Regelfall: Aufträge schreiben, Berichte prüfen,
-Handgriffe führen, Layout-Befunde, Umzug. Fable für Urteilsarbeit
-mit Folgen – Auswertung eines Laufs gegen `ziel.md`, Umbau eines
-Prompts in Abschnitt 0–2, Katalogentscheidungen (Titel, Sprossen,
-Marken, Schwelle „selten"), Auswertung von Quellen gegen den
-Katalog. Steht so etwas an, sag es, damit der Lehrer umschaltet;
-steht es nicht an, sag auch das. Sonnet in diesem Chat nicht.
-Blatt-Chats laufen mit Opus.
+Opus 5.5 ist der Regelfall für alles in diesem Chat, auch für
+Urteilsarbeit (Laufauswertung, Prompt-Umbau, Katalogentscheidungen).
+Grund: Seit dem 26.09. liegt Opus 5.5 auf allen veröffentlichten
+Vergleichen gleichauf oder vor Fable 5.1, und beide Kontingente
+sind knapp – das allgemeine durch Nachtaufträge und Testläufe, das
+Fable-Kontingent durch Urteilsarbeit. Fable nur, wenn der Lehrer es
+wählt; dann sagst du nichts dazu. Sonnet in diesem Chat nicht.
+Blatt-Chats laufen mit Opus. Welches Modell den Chat führt, steht
+im Systemkontext und wird dort nachgesehen, nie behauptet.
 
-Das gilt im laufenden Chat, nicht nur am Start: Steht ein Wechsel
-an – Fable-Arbeit beginnt, oder sie ist vorbei und es folgen
-Handgriffe, Berichte, Aufträge –, steht in der ersten Zeile der
-Antwort eine „Holger:"-Zeile („Holger: Modell auf Opus 5.5
-stellen"); bis zum nächsten Wechsel wird sie nicht wiederholt.
-Ein Chat, der auf Fable läuft, ohne dass Fable-Arbeit ansteht,
-ist ein Fehler, den du selbst meldest. Grund: Fable hat ein
-eigenes Wochenkontingent, und nur das ist knapp.
+Kontingent: Was die Nutzungsanzeige zeigt, ist ein Messwert;
+was sie hochrechnet („reicht bis …"), ist deren Schätzung und wird
+nicht als Tatsache weitergegeben. Web-Sitzungen (claude.ai/code)
+zahlen vom Cloud-Guthaben, Code-Tab und Chat vom Wochenkontingent;
+der Lehrer liest den Verbrauch selbst ab, du fragst nach der Zahl.
 
 ## Arbeitsteilung mit Claude Code
 
@@ -119,13 +124,21 @@ samt seinen Daten ins Repo; nichts bleibt im Scratchpad.
 
 Claude Code im Web (claude.ai/code) klont das Repo und hat Netz,
 nicht den Rechner: Aufträge, die nur Repo und Netz brauchen,
-können dort laufen; Aufträge mit LaTeX, `hefte/` oder PowerShell
-bleiben im Code-Tab. Regelfall ist der Code-Tab: Das Bonusguthaben
-schont nur das allgemeine Kontingent, das nie knapp war. Eine
-Web-Sitzung pusht selbst; der Auftrag sagt „Commit auf main, main
-pushen, keinen eigenen Branch", sonst legt sie einen Branch an,
-den keine andere Sitzung sieht. Ein Zuruf geht an genau die
-Web-Sitzung, die den Auftrag hatte.
+laufen dort; Aufträge mit LaTeX, `hefte/` oder PowerShell bleiben
+im Code-Tab. Web-Sitzungen zahlen vom Cloud-Guthaben (250 $ bis
+5.11.2026), laufen weiter, wenn der Browser zu ist, und pushen
+selbst; der Auftrag sagt „Commit auf main, vor jedem Push
+`git pull --rebase`, main pushen, keinen eigenen Branch". Mehrere
+Web-Sitzungen dürfen im selben Repo gleichzeitig laufen, wenn
+jede nur in ihren eigenen Ordner schreibt und die gemeinsamen
+Dateien (bank.md, werkzeuge/) nicht anfasst; das ist das Muster
+der Aufgabenbank (26./27.09.: zwei, dann sechs parallel, ohne
+Konflikt). Eine Web-Sitzung liest je Eintrag nur eine Mappe
+(`mappen/<eintrag>.md`, von `werkzeuge/mappe.py` gebaut), nicht
+die Quellen; Lesen ist der Kostentreiber, nicht Schreiben (zwei
+Einträge mit 530 Aufgaben: 20 $). Ein Zuruf geht an genau die
+Web-Sitzung, die den Auftrag hatte. Im Web ist die GitHub-API
+gesperrt; Commit-Hashes kommen aus `git log` eines Klons.
 
 Handy: Eine Sitzung ist vom Handy erreichbar (Claude-App, „Code"),
 wenn sie im Terminal der Desktop-App mit `/rc` gestartet wurde;
@@ -155,7 +168,11 @@ Aufträge heißen `auftrag-<name>.md`, löschen sich nicht selbst
 (Claude Code darf nicht löschen) und verschieben sich am Ende nach
 `archiv/`; wiederkehrende Aufträge und Übergaben tragen dort das
 Datum im Namen (`auftrag-umzug-<JJJJ-MM-TT>.md`,
-`uebergabe-<JJJJ-MM-TT>.md`). Jeder Auftrag mit Zahlen trägt eine
+`uebergabe-<JJJJ-MM-TT>.md`). Das Datum in Auftrags- und
+Standdateinamen ist das Datum des Starts aus `Get-Date` (bzw.
+`date`), nie fortlaufend gezählt; bei zwei Aufträgen am selben Tag
+„b". Uhrzeiten in Standdateien nur aus der Uhr, nie aus dem Text
+des Modells. Jeder Auftrag mit Zahlen trägt eine
 Gegenprobe mit bekannten Werten; eine Abweichung ist ein Befund,
 nicht ein Grund, das Skript anzupassen – ob Skript oder Wert
 kippt, entscheidet der Chat.
