@@ -455,3 +455,54 @@ sonst legt die Sitzung einen Branch an, den keine andere Sitzung
 sieht, und ein Zuruf in einer neuen Sitzung findet ihn nicht.
 Herkunft: verbessereBlaetter, 26.09.2026 (Commit in einem
 Container verloren, Auftrag neu).
+
+## Kandidaten 2026-09-27 (Projekt verbessereBlaetter, Umzug)
+
+**Prognosen sind Schätzungen.** Eine Aussage über die Zukunft –
+Dauer, Verbrauch, Reichweite, Ergebnis eines Laufs – wird als
+Schätzung benannt, mit dem, worauf sie beruht; ohne Datenbasis
+keine Prognose, sondern der Satz, dass sie fehlt. Eine Warnzeile
+einer Oberfläche ist deren Hochrechnung, nicht meine. Herkunft:
+26.09.2026, Nutzungsanzeige „reicht nicht bis Montag" als Tatsache
+weitergegeben; der Lehrer hat es als störend benannt. Für
+global.md, Abschnitt „Trennen"; Entscheidung des Lehrers steht aus
+(„später").
+
+**Erst der Prüfstein, dann die Breite – auch bei freigegebenem
+Geld.** Eine neue Form (Datenformat, Auftragsvorlage) läuft zuerst
+an einem Exemplar je Sorte; erst mit gelesenem Ergebnis startet
+die parallele Breite. Grund: Zwei Prüfsteine (Verfahrens- und
+Objektthema) fanden fünf Formfehler, die 29 Sitzungen sonst alle
+gehabt hätten. Herkunft: Aufgabenbank, 26.09.2026.
+
+**Lesen ist der Kostentreiber.** Eine Sitzung zahlt bei jedem
+Werkzeugaufruf alles neu, was sie gelesen hat. Für die Breite baut
+ein Skript je Einheit eine Mappe mit genau dem Nötigen; die
+Sitzung liest die Mappe, nicht die Quellen. Gemessen: 10 $ für
+275 Aufgaben, davon der größte Teil beim Lesen von 490 KB
+Quellen. Herkunft: Aufgabenbank, 26.09.2026.
+
+**Web-Sitzungen parallel in getrennten Ordnern.** Mehrere
+Cloud-Sitzungen im selben Repo sind konfliktfrei, wenn jede nur in
+ihren Ordner schreibt, gemeinsame Dateien nicht anfasst und vor
+jedem Push `git pull --rebase` macht; die Regel „ein Schreiber"
+gilt je Ordner. Herkunft: zwei, dann sechs Bank-Sitzungen,
+26./27.09.2026.
+
+**Modellregel an Messwerten, nicht an Annahmen.** Eine Regel „X
+für Urteilsarbeit, weil nur dessen Kontingent knapp ist" wird neu
+vorgelegt, sobald Vergleiche oder die Nutzungsanzeige die Annahme
+kippen; die Anzeige liest der Lehrer ab, das Modell fragt nach der
+Zahl. Herkunft: 26.09.2026, Opus 5.5 gleichauf mit Fable,
+allgemeines Kontingent 79 %.
+
+**Das Werkzeug, das Aufgaben schreibt, ist nicht das, das Blätter
+baut.** Erzeugung (Modell, teuer, einmal je Aufgabe) und
+Zusammenbau (Skript, billig, beliebig oft) trennen; Korrekturen
+gehen an die Datenzeile, nicht an einen Prompt. Herkunft: Linie
+Aufgabenbank, 26.09.2026.
+
+**Datum aus der Uhr, auch im Dateinamen.** Auftrags- und
+Standdateien tragen das Startdatum aus `Get-Date`/`date`; eine
+fortlaufende Zählung (nacht-2026-09-29 am 26.09.) kollidiert
+später mit dem echten Tag. Herkunft: Nachtaufträge 25.–26.09.2026.
