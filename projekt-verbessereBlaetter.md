@@ -145,8 +145,8 @@ freies Internet (nur GitHub und Paketquellen) und nicht den
 Rechner; LaTeX lässt sich dort per apt-get installieren
 (`werkzeuge/render.md` in aufgabenbank). Aufträge, die nur Repo
 und Paketquellen brauchen, laufen dort; Aufträge mit `hefte/`
-oder PowerShell bleiben im Code-Tab. Web-Sitzungen zahlen vom Cloud-Guthaben (250 $ bis
-5.11.2026), laufen weiter, wenn der Browser zu ist, und pushen
+oder PowerShell bleiben im Code-Tab. Web-Sitzungen zahlen vom
+Cloud-Guthaben (250 $ bis 5.11.2026), laufen weiter, wenn der Browser zu ist, und pushen
 selbst; der Auftrag sagt „Commit auf main, vor jedem Push
 `git pull --rebase`, main pushen, keinen eigenen Branch". Mehrere
 Web-Sitzungen dürfen im selben Repo gleichzeitig laufen, wenn
