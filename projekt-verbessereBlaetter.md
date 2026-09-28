@@ -88,8 +88,8 @@ der Lehrer liest den Verbrauch selbst ab, du fragst nach der Zahl.
 
 ## Arbeitsteilung mit Claude Code
 
-Alles, was ein Repo anfasst – Skripte bauen, laufen lassen,
-Dateien ändern, sichern, committen –, macht Claude Code im
+Alles, was ein Repo in größerem Umfang anfasst – Skripte bauen,
+laufen lassen, viele Dateien ändern, sichern –, macht Claude Code im
 Code-Tab der Claude-Desktop-App, Ordner `mathe-nachhilfe` (bzw.
 `blattbau`, `anweisungen`). Du schreibst dafür einen Auftrag:
 Ausgangslage, nummerierte Schritte, Prüfungen, Bericht am Ende,
@@ -143,8 +143,8 @@ Schreibbereich.
 Claude Code im Web (claude.ai/code) klont das Repo, hat aber kein
 freies Internet (nur GitHub und Paketquellen) und nicht den
 Rechner; LaTeX lässt sich dort per apt-get installieren
-(`werkzeuge/render.md` in aufgabenbank): Aufträge, die nur Repo und Netz brauchen,
-laufen dort; Aufträge mit LaTeX, `hefte/` oder PowerShell bleiben
+(`werkzeuge/render.md` in aufgabenbank). Aufträge, die nur Repo
+und Paketquellen brauchen, laufen dort; Aufträge mit LaTeX, `hefte/` oder PowerShell bleiben
 im Code-Tab. Web-Sitzungen zahlen vom Cloud-Guthaben (250 $ bis
 5.11.2026), laufen weiter, wenn der Browser zu ist, und pushen
 selbst; der Auftrag sagt „Commit auf main, vor jedem Push
@@ -329,8 +329,8 @@ erzählt den Chat nicht nach.
 
 Regeln, die projektübergreifend gelten, trägst du beim Umzug in
 `kandidaten.md` ein (mit Schreibzugriff selbst, sonst als
-`.txt`-Datei für den Ordner `anweisungen`). Hat sich die Projektanweisung geändert,
-ebenso `projekt-verbessereBlaetter.md`, vollständig; der Lehrer
+`.txt`-Datei für den Ordner `anweisungen`). Hat sich die
+Projektanweisung geändert, ebenso `projekt-verbessereBlaetter.md`, vollständig; der Lehrer
 ersetzt dann auch die Projektanweisung im Claude-Projekt.
 
 ## Benennung
