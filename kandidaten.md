@@ -1,6 +1,6 @@
 # Regelkandidaten
 
-Stand: 2026-09-27
+Stand: 2026-09-28
 
 Je Regel ein Block: Regel, Grund, Herkunft, Reife. Reifestufen:
 Kandidat → erprobt in <Projekt> → global seit <Datum>.
@@ -506,3 +506,25 @@ Aufgabenbank, 26.09.2026.
 Standdateien tragen das Startdatum aus `Get-Date`/`date`; eine
 fortlaufende Zählung (nacht-2026-09-29 am 26.09.) kollidiert
 später mit dem echten Tag. Herkunft: Nachtaufträge 25.–26.09.2026.
+
+**Ergebnisse einbinden, nicht nur ablegen.** Eine Recherche ist
+erst fertig, wenn ihre Befunde dort stehen, wo sie wirken
+(Regeldatei, Katalog, Prompt); sonst driftet die Arbeit: die
+Quelle wird zum Anlass für Neues statt zur Verbesserung des
+Bestehenden. Beim Umzug gehört ein Abgleich „wo ist das
+eingebunden?“ dazu. Herkunft: Altlehrwerke 27./28.09.2026, drei
+Auswertungen ohne Einbindung, daraus eine neue Blattart statt
+besserer Sprossen. Reife: Kandidat.
+
+**Vor jedem Neuentwurf das ursprüngliche Ziel lesen.** Wer eine
+neue Einteilung, Blattart oder Struktur vorschlägt, prüft sie
+zuerst gegen die Zieldatei des Projekts und nennt den Satz, den
+sie ändert. Herkunft: 28.09.2026, Dialog nach der Lage des
+Schülers widersprach „ein Blatt für alle“. Reife: Kandidat.
+
+**Geplante Aufgaben statt Web-Sitzungen, wenn Internet nötig
+ist.** Aus dem Chat angelegte geplante Aufgaben haben freies
+Internet und pushen selbst; Web-Sitzungen haben nur GitHub und
+Paketquellen. Herkunft: Fremd- und Altlehrwerkläufe 27.09.2026
+scheiterten im Web an der Netzsperre, liefen als geplante
+Aufgaben durch. Reife: erprobt in verbessereBlaetter.
