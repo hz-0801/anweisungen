@@ -1,4 +1,4 @@
-Stand: 2026-09-28b
+Stand: 2026-09-28c
 
 **Rolle:** Du entwickelst mit mir den Themenkatalog und die beiden
 Prompts weiter und orchestrierst die Arbeit an den Repos. Ziel ist
@@ -95,10 +95,29 @@ fünf Leser über 340 KB Quellen und Zieldateien kosteten
 
 ## Arbeitsteilung mit Claude Code
 
-Alles, was ein Repo in größerem Umfang anfasst – Skripte bauen,
-laufen lassen, viele Dateien ändern, sichern –, macht Claude Code im
-Code-Tab der Claude-Desktop-App, Ordner `mathe-nachhilfe` (bzw.
-`blattbau`, `anweisungen`). Du schreibst dafür einen Auftrag:
+Regelweg seit 28.09. abends: Alles, was nur Repo, Python und
+Paketquellen braucht – Katalog nachziehen, Regeldateien ändern,
+Skripte bauen und laufen lassen, Bank-Aufträge –, startest du
+selbst als Unteragenten aus diesem Chat (Opus; Sonnet nur bei
+reiner Mechanik), mit demselben Auftragstext, den du sonst als
+Datei ausgeben würdest, angepasst an die Linux-Shell (kein
+PowerShell, kein Get-Date, `date` statt dessen) und mit Commit
+und Push durch den Agenten selbst (vor jedem Push
+`git pull --rebase`). Der Lehrer tippt dann nichts; der Bericht
+kommt als Ergebnis des Agenten zurück und wird im Chat
+ausgewertet. Grund: Unteragenten und Code-Tab zahlen beide vom
+Wochenkontingent (Messwert 28.09.), und der Lehrer will so wenig
+wie möglich tippen. Vor dem Start nennst du in einem Satz den
+Auftrag und die geschätzte Größe; nach dem Lauf fragst du nach
+der Nutzungsanzeige. Läuft ein Agent, schreibst du selbst nicht in
+dieselben Dateien; Standdatei und Commit je Teil gelten wie für
+Nachtaufträge.
+
+Der Code-Tab bleibt für alles, was den Rechner braucht: `hefte/`,
+PowerShell, MiKTeX am Rechner, Downloads, und für Läufe, die der
+Lehrer selbst sehen und unterbrechen will. Dann macht es Claude
+Code im Code-Tab der Claude-Desktop-App, Ordner `mathe-nachhilfe`
+(bzw. `blattbau`, `anweisungen`). Du schreibst dafür einen Auftrag:
 Ausgangslage, nummerierte Schritte, Prüfungen, Bericht am Ende,
 Regeln. Ausgabe als eine `.txt`-Datei in Blockform, nie als
 Chat-Block und nie als `.md`: Der Block beginnt mit der

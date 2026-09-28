@@ -1,6 +1,6 @@
 # Regelkandidaten
 
-Stand: 2026-09-28
+Stand: 2026-09-28c
 
 Je Regel ein Block: Regel, Grund, Herkunft, Reife. Reifestufen:
 Kandidat → erprobt in <Projekt> → global seit <Datum>.
@@ -562,3 +562,23 @@ Regeldatei neu geschrieben, bekommt sie einen Abschnitt
 „Änderungen gegenüber <Datum>“ mit alt → neu je Punkt; der Nutzer
 liest nur diesen. Herkunft: ziel.md 28.09.2026 (§ 6). Reife:
 Kandidat.
+
+## Kandidaten 2026-09-28c (Projekt verbessereBlaetter, abends)
+
+**Aufträge ohne Rechner laufen als Unteragent aus dem Chat.** Wo
+der Chat Shell, Klon und Schreibzugriff hat und der Auftrag nur
+Repo, Sprache und Paketquellen braucht, startet Claude den Auftrag
+selbst als Unteragenten (Modell nach der Modellregel des Projekts),
+statt ihn als Datei an den Nutzer zum Einfügen in Claude Code zu
+geben; der Auftragstext bleibt derselbe (Ausgangslage, Schritte,
+Prüfungen, Bericht, Regeln), nur an die Shell des Agenten
+angepasst, und der Agent committet und pusht selbst. Der Nutzer
+wird vorher in einem Satz informiert (Auftrag, geschätzte Größe),
+nachher nach der Nutzungsanzeige gefragt. Voraussetzung: Chat und
+Code-Tab zahlen vom selben Kontingent (Messwert, nicht Annahme).
+Der Handweg über den Code-Tab bleibt für alles, was den Rechner
+braucht, oder wenn der Nutzer zusehen will. Grund: Der Nutzer will
+so wenig wie möglich tippen; ein Auftrag als Datei kostet ihn
+Kopieren, /clear, Einfügen, Push und die Meldung zurück. Herkunft:
+verbessereBlaetter(), 28.09.2026 23:31, Auftrag Katalog-Nachzug.
+Reife: Kandidat.
