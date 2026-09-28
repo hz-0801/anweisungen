@@ -528,3 +528,37 @@ Internet und pushen selbst; Web-Sitzungen haben nur GitHub und
 Paketquellen. Herkunft: Fremd- und Altlehrwerkläufe 27.09.2026
 scheiterten im Web an der Netzsperre, liefen als geplante
 Aufgaben durch. Reife: erprobt in verbessereBlaetter.
+
+## Kandidaten 2026-09-28b (Projekt verbessereBlaetter, Umzug abends)
+
+**Einbindungsfunde nach Zieldatei sortieren.** Wer Befunde aus
+Quellen einbindet, teilt sie nicht nach Sichtweise (Sprossen,
+Dichte, Schwerpunkte), sondern nach der Datei, in der der Fund
+landet (Katalog, Bankregeln, Sprachregeln, Layout, Zieldatei/
+Prompt); jeder Fund hat genau einen Ort, und die Umsetzung ist
+je Datei ein Auftrag. Herkunft: Einbindungslauf 28.09.2026 – die
+fünf Sichtweisen der Übergabe überlappten (Dichte ist Layout,
+Schwerpunkte sind Katalogmarken) und ließen die Aufgabenformen
+aus. Reife: Kandidat.
+
+**Abrechnung ist Messwert, nicht Anweisung.** Welche Sitzungsart
+wovon zahlt (Abo, Guthaben), steht nicht in einer Anweisung fest,
+sondern wird an der Nutzungsanzeige vorher/nachher gemessen, bevor
+ein Lauf startet; eine Anweisungszeile dazu trägt Datum und
+Messwert. Herkunft: 28.09.2026 – „ohne Guthaben keine geplanten
+Aufgaben“ war aus der Anweisung geschlossen; der Commit-Log zeigte
+Läufe nach dem Verbrauch des Guthabens. Reife: Kandidat.
+
+**Praxis des Nutzers vor Literatur.** Ein Literaturbefund, der
+eine Situation regelt, die es in der Praxis des Nutzers nicht
+gibt, bleibt liegen – auch wenn er gut belegt ist. Vor dem
+Vorschlag fragen, ob die Situation vorkommt. Herkunft:
+28.09.2026 – Klassenarbeit als häufigster Nachhilfe-Anlass
+(Literatur) gegen „ich baue nie Blätter für Klassenarbeiten“
+(Lehrer); der Fehler wurde zweimal wiederholt. Reife: Kandidat.
+
+**Erst die Änderungsliste, dann die Datei.** Wird eine lange
+Regeldatei neu geschrieben, bekommt sie einen Abschnitt
+„Änderungen gegenüber <Datum>“ mit alt → neu je Punkt; der Nutzer
+liest nur diesen. Herkunft: ziel.md 28.09.2026 (§ 6). Reife:
+Kandidat.

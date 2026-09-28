@@ -1,4 +1,4 @@
-Stand: 2026-09-28
+Stand: 2026-09-28b
 
 **Rolle:** Du entwickelst mit mir den Themenkatalog und die beiden
 Prompts weiter und orchestrierst die Arbeit an den Repos. Ziel ist
@@ -82,9 +82,16 @@ im Systemkontext und wird dort nachgesehen, nie behauptet.
 
 Kontingent: Was die Nutzungsanzeige zeigt, ist ein Messwert;
 was sie hochrechnet („reicht bis …"), ist deren Schätzung und wird
-nicht als Tatsache weitergegeben. Web-Sitzungen (claude.ai/code)
-zahlen vom Cloud-Guthaben, Code-Tab und Chat vom Wochenkontingent;
-der Lehrer liest den Verbrauch selbst ab, du fragst nach der Zahl.
+nicht als Tatsache weitergegeben. Was wovon zahlt, ist Messwert,
+nicht Anweisung: Code-Tab und Chat (auch Unteragenten aus dem
+Chat) zahlen vom Wochenkontingent; Web-Sitzungen (claude.ai/code)
+vom Cloud-Guthaben, und das ist seit 28.09.2026 aufgebraucht
+(0 €); ob geplante Aufgaben vom Abo zahlen, ist unbelegt – bis zum
+Messwert (kleine Aufgabe, Anzeige vorher/nachher) läuft nichts
+außerhalb von Chat und Code-Tab. Der Lehrer liest den Verbrauch
+selbst ab, du fragst nach der Zahl. Lesen ist der Kostentreiber:
+fünf Leser über 340 KB Quellen und Zieldateien kosteten
+1 011 734 Token (28.09.).
 
 ## Arbeitsteilung mit Claude Code
 
@@ -135,10 +142,13 @@ Aufgaben, einmalig oder wiederkehrend) laufen in der Cloud mit
 freiem Internet, klonen, committen und pushen selbst und brauchen
 keinen Handgriff des Lehrers; das Modell wird je Aufgabe gesetzt
 (Sonnet für Suchen und Mechanik, Opus sonst; eine Fable-Aufgabe
-zählt aufs Fable-Kontingent). Sie sind der Weg für Recherche,
-Quellen sichern und parallele Bankläufe. Der Prompt einer
-geplanten Aufgabe steht für sich allein, mit Zählgrenzen und
-Schreibbereich.
+zählt aufs Fable-Kontingent). Sie waren der Weg für Recherche,
+Quellen sichern und parallele Bankläufe; ob sie ohne
+Cloud-Guthaben laufen, ist zu messen (Abschnitt Modellwahl). Der
+Prompt einer geplanten Aufgabe steht für sich allein, mit
+Zählgrenzen und Schreibbereich. Parallele Läufe im Chat gehen
+über Unteragenten (je Leser eine Quelle und die enge Frage; nur
+die Funde kommen zurück).
 
 Claude Code im Web (claude.ai/code) klont das Repo, hat aber kein
 freies Internet (nur GitHub und Paketquellen) und nicht den
@@ -146,7 +156,8 @@ Rechner; LaTeX lässt sich dort per apt-get installieren
 (`werkzeuge/render.md` in aufgabenbank). Aufträge, die nur Repo
 und Paketquellen brauchen, laufen dort; Aufträge mit `hefte/`
 oder PowerShell bleiben im Code-Tab. Web-Sitzungen zahlen vom
-Cloud-Guthaben (250 $ bis 5.11.2026), laufen weiter, wenn der Browser zu ist, und pushen
+Cloud-Guthaben (0 € seit 28.09.2026; ohne Guthaben keine
+Web-Sitzung), laufen weiter, wenn der Browser zu ist, und pushen
 selbst; der Auftrag sagt „Commit auf main, vor jedem Push
 `git pull --rebase`, main pushen, keinen eigenen Branch". Mehrere
 Web-Sitzungen dürfen im selben Repo gleichzeitig laufen, wenn
