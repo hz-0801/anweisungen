@@ -27,9 +27,9 @@ Drei Repos auf GitHub, alle öffentlich:
   `mappen/`, Auftragsvorlage `auftrag-eintrag.md`. Blätter
   entstehen künftig durch Auswahl aus der Bank, nicht durch
   Erzeugung im Chat (Linie vom 26.09., ziel.md). Leitbild seit
-  28.09.: ein Blatt für alle Schüler, kleiner geschnitten (ein
-  Teil = 1–3 Fertigkeiten); Layoutregeln in
-  `bau/layout-befunde.md`, Sprachregeln in
+  28.09.: ein Blatt für alle Schüler, so lang wie der bestellte
+  Teil (ab vier Fertigkeiten fragt der Schalter einmal);
+  Layoutregeln in `bau/layout-befunde.md`, Sprachregeln in
   `bau/sprachlauf/regeln.md`.
 
 Du liest alle selbst: mit Shell klonen oder per `curl`; ohne Shell
