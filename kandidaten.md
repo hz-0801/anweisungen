@@ -1,6 +1,6 @@
 # Regelkandidaten
 
-Stand: 2026-09-28c
+Stand: 2026-09-30
 
 Je Regel ein Block: Regel, Grund, Herkunft, Reife. Reifestufen:
 Kandidat → erprobt in <Projekt> → global seit <Datum>.
@@ -582,3 +582,51 @@ so wenig wie möglich tippen; ein Auftrag als Datei kostet ihn
 Kopieren, /clear, Einfügen, Push und die Meldung zurück. Herkunft:
 verbessereBlaetter(), 28.09.2026 23:31, Auftrag Katalog-Nachzug.
 Reife: Kandidat.
+
+## Kandidaten 2026-09-30 (Projekt verbessereBlaetter, Umzug nachts)
+
+**Hinweise im Auftragskopf nur aus der Quelle des Agenten.** Was
+Claude einem Agenten als Hinweis voranstellt (Zählungen, Nummern,
+„Einheit 1 hat zwei Vorstufen“), muss aus der Datei stammen, die
+der Agent selbst liest, nicht aus einer eigenen Zählung des Chats
+oder einer älteren Fassung; im Zweifel nennt der Hinweis nur die
+Stelle („siehe Mappe, Kette Einheit 1“). Grund: Der Hinweis zu
+ebenen war falsch, weil der Chat aus einer Zählung vom Morgen
+zitierte; der Agent hat richtig die Mappe genommen, ein schwächerer
+hätte dem Hinweis geglaubt. Herkunft: verbessereBlaetter(),
+29.09.2026 Schub 4. Reife: Kandidat.
+
+**Parallele Agenten je in einem eigenen Klon.** Laufen mehrere
+Agenten im selben Repo, bekommt jeder einen eigenen Klon
+(Arbeitsverzeichnis je Agent), schreibt nur in seinen Ordner, legt
+Zwischendateien nur im eigenen Klon ab (nie im Scratchpad, der ist
+geteilt) und zieht vor jedem Push mit `git pull --rebase`; bei
+HTTP 429 zehn Sekunden warten, genau ein zweiter Versuch, sonst
+nach dem nächsten Teil erneut pushen. Messwert 29.09.: sieben
+Agenten parallel ohne Push-Konflikt. Grund: Ein Agent fand eine
+fremde Datei im geteilten Scratchpad und musste sie vor jedem
+Commit löschen. Herkunft: verbessereBlaetter(), 29.09.2026
+Schub 3. Reife: Kandidat.
+
+**Musterlösungen alter Lehrwerke sind eine Quelle für Vorstufen.**
+Beim Auswerten eines Lehrwerks werden nicht nur die Aufgaben-
+päckchen gelesen, sondern die vorgerechneten Beispiele Zeile für
+Zeile; jede Zeile ist ein Handgriff, und für jeden gelten vier
+Fragen: Ist er schon Sprosse oder Voraussetzung? Lässt er sich als
+Aufgabe mit eigenem Antwortgerüst stellen? Hat er ein eigenes
+Fehlerbild? Stürzt der schwache Schüler dort, nicht erst am
+Ergebnis? Nur bei viermal ja wird er Vorstufe; der Lehrer bestätigt
+jede einzeln. Grund: Aus 61 Schreibform-Notizen der DDR-Bücher kamen
+sieben Katalogänderungen, alle an Sturzstellen, die der Katalog
+selbst als Falle nennt; Aufgabenpäckchen allein zeigen diese
+Schritte nicht. Herkunft: verbessereBlaetter(), 29.09.2026 früh
+(terme Ausklammern, Zerlegen vor „Faktor vorgegeben“). Reife:
+Kandidat.
+
+**Kontingent in Messwerten je Lauf.** Vor und nach jedem
+Agentenschub liest der Nutzer die Nutzungsanzeige ab; Claude
+rechnet Token je Schub in Prozent der Woche um und plant den
+nächsten Schub danach, nie nach der Hochrechnung der Anzeige.
+Messwerte 29.09.: rund 1–1,5 % der Woche je Bank-Eintrag, 3,5–5 %
+je Million Token (Max 20x). Herkunft: verbessereBlaetter(),
+29.09.2026, vier Schübe. Reife: Kandidat.
