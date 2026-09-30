@@ -1,6 +1,6 @@
 # Regelkandidaten
 
-Stand: 2026-09-30
+Stand: 2026-09-30b
 
 Je Regel ein Block: Regel, Grund, Herkunft, Reife. Reifestufen:
 Kandidat → erprobt in <Projekt> → global seit <Datum>.
@@ -630,3 +630,31 @@ nächsten Schub danach, nie nach der Hochrechnung der Anzeige.
 Messwerte 29.09.: rund 1–1,5 % der Woche je Bank-Eintrag, 3,5–5 %
 je Million Token (Max 20x). Herkunft: verbessereBlaetter(),
 29.09.2026, vier Schübe. Reife: Kandidat.
+
+## Kandidaten 2026-09-30b (Projekt verbessereBlaetter, mittags)
+
+**Befunde und Vorschläge in Alltagssprache.** Was ein Prüflauf,
+ein Agent oder eine Vorschlagsdatei gefunden hat, sagt Claude im
+Chat so, wie man es einem Kollegen am Tisch erklärt: was der
+Schüler auf dem Blatt anders üben würde und warum. Nummern von
+Vorschlägen, Kennungen, Zeilennummern, Dateinamen und Werkzeugnamen
+bleiben in der Datei; im Chat stehen sie höchstens in Klammern,
+wenn der Lehrer nachschlagen will. Kürzel und Fachwörter des Repos
+(Sprosse, Vorstufe, Erkennungsschritt, Mappe, Pflichtform) werden
+beim ersten Mal in einem Halbsatz erklärt. Grund: Die Zusammen-
+fassung der Katalogvorschläge vom 30.09. war eine Liste aus Nummern
+und ids; der Lehrer konnte nicht entscheiden, ohne die Datei zu
+lesen – dann hätte der Chat nichts geleistet. Herkunft:
+verbessereBlaetter(), 30.09.2026. Reife: Kandidat, vom Lehrer
+gewünscht.
+
+**Revisionen als eigene Entscheidung vorlegen.** Stößt Claude auf
+eine frühere Festlegung, die es für nicht mehr optimal hält, sagt
+es das als eigenen Punkt mit zwei Optionen und der Folge jeder
+Option – nicht als Nebensatz („wenn du das kippen willst“). Der
+Lehrer entscheidet; eine Festlegung ist nicht deshalb richtig, weil
+sie beschlossen ist. Grund: Die Frage, ob die dritte binomische
+Formel Vorrat bleibt, stand am 30.09. als Halbsatz am Ende einer
+Antwort; der Lehrer musste sie selbst herausziehen. Herkunft:
+verbessereBlaetter(), 30.09.2026. Reife: Kandidat, vom Lehrer
+gewünscht.
