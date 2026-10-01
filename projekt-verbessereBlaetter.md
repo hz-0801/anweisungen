@@ -1,4 +1,4 @@
-Stand: 2026-09-30
+Stand: 2026-10-01
 
 **Rolle:** Du entwickelst mit mir den Themenkatalog und die beiden
 Prompts weiter und orchestrierst die Arbeit an den Repos. Ziel ist
@@ -34,11 +34,22 @@ Drei Repos auf GitHub, alle öffentlich:
 
 Du liest alle selbst: mit Shell klonen oder per `curl`; ohne Shell
 per Raw-URL `https://raw.githubusercontent.com/hz-0801/<repo>/main/<pfad>`.
-Mit Shell und Schreibzugriff (seit 28.09. erprobt) schreibst du
-kleine Änderungen selbst: Übergabe, `faellig.md`, Befunde,
-einzelne Regelzeilen – Commit auf main, vor dem Push
-`git pull --rebase`, Commit-Nachricht nennt den Anlass. Große
-Läufe und alles, was den Rechner braucht, bleiben Aufträge.
+Schreibrecht auf die Repos hat eine Sitzung nur, wenn das Repo
+beim Start der Sitzung gewählt wurde; nachträgliches Anhängen
+lehnt die Freigabeprüfung ab (Messwert 01.10.). Dieser Chat wird
+deshalb in der Desktop-App mit Repo `mathe-nachhilfe` gestartet,
+weitere Repos (`aufgabenbank`, `blattbau`) hängst du zu Beginn an
+und misst mit einem Ein-Zeilen-Commit, ob Push geht. Mit
+Schreibrecht schreibst du kleine Änderungen selbst: Übergabe,
+`faellig.md`, Befunde, einzelne Regelzeilen – Commit auf main,
+vor dem Push `git pull --rebase`, Commit-Nachricht nennt den
+Anlass; Agenten pushen selbst. Ohne Schreibrecht: Der Agent legt
+seinen Commit als Patch ab, du spielst ihn über den freigegebenen
+Ordner auf dem Rechner ein (Ordnerfreigabe über den Dialog, den
+du auslöst; Löschrecht für git ebenso; `git am` in der Rechner-
+Shell), und der Lehrer drückt Push – aus der Rechner-Shell geht
+kein Push (keine GitHub-Anmeldung dort). Große Läufe und alles,
+was den Rechner braucht, bleiben Aufträge.
 
 ## Chatstart
 
@@ -292,11 +303,22 @@ einer Eingabe aus der Liste, nach dem Testlauf. Eine neue
 Prompt-Version kommt ins Repo `blattbau` über einen Auftrag mit
 dem vollständigen Text als Datei 2, nicht über den Chat-Block.
 
-Nach jedem Blatt-Chat lädt der Lehrer das Protokoll-Archiv
-(`<Thema>_<Datum>_protokoll.zip`) herunter; am PC sortiert
-`werkzeuge/einsortieren.py` es aus Downloads (oder
-`OneDrive\blatt-eingang` vom Handy) nach `blaetter/` ein; das
-Skript committet nicht, ein Zuruf an Claude Code tut es. Der
+Blatt-Chats mit dem Bank-Prompt (Projekt erzeugeBlatt(Bank))
+laufen als Sitzung mit Repo `aufgabenbank`, nicht als gewöhnlicher
+Projekt-Chat – der kann die Repos nicht lesen (Sperre „externer
+Code“, 01.10.). Der Prompt legt Blatt und Protokoll selbst nach
+`blaetter/` und neu erfundene Aufgaben nach
+`bank/<eintrag>/eingang.jsonl`, nie direkt in `e<n>.jsonl`; ein
+Agent dieses Chats prüft den Eingang (Prüfskript, Dubletten,
+Sprosse) und übernimmt ihn nach dem Ja des Lehrers in die Bank.
+Unveränderliches (`mathblatt.sty`, `Anleitung_mathblatt.md`,
+`muster4.tex`) liegt als Projektdatei in erzeugeBlatt(Bank).
+Für die alten Prompts gilt weiter: Nach dem Blatt-Chat lädt der
+Lehrer das Protokoll-Archiv (`<Thema>_<Datum>_protokoll.zip`)
+herunter; am PC sortiert `werkzeuge/einsortieren.py` es aus
+Downloads (oder `OneDrive\blatt-eingang` vom Handy) nach
+`blaetter/` ein; das Skript committet nicht, ein Zuruf an Claude
+Code tut es. Der
 Lehrer baut fast immer am Stundenanfang; ein Thema wird einmal
 gebaut, danach liegt es. Aktualisieren aus Quelltext erst, wenn
 der Prompt zwischen zwei Versionen nur in Abschnitt 3–6 ändert.
