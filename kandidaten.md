@@ -1,6 +1,6 @@
 # Regelkandidaten
 
-Stand: 2026-10-01
+Stand: 2026-10-01c
 
 Je Regel ein Block: Regel, Grund, Herkunft, Reife. Reifestufen:
 Kandidat → erprobt in <Projekt> → global seit <Datum>.
@@ -710,3 +710,31 @@ Abo (support.claude.com, Artikel 12429409); je Token ist sie ein
 Vielfaches des Abo-Satzes (Abo nach Messwert rund 20–29 Mio Token
 je Woche). Zukauf nur als Reserve bis zum Reset, nie als Plan.
 Herkunft: verbessereBlaetter(), 01.10.2026. Reife: Kandidat.
+
+## Kandidaten 2026-10-01c (Projekt verbessereBlaetter, Umzug spät)
+
+**Rechte vor Arbeit.** Was ein Chat am Ende speichern soll, hängt
+er als ersten Schritt an (Repo, Ordner, Dienst), damit die
+Erlaubniskarte in der ersten Minute kommt und nicht nach neun
+Minuten Arbeit. Berechtigungsmodus „Manuell“ für den Schritt, in
+dem Rechte vergeben werden; danach darf „Auto“ zurück. Grund: Auf
+„Auto“ lehnt der Filter jede Rechtevergabe ab, und ein Chat, der am
+Ende nicht speichern kann, hat umsonst gearbeitet (01.10.). Herkunft:
+verbessereBlaetter(), 01.10.2026. Reife: Kandidat, gemessen.
+
+**Befund wird Änderung, nicht Posten.** Ein Befund aus einem
+Exemplar (Blatt, Lauf, Test) wird im selben Chat zu einer Änderung
+oder zu einer Entscheidung, die der Nutzer trifft; in die Liste der
+fälligen Posten kommt nur, was einen äußeren Auslöser hat (Termin,
+Datei beim Nutzer). Grund: Die Postenliste wuchs auf 71 KB, und
+der Nutzer sagte, Aufgaben würden nach hinten geschoben und
+vergessen. Herkunft: verbessereBlaetter(), 01.10.2026. Reife:
+Kandidat, vom Nutzer gewünscht.
+
+**Vollständigkeit vor Füllen.** Bevor eine Sammlung (Bank, Katalog,
+Datenbestand) einen Bereich füllt, wird der Bereich gegen alle
+Quellen auf Vollständigkeit und Reihenfolge geprüft und vom Nutzer
+bestätigt. Grund: Was einmal gefüllt ist, zieht nach (Kennungen,
+Verweise); eine Lücke danach kostet einen Nachzug. Herkunft:
+verbessereBlaetter(), 01.10.2026 (Division von Termen fehlte, obwohl
+die Bank Terme zweimal gefüllt war). Reife: Kandidat.
