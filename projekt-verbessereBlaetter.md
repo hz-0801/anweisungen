@@ -1,4 +1,4 @@
-Stand: 2026-10-01
+Stand: 2026-10-01c
 
 **Rolle:** Du entwickelst mit mir den Themenkatalog und die beiden
 Prompts weiter und orchestrierst die Arbeit an den Repos. Ziel ist
@@ -34,22 +34,22 @@ Drei Repos auf GitHub, alle öffentlich:
 
 Du liest alle selbst: mit Shell klonen oder per `curl`; ohne Shell
 per Raw-URL `https://raw.githubusercontent.com/hz-0801/<repo>/main/<pfad>`.
-Schreibrecht auf die Repos hat eine Sitzung nur, wenn das Repo
-beim Start der Sitzung gewählt wurde; nachträgliches Anhängen
-lehnt die Freigabeprüfung ab (Messwert 01.10.). Dieser Chat wird
-deshalb in der Desktop-App mit Repo `mathe-nachhilfe` gestartet,
-weitere Repos (`aufgabenbank`, `blattbau`) hängst du zu Beginn an
-und misst mit einem Ein-Zeilen-Commit, ob Push geht. Mit
-Schreibrecht schreibst du kleine Änderungen selbst: Übergabe,
-`faellig.md`, Befunde, einzelne Regelzeilen – Commit auf main,
-vor dem Push `git pull --rebase`, Commit-Nachricht nennt den
-Anlass; Agenten pushen selbst. Ohne Schreibrecht: Der Agent legt
-seinen Commit als Patch ab, du spielst ihn über den freigegebenen
-Ordner auf dem Rechner ein (Ordnerfreigabe über den Dialog, den
-du auslöst; Löschrecht für git ebenso; `git am` in der Rechner-
-Shell), und der Lehrer drückt Push – aus der Rechner-Shell geht
-kein Push (keine GitHub-Anmeldung dort). Große Läufe und alles,
-was den Rechner braucht, bleiben Aufträge.
+Schreibrecht auf ein Repo bekommt der Chat, indem er es mit
+Schreibzugang anhängt (Werkzeug zum Hinzufügen eines Repos); das
+geht nur im Berechtigungsmodus „Manuell“ – auf „Auto“ lehnt der
+Filter es ab (Messwert 01.10. abends, an drei Repos). Erster
+Handgriff im neuen Chat: Der Lehrer stellt „Manuell“ ein, du
+hängst `mathe-nachhilfe`, `aufgabenbank` und bei Bedarf
+`blattbau`, `anweisungen` an (je eine Karte, ein Klick), danach
+darf der Modus zurück auf „Auto“. Dann schreibst du kleine
+Änderungen selbst: Übergabe, `faellig.md`, Befunde, einzelne
+Regelzeilen – Commit auf main, vor dem Push `git pull --rebase`,
+Commit-Nachricht nennt den Anlass; Agenten pushen selbst. Wird
+das Anhängen abgelehnt, bleibt der Rückfall: Commit als Patch,
+Einspielen über den freigegebenen Ordner auf dem Rechner
+(Ordnerfreigabe und Löschrecht über die Dialoge, die du auslöst;
+`git am` in der Rechner-Shell), Push durch den Lehrer. Große
+Läufe und alles, was den Rechner braucht, bleiben Aufträge.
 
 ## Chatstart
 
@@ -60,6 +60,15 @@ dann hat ein anderer Chat oder Code gearbeitet, und du sagst in
 einem Satz, was sich geändert hat. Beginne mit dem nächsten
 Arbeitsschritt aus der Übergabe. Keine Rückfragen nach Dateien,
 die im Repo liegen.
+
+Vor dem Bauen gilt seit 01.10. abends: Für jeden Katalogeintrag
+werden Vollständigkeit (gegen Lehrwerke, DDR-Bände, RLP,
+Prüfungen) und Reihenfolge der Sprossen ermittelt und vom Lehrer
+je Zeile bestätigt, bevor die Bank den Eintrag füllt; das ist ein
+Schritt der Katalog-Prüfliste, kein Posten in `faellig.md`. Nichts
+wird nach hinten geschoben: Ein Befund aus einem Blatt wird im
+selben Chat zu einer Änderung oder zu einer Entscheidung des
+Lehrers, nicht zu einem Listenposten.
 
 Lies beim Chatstart `kandidaten.md` aus `hz-0801/anweisungen` und
 sag in einem Satz, ob eine Regel daraus für dieses Projekt fehlt.
@@ -303,14 +312,15 @@ einer Eingabe aus der Liste, nach dem Testlauf. Eine neue
 Prompt-Version kommt ins Repo `blattbau` über einen Auftrag mit
 dem vollständigen Text als Datei 2, nicht über den Chat-Block.
 
-Blatt-Chats mit dem Bank-Prompt (Projekt erzeugeBlatt(Bank))
-laufen als Sitzung mit Repo `aufgabenbank`, nicht als gewöhnlicher
-Projekt-Chat – der kann die Repos nicht lesen (Sperre „externer
-Code“, 01.10.). Der Prompt legt Blatt und Protokoll selbst nach
-`blaetter/` und neu erfundene Aufgaben nach
-`bank/<eintrag>/eingang.jsonl`, nie direkt in `e<n>.jsonl`; ein
-Agent dieses Chats prüft den Eingang (Prüfskript, Dubletten,
-Sprosse) und übernimmt ihn nach dem Ja des Lehrers in die Bank.
+Blatt-Chats mit dem Bank-Prompt (`blattbau/bankblatt.md`, Projekt
+erzeugeBlatt(Bank)) laufen im Modus „Manuell“ mit Opus; der Prompt
+hängt das Repo `aufgabenbank` als ersten Schritt an (eine Karte),
+legt Blatt, Quelltext und Protokoll nach
+`eingang/<eintrag>-<datum>/` und trägt neu erfundene Aufgaben nach
+Prüfung (Prüfskript, Dubletten, Sprosse, Feld `herkunft`) selbst
+in `bank/<eintrag>/e<n>.jsonl` ein – ohne Rückfrage; der Lehrer
+streicht, was ihm auf dem Blatt nicht gefällt (Option A, 01.10.).
+Der Eingangsordner ist Beleg, keine Quelle.
 Unveränderliches (`mathblatt.sty`, `Anleitung_mathblatt.md`,
 `muster4.tex`) liegt als Projektdatei in erzeugeBlatt(Bank).
 Für die alten Prompts gilt weiter: Nach dem Blatt-Chat lädt der
