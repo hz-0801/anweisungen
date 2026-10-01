@@ -1,6 +1,6 @@
 # Regelkandidaten
 
-Stand: 2026-09-30b
+Stand: 2026-10-01
 
 Je Regel ein Block: Regel, Grund, Herkunft, Reife. Reifestufen:
 Kandidat → erprobt in <Projekt> → global seit <Datum>.
@@ -658,3 +658,55 @@ Formel Vorrat bleibt, stand am 30.09. als Halbsatz am Ende einer
 Antwort; der Lehrer musste sie selbst herausziehen. Herkunft:
 verbessereBlaetter(), 30.09.2026. Reife: Kandidat, vom Lehrer
 gewünscht.
+
+## Kandidaten 2026-10-01 (Projekt verbessereBlaetter, Umzug abends)
+
+**Knöpfe, die Claude drücken kann, drückt Claude.** Merge, Fetch,
+Push, Ordnerfreigabe anstoßen, Patch einspielen: Was eine Sitzung
+selbst ausführen kann, tut sie; der Lehrer bekommt nur die
+Handgriffe, die keine Sitzung ausführen kann (Push ohne Anmeldung,
+Dialog bestätigen). Grund: Jeder Handgriff kostet den Lehrer
+Aufmerksamkeit und den Chat eine Runde. Herkunft:
+verbessereBlaetter(), 01.10.2026. Reife: Kandidat, vom Lehrer
+gewünscht.
+
+**Erst Exemplar, dann Regel – auch für Layout.** Vor jeder
+Regelrunde am Skript steht ein von Hand gesetztes Musterblatt, das
+der Lehrer beurteilt; jedes Blatt wird ganz angesehen, bevor es der
+Lehrer bekommt. Grund: Vier Regelrunden am Skript ohne Muster
+brachten im Urteil des Lehrers keinen Fortschritt; das Muster von
+Hand brachte ihn in einem Tag. Herkunft: verbessereBlaetter(),
+30.09.–01.10.2026. Reife: Kandidat.
+
+**Fortgesetzte Agenten statt neue.** Ein Agent, der die Dateien
+schon gelesen hat, bekommt den Folgeauftrag per Nachricht; ein neuer
+Agent liest alles noch einmal. Messwert 01.10.: Muster 2 und 3 je
+unter 0,1 Mio Token als Fortsetzung, Muster 4 als neuer Agent
+0,14 Mio. Herkunft: verbessereBlaetter(), 01.10.2026. Reife:
+Kandidat.
+
+**Schreibrecht beim Sitzungsstart.** Eine Sitzung hat Schreibrecht
+auf ein Repo nur, wenn das Repo beim Start gewählt wurde;
+nachträgliches Anhängen lehnt die Freigabeprüfung ab, auch wenn
+GitHub das Repo für Claude freigegeben hat. Chats, deren Agenten
+pushen sollen, werden mit Repo gestartet; der erste Handgriff ist
+ein Ein-Zeilen-Commit als Messwert. Grund: Am 01.10. lief ein
+Katalogauftrag ohne Push durch, und der Commit musste als Patch
+über den Rechner des Lehrers. Herkunft: verbessereBlaetter(),
+01.10.2026. Reife: Kandidat.
+
+**Patch-Weg über den Rechner.** Kann eine Sitzung nicht pushen,
+legt der Agent seinen Commit als Patch ab; Claude lässt sich den
+Ordner auf dem Rechner per Dialog freigeben (nicht über das
+„+“-Menü), holt das Löschrecht für git, spielt den Patch mit
+`git am` ein und der Lehrer drückt Push. Grund: So bleibt der
+Commit des Agenten erhalten (Urheber, Nachricht), und der Lehrer
+tippt nichts. Herkunft: verbessereBlaetter(), 01.10.2026. Reife:
+Kandidat.
+
+**Zukauf ist API-Preis.** Zugekaufte Nutzung wird zu
+Standard-API-Preisen abgerechnet, vorausbezahlt und getrennt vom
+Abo (support.claude.com, Artikel 12429409); je Token ist sie ein
+Vielfaches des Abo-Satzes (Abo nach Messwert rund 20–29 Mio Token
+je Woche). Zukauf nur als Reserve bis zum Reset, nie als Plan.
+Herkunft: verbessereBlaetter(), 01.10.2026. Reife: Kandidat.
