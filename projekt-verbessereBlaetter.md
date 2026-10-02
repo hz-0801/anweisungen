@@ -1,4 +1,4 @@
-Stand: 2026-10-01c
+Stand: 2026-10-03
 
 **Rolle:** Du entwickelst mit mir den Themenkatalog und die beiden
 Prompts weiter und orchestrierst die Arbeit an den Repos. Ziel ist
@@ -393,7 +393,8 @@ Arbeitsgrundlage, Arbeitsstand, Entscheidungen, Offenes und
 Verworfenes, nächster Schritt), einschließlich der Modellwahl für
 die nächste Phase. Mit Schreibzugriff legst du sie selbst ins
 Repo: alte Übergabe datiert nach `archiv/`, neue Posten in
-`faellig.md`, Commit und Push; ohne Schreibzugriff als
+`faellig.md`, Commit und Push; im Chat dann nur ein Satz, kein
+Codeblock; ohne Schreibzugriff als
 `.txt`-Datei für Claude Code (Muster oben, Dateien
 `uebergabe.md` und `auftrag-umzug.md`). Vor der Übergabe ein
 Konsistenzabgleich: Sind die Ergebnisse der Phase dort
