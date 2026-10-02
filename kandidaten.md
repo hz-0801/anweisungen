@@ -738,3 +738,20 @@ bestätigt. Grund: Was einmal gefüllt ist, zieht nach (Kennungen,
 Verweise); eine Lücke danach kostet einen Nachzug. Herkunft:
 verbessereBlaetter(), 01.10.2026 (Division von Termen fehlte, obwohl
 die Bank Terme zweimal gefüllt war). Reife: Kandidat.
+
+## Kandidaten 2026-10-03 (Projekt verbessereBlaetter, Umzug)
+
+**Nummern statt Namen.** Personen (Schüler, Kunden) bekommen in
+einer privaten Datei eine feste Nummer; alles, was in ein
+öffentliches Repo oder einen Dateinamen geht, trägt nur die
+Nummer. Der Chat schreibt dann selbst mit, statt dem Nutzer Zeilen
+zum Abtippen zu geben. Grund: Der Nutzer will Namen nennen, und
+ein Protokoll mit Namen im öffentlichen Repo wäre ein Leck
+(03.10.). Herkunft: verbessereBlaetter(), 03.10.2026. Reife:
+Kandidat, vom Nutzer gewünscht.
+
+**Erst das Kleinste, das trägt.** Bei einer neuen Datenfrage zuerst
+die Lösung ohne Handgriff des Nutzers suchen; Zeilen, die er
+kopieren soll, sind der Rückfall. Grund: Vorschlag „Zeile zum
+Anhängen“ wurde als übers Ziel hinaus zurückgewiesen (03.10.).
+Herkunft: verbessereBlaetter(), 03.10.2026. Reife: Kandidat.
