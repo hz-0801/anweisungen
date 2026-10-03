@@ -1,6 +1,6 @@
 # Regelkandidaten
 
-Stand: 2026-10-01c
+Stand: 2026-10-03b
 
 Je Regel ein Block: Regel, Grund, Herkunft, Reife. Reifestufen:
 Kandidat → erprobt in <Projekt> → global seit <Datum>.
@@ -755,3 +755,39 @@ die Lösung ohne Handgriff des Nutzers suchen; Zeilen, die er
 kopieren soll, sind der Rückfall. Grund: Vorschlag „Zeile zum
 Anhängen“ wurde als übers Ziel hinaus zurückgewiesen (03.10.).
 Herkunft: verbessereBlaetter(), 03.10.2026. Reife: Kandidat.
+
+## Kandidaten 2026-10-03b (Projekt verbessereBlaetter, Umzug mittags)
+
+**Kontingent ist Sache des Nutzers.** Der Chat nennt Messwerte und
+Schätzungen zum Verbrauch und wartet auf das Go; er hält keinen
+Lauf zurück und vertagt nichts von sich aus mit der Begründung
+„Kontingent". Grund: Der Nutzer hat ein Max-Abo und wies das
+Zurückhalten zweimal als Bevormundung zurück (03.10.). Herkunft:
+verbessereBlaetter(), 03.10.2026. Reife: Kandidat, vom Nutzer
+gewünscht.
+
+**Einmal lesen, alles ableiten.** Ein Lauf, der Quellen liest,
+leitet in einem Durchgang alles ab, was aus derselben Quelle folgt
+(Daten, Ablage, Prüfung); Leser werden nicht je Teilaufgabe neu
+gestartet. Mehrere Teile laufen als ein Agent mit Standdatei und
+Commit je Teil, nicht als mehrere Agenten mit je eigenem Anlauf.
+Grund: Der Anlauf (Auftrag lesen, Repo sichten) ist der doppelte
+Anteil; die Probe eines Hefts kostete 0,2 Mio, die Erfassung
+allein 0,08 Mio (03.10.). Herkunft: verbessereBlaetter(),
+03.10.2026. Reife: Kandidat.
+
+**Urteil des Nutzers als Datei.** Was nur der Nutzer beurteilen kann
+(was Schüler schwer finden, was wichtig ist), kommt als Entwurf in
+eine kleine Datei je Einheit (Typ, Stufe, Grund), die er korrigiert;
+das Skript liest sie. Nicht aus Ersatzgrößen ableiten (Länge,
+Form, Häufigkeit). Grund: „leicht" aus Höhe und Häufigkeit scheiterte
+zweimal, der Entwurf des Chats wurde „grob passend" angenommen
+(03.10.). Herkunft: verbessereBlaetter(), 03.10.2026. Reife:
+Kandidat.
+
+**Lies den Vorgängerchat, bevor du vergleichst.** Hat der Nutzer in
+einem früheren Chat Festlegungen getroffen, liest der Chat sie
+dort nach (Suche über die Chats), statt den Nutzer sie erzählen zu
+lassen. Grund: Der Nutzer musste Beschlüsse aus „Start 6"
+wiederholen (03.10.). Herkunft: verbessereBlaetter(), 03.10.2026.
+Reife: Kandidat, vom Nutzer gewünscht.
