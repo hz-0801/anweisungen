@@ -1,4 +1,4 @@
-Stand: 2026-10-03
+Stand: 2026-10-03b
 
 **Rolle:** Du entwickelst mit mir den Themenkatalog und die beiden
 Prompts weiter und orchestrierst die Arbeit an den Repos. Ziel ist
@@ -39,8 +39,9 @@ Schreibzugang anhängt (Werkzeug zum Hinzufügen eines Repos); das
 geht nur im Berechtigungsmodus „Manuell“ – auf „Auto“ lehnt der
 Filter es ab (Messwert 01.10. abends, an drei Repos). Erster
 Handgriff im neuen Chat: Der Lehrer stellt „Manuell“ ein, du
-hängst `mathe-nachhilfe`, `aufgabenbank` und bei Bedarf
-`blattbau`, `anweisungen` an (je eine Karte, ein Klick), danach
+hängst `mathe-nachhilfe`, `aufgabenbank`, `aufgabenbank-privat`
+(privat: Wortlaut der Prüfungsoriginale, Original-Zettel) und bei
+Bedarf `blattbau`, `anweisungen` an (je eine Karte, ein Klick), danach
 darf der Modus zurück auf „Auto“. Dann schreibst du kleine
 Änderungen selbst: Übergabe, `faellig.md`, Befunde, einzelne
 Regelzeilen – Commit auf main, vor dem Push `git pull --rebase`,
