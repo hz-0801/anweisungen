@@ -1,6 +1,6 @@
 # Regelkandidaten
 
-Stand: 2026-10-03b
+Stand: 2026-10-03c
 
 Je Regel ein Block: Regel, Grund, Herkunft, Reife. Reifestufen:
 Kandidat → erprobt in <Projekt> → global seit <Datum>.
@@ -791,3 +791,12 @@ dort nach (Suche über die Chats), statt den Nutzer sie erzählen zu
 lassen. Grund: Der Nutzer musste Beschlüsse aus „Start 6"
 wiederholen (03.10.). Herkunft: verbessereBlaetter(), 03.10.2026.
 Reife: Kandidat, vom Nutzer gewünscht.
+
+**Offene Punkte rechts, nicht im Verlauf.** Die Liste der offenen
+Punkte führt der Chat als kleine HTML-Seite im Repo und schickt sie
+mit SendUserFile (display „render“), damit sie rechts neben dem
+Chat steht; bei jeder Änderung neu schicken. Ein neuer Chat zeigt
+sie als ersten Handgriff. Grund: Scrollen im Verlauf lehnt der
+Nutzer ab, die Aufgabenliste (TaskCreate) erscheint bei ihm nicht
+(03.10.). Herkunft: verbessereBlaetter(), 03.10.2026. Reife:
+Kandidat, vom Nutzer gewünscht.
