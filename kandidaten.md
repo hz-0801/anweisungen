@@ -1,6 +1,6 @@
 # Regelkandidaten
 
-Stand: 2026-10-03c
+Stand: 2026-10-03d
 
 Je Regel ein Block: Regel, Grund, Herkunft, Reife. Reifestufen:
 Kandidat → erprobt in <Projekt> → global seit <Datum>.
@@ -800,3 +800,28 @@ sie als ersten Handgriff. Grund: Scrollen im Verlauf lehnt der
 Nutzer ab, die Aufgabenliste (TaskCreate) erscheint bei ihm nicht
 (03.10.). Herkunft: verbessereBlaetter(), 03.10.2026. Reife:
 Kandidat, vom Nutzer gewünscht.
+
+## Kandidaten 2026-10-03d (Projekt verbessereBlaetter, Umzug abends)
+
+**Keine Option ohne Informationsgewinn.** Eine Wahlmöglichkeit wird
+nur angeboten, wenn sich die Optionen im Ergebnis unterscheiden; eine
+Variante, die dasselbe sagt (zwei Namen für denselben Knopf), wird
+entschieden, nicht vorgelegt. Grund: Der Nutzer wies eine solche
+Doppeloption als sinnlos zurück (03.10.). Herkunft:
+verbessereBlaetter(), 03.10.2026. Reife: Kandidat, vom Nutzer
+gewünscht.
+
+**Eine Stufe festzurren, dann die nächste.** Bei Entwürfen mit
+Ebenen (Entscheidungsbaum, Gliederung) wird je Nachricht nur eine
+Ebene besprochen und bestätigt; Folgeebenen erst danach, und eine
+Ebene, die sich später beißt, wird bewusst neu aufgemacht. Der
+aktuelle Stand steht als Bild rechts (Baum in der Seite der offenen
+Punkte), nicht als Liste im Verlauf. Grund: Vorgreifen und Mischen
+zweier Ebenen führte mehrfach zu Rückfragen und Ärger (03.10.).
+Herkunft: verbessereBlaetter(), 03.10.2026. Reife: Kandidat, vom
+Nutzer gewünscht.
+
+**Gleicher Ablauf ist ein Wert.** In einer Bedienung bekommen
+gleichartige Wege dieselben Stufen und Knöpfe; Abweichungen nur mit
+Grund. Grund: Der Nutzer will die Knöpfe einmal lernen (03.10.).
+Herkunft: verbessereBlaetter(), 03.10.2026. Reife: Kandidat.
