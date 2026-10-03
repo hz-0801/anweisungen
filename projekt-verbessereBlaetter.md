@@ -322,8 +322,11 @@ Prüfung (Prüfskript, Dubletten, Sprosse, Feld `herkunft`) selbst
 in `bank/<eintrag>/e<n>.jsonl` ein – ohne Rückfrage; der Lehrer
 streicht, was ihm auf dem Blatt nicht gefällt (Option A, 01.10.).
 Der Eingangsordner ist Beleg, keine Quelle.
-Unveränderliches (`mathblatt.sty`, `Anleitung_mathblatt.md`,
-`muster4.tex`) liegt als Projektdatei in erzeugeBlatt(Bank).
+`mathblatt.sty` und `Anleitung_mathblatt.md` holt der Blatt-Chat
+aus `blattbau` (Raw-URL), nie als Projektdatei – der Chat kann
+Projektdateien anderer Projekte nicht ersetzen (Messwert 03.10.),
+die Vorlage aber im Repo pflegen; als Projektdatei liegen nur
+`muster4.tex` und `Schuelerliste-privat.md`.
 Für die alten Prompts gilt weiter: Nach dem Blatt-Chat lädt der
 Lehrer das Protokoll-Archiv (`<Thema>_<Datum>_protokoll.zip`)
 herunter; am PC sortiert `werkzeuge/einsortieren.py` es aus
