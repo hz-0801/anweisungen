@@ -825,3 +825,27 @@ Nutzer gewünscht.
 gleichartige Wege dieselben Stufen und Knöpfe; Abweichungen nur mit
 Grund. Grund: Der Nutzer will die Knöpfe einmal lernen (03.10.).
 Herkunft: verbessereBlaetter(), 03.10.2026. Reife: Kandidat.
+
+## Kandidaten 2026-10-04 (Projekt verbessereBlaetter, Umzug)
+
+**Einmal fragen, dann eintragen.** Angaben, die der Nutzer immer wieder
+liefern müsste (Personen, Orte, Einstellungen), legt der Chat in einer
+Datei ab; fehlt eine, fragt er einmal und trägt die Antwort sofort ein,
+damit nie wieder gefragt wird. Was für eine Gruppe gilt (alle Schüler
+einer Schule), steht einmal bei der Gruppe. Grund: Der Nutzer will
+nicht immer dasselbe gefragt werden (04.10.). Herkunft:
+verbessereBlaetter(), 04.10.2026. Reife: Kandidat, vom Nutzer gewünscht.
+
+**Große Läufe in Blöcken mit Sparprüfung.** Ein großer Lauf liest jede
+Quelle einmal, stimmt alle Schritte aufeinander ab, läuft in Blöcken,
+und nach jedem Block wird geprüft, ob der nächste sparsamer geht –
+Qualität geht vor. Grund: Vorgabe des Nutzers für den Vorratslauf
+(04.10.). Herkunft: verbessereBlaetter(), 04.10.2026. Reife: Kandidat,
+vom Nutzer gewünscht.
+
+**Vereinheitlichen nach Stufe, nicht nach Gegenstand.** Wer mehrere
+gleich gebaute Dinge angleicht (Bäume je Prüfung), geht Stufe für Stufe
+mit einer Vergleichstabelle durch, nicht Ding für Ding; so stehen
+Abweichungen nebeneinander und werden entschieden. Grund: Der Durchgang
+P10 | Abitur | FHR fand so in kurzer Zeit die Widersprüche (04.10.).
+Herkunft: verbessereBlaetter(), 04.10.2026. Reife: Kandidat.
