@@ -889,3 +889,38 @@ Woche. Messwerte: 209 000 Token → Woche +1, Fable +2; 556 000 Token →
 Woche +3, Fable +4 (≈ 185 000 Token je Wochenpunkt). Grund: Der Nutzer
 wollte „Fable aufbrauchen“ und hielt die 11 % für zusätzlich (04.10.).
 Herkunft: verbessereBlaetter(), 04./05.10.2026. Reife: Messwert.
+
+## Kandidaten 2026-10-06 (Projekt verbessereBlaetter, Umzug)
+
+**Revisionsschranke.** Ein gefasster Beschluss wird nur neu
+aufgemacht, wenn ein Ergebnis (Blatt, Messwert, Befund) dagegen
+spricht – nicht, weil im Gespräch ein neuer Gedanke auftaucht. Einfälle
+kommen auf die Liste offener Punkte und werden am nächsten Ergebnis
+geprüft. Grund: Am 05.10. wurde „schwach“ viermal umgebaut, der Nutzer
+fühlte sich unwohl („wir revidieren, was fest war“). Herkunft:
+verbessereBlaetter(), 05.10.2026. Reife: Kandidat, vom Nutzer angestoßen.
+
+**Zeigen statt beschreiben.** Soll der Nutzer etwas beurteilen, das er
+nicht vor sich hat (Seite, Ausschnitt, Variante), wird es gerendert und
+rechts gezeigt; auf eine Stelle, die nicht sichtbar ist, wird nicht
+nur verwiesen. Zwei Varianten nebeneinander statt in Worten. Grund:
+Urteile kamen erst, als die Seiten rechts standen; Kosten fast null.
+Herkunft: verbessereBlaetter(), 05./06.10.2026. Reife: Kandidat, vom
+Nutzer gewünscht.
+
+**Ein Begriff, eine Bedeutung.** Bezeichnet ein Wort zwei Dinge (hier
+„Skript“ = Heftart und = Bauanleitung), wird das beim ersten Anzeichen
+von Missverständnis aufgelöst und umbenannt. Grund: Der Nutzer
+verstand einen Plan nicht, weil „Skript“ doppelt belegt war (05.10.).
+Herkunft: verbessereBlaetter(), 05.10.2026. Reife: Kandidat.
+
+**Vorschlag als Frage, nicht als Schlussstrich.** Empfehlungen und
+Pausen werden angeboten, nicht verordnet; der Nutzer entscheidet über
+Tempo und Ende. Grund: „sei nicht immer so im Ton bevormundend“
+(05.10.). Herkunft: verbessereBlaetter(), 05.10.2026. Reife: Kandidat,
+vom Nutzer eingefordert.
+
+**Opus-Agenten schonen die Woche.** Messwerte 05.10.: Opus/Sonnet-
+Agenten ≈ 0,5 Mio Token je Wochenpunkt, Fable-Agenten ≈ 185 000. Große
+Läufe mit Opus, Fable nur auf Wunsch. Herkunft: verbessereBlaetter(),
+05.10.2026. Reife: Messwert (zwei Läufe, Anzeige in ganzen Prozent).
