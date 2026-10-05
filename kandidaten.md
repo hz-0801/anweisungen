@@ -849,3 +849,43 @@ mit einer Vergleichstabelle durch, nicht Ding für Ding; so stehen
 Abweichungen nebeneinander und werden entschieden. Grund: Der Durchgang
 P10 | Abitur | FHR fand so in kurzer Zeit die Widersprüche (04.10.).
 Herkunft: verbessereBlaetter(), 04.10.2026. Reife: Kandidat.
+
+## Kandidaten 2026-10-05 (Projekt verbessereBlaetter, Umzug früh)
+
+**Nächsten Schritt aus der Übergabe prüfen, nicht übernehmen.** Der
+neue Chat beginnt mit dem genannten Schritt, sagt aber vorher in zwei
+Sätzen, warum dieser Schritt jetzt und nicht ein anderer – wer ihn
+braucht, was ohne ihn stockt. Trägt die Begründung nicht, legt er den
+besseren Schritt vor. Grund: Der Abitur-Zuschnitt stand als nächster
+Schritt, obwohl vier Schüler P10 schreiben und einer Abitur (04.10.).
+Herkunft: verbessereBlaetter(), 04.10.2026. Reife: Kandidat, vom
+Nutzer eingefordert.
+
+**Nur das Gefragte in der Antwort.** Fragt der Nutzer nach einem Teil
+(Lösungen), enthält die Antwort nur diesen Teil – keine Tabelle mit
+Spalten, die er nicht gefragt hat, kein Nebenvorschlag. Was der Nutzer
+zum Fokussieren braucht, ist eine fokussierte Antwort. Grund: Eine
+Tabelle mit Aufgaben-, Lösungs- und Sonst-Spalte auf die Frage nach
+Lösungen (04.10.). Herkunft: verbessereBlaetter(), 04.10.2026. Reife:
+Kandidat, vom Nutzer eingefordert.
+
+**Ein Bild vor dem Senden ansehen.** Wer eine Seite oder Grafik baut,
+die der Nutzer ansehen soll, rendert sie vorher selbst (Playwright,
+Screenshot) und prüft Lage und Lesbarkeit; „müsste passen“ reicht
+nicht. Grund: Baum sollte oben rechts stehen und stand unter dem
+Text; erst der Screenshot zeigte es (04.10.). Herkunft:
+verbessereBlaetter(), 04.10.2026. Reife: Kandidat.
+
+**Ein Hauptplatz, Nebenplatz nur als eigene Stufe.** Ordnet man Dinge
+in Abschnitte, hat jedes genau einen Hauptplatz (dort wird gezählt) und
+höchstens dort einen Nebenplatz, wo es eine eigene Stufe bildet; am
+Nebenplatz steht „kennst du aus …“. Grund: Doppelte Einordnung ohne
+diese Regel verfälscht Zählungen und bläht auf (04.10.). Herkunft:
+verbessereBlaetter(), 04.10.2026. Reife: Kandidat, projektnah.
+
+**Fable zahlt die Woche mit.** Fable-Arbeit zählt auf das Fable- und
+das Wochenkontingent; bindend ist, was zuerst voll ist, meist die
+Woche. Messwerte: 209 000 Token → Woche +1, Fable +2; 556 000 Token →
+Woche +3, Fable +4 (≈ 185 000 Token je Wochenpunkt). Grund: Der Nutzer
+wollte „Fable aufbrauchen“ und hielt die 11 % für zusätzlich (04.10.).
+Herkunft: verbessereBlaetter(), 04./05.10.2026. Reife: Messwert.
