@@ -6,7 +6,7 @@ Stand-Zeile.
 
 ---
 
-Stand: 2026-10-03
+Stand: 2026-10-06
 
 ## Haltung
 
