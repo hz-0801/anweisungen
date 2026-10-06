@@ -937,5 +937,35 @@ wenn er gleich gut ist“ durch: „Den sparsamsten Weg, der gleich gut ist,
 wählst du von dir aus und sagst in einem Satz, warum er reicht.“ Grund:
 Ein Neubau war als „kleiner Lauf“ mit 0,2–0,4 Mio Token angekündigt; erst
 auf Nachfrage kam der Weg mit 0,17 Mio (06.10.). Herkunft:
-verbessereBlaetter(), 06.10.2026. Reife: vom Nutzer eingefordert („muss
-festgehalten werden“).
+verbessereBlaetter(), 06.10.2026. Reife: übernommen in global.md (Stand
+2026-10-06).
+
+## Kandidaten 2026-10-06c (Projekt verbessereBlaetter, Umzug)
+
+**Erst die Sicht, dann das Ergebnis.** Bevor Aufgaben, Texte oder Listen
+erzeugt werden, steht die Sicht als kurze Liste fest (wer liest es, was
+muss er verstanden haben, welche Vielfalt, welche echte Sprache); erzeugt
+und geprüft wird gegen diese Liste. Ohne sie nimmt das Modell die Sicht
+der Daten und liefert das Durchschnittliche. Grund: Verständnisfragen
+(„Was ist das Ganze?“) kamen erst auf Nachfrage; Varianten waren Kopien mit
+anderer Zahl (06.10.). Herkunft: verbessereBlaetter(), 06.10.2026. Reife:
+Kandidat, vom Nutzer angestoßen.
+
+**Vorhandenes Wissen anschließen, bevor man es neu erfindet.** Vor einem
+neuen Baustein prüfen, ob das Wissen schon in einer Datei steht, die die
+Werkzeugkette nicht liest. Grund: Erkennungsschritte, typische Fehler und
+Leiter standen seit September im Katalog; das Bauprogramm las ihn nicht
+(06.10.). Herkunft: verbessereBlaetter(), 06.10.2026. Reife: Kandidat.
+
+**Echte Sammlungen vor eigener Erfindung.** Wo Vielfalt gebraucht wird
+(Aufgaben, Formulierungen, Beispiele), zuerst einen echten Korpus
+erschließen; eigene Erfindung nur für Lücken und nach einem Raster mit
+Merkmalen, die sich unterscheiden müssen. Grund: 1 502 echte Aufgaben
+anderer Länder ersetzten Kopien; Hefte wurden kürzer und vielfältiger
+(06.10.). Herkunft: verbessereBlaetter(), 06.10.2026. Reife: Kandidat.
+
+**Beurteilen am Ergebnis, nicht an der Liste.** Soll der Nutzer eine
+Vorgabe (Steckbrief, Regel) beurteilen, deren Wirkung er nicht sieht,
+wird zuerst ein Ergebnis daraus gebaut und gezeigt. Grund: „ich sehe die
+Auswirkungen auf ein Blatt nicht“ (06.10.). Herkunft:
+verbessereBlaetter(), 06.10.2026. Reife: Kandidat, vom Nutzer angestoßen.
