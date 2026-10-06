@@ -924,3 +924,18 @@ vom Nutzer eingefordert.
 Agenten ≈ 0,5 Mio Token je Wochenpunkt, Fable-Agenten ≈ 185 000. Große
 Läufe mit Opus, Fable nur auf Wunsch. Herkunft: verbessereBlaetter(),
 05.10.2026. Reife: Messwert (zwei Läufe, Anzeige in ganzen Prozent).
+
+## Kandidaten 2026-10-06b (Projekt verbessereBlaetter, mittags)
+
+**Sparen ungefragt, Qualität vorausgesetzt.** Bei jedem Schritt wählt
+der Chat von sich aus den sparsamsten Weg, der die Qualität hält (frischer
+Agent statt langer Verlauf, nur die nötigen Stellen lesen, Prüfen ohne
+Bilder, wo Text reicht, Mechanik ohne Modell), und nennt in einem Satz,
+warum er reicht. Der Nutzer muss nicht danach fragen. Für global.md
+vorgeschlagen als Ersatz des Satzes „Einen sparsameren Weg nennst du nur,
+wenn er gleich gut ist“ durch: „Den sparsamsten Weg, der gleich gut ist,
+wählst du von dir aus und sagst in einem Satz, warum er reicht.“ Grund:
+Ein Neubau war als „kleiner Lauf“ mit 0,2–0,4 Mio Token angekündigt; erst
+auf Nachfrage kam der Weg mit 0,17 Mio (06.10.). Herkunft:
+verbessereBlaetter(), 06.10.2026. Reife: vom Nutzer eingefordert („muss
+festgehalten werden“).
