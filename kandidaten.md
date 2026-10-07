@@ -976,14 +976,14 @@ verbessereBlaetter(), 06.10.2026. Reife: Kandidat, vom Nutzer angestoßen.
 Beurteilen zeigt, zeigt einen Ausschnitt als Bild in der Seitenleiste
 (rechts), klein aufgelöst, genau die Stelle, um die es geht – nicht die
 ganze Seite und nicht im Chatverlauf zum Scrollen. Das Modell sieht sich
-Seiten nur an, wenn es selbst etwas daran beurteilen muss. Grund: Lange
-Chats mit vielen Seitenbildern treiben den Verbrauch (jede Antwort
-verarbeitet den Verlauf neu; Woche 19 → 25 % in einem Abschnitt mit
-0,40 Mio Agententoken); Scrollen stört den Nutzer. Herkunft:
+Seiten nur an, wenn es selbst etwas daran beurteilen muss. Grund: Scrollen stört
+den Nutzer; Bilder kosten Kontext. (Messwert 07.10.: rund 20 Chatnachrichten
+mit Bildern ließen die Woche bei 25 %, ein Agentenlauf mit 0,40 Mio Token
+hob sie von 19 auf 25 % – Haupttreiber sind Agentenläufe.) Herkunft:
 verbessereBlaetter(), 07.10.2026. Reife: Kandidat, vom Nutzer angestoßen,
 möglicherweise global.
 
-**Umziehen, bevor der Verlauf teuer wird.** Ist ein Chat lang und voller
-Bilder und Werkzeugausgaben, wird nach Abschluss der laufenden
-Entscheidung umgezogen, nicht erst am Ende der Phase. Grund wie oben.
-Herkunft: verbessereBlaetter(), 07.10.2026. Reife: Kandidat.
+**Agentenläufe klein schneiden.** Der Verbrauch hängt vor allem an
+Agentenläufen (Zahl der Werkzeugaufrufe, Lesen), nicht an Chatnachrichten.
+Läufe auf das Nötige begrenzen, Lesen im Agenten eng führen. Herkunft:
+verbessereBlaetter(), 07.10.2026 (Messwert). Reife: Kandidat.
