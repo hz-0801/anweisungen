@@ -969,3 +969,21 @@ Vorgabe (Steckbrief, Regel) beurteilen, deren Wirkung er nicht sieht,
 wird zuerst ein Ergebnis daraus gebaut und gezeigt. Grund: „ich sehe die
 Auswirkungen auf ein Blatt nicht“ (06.10.). Herkunft:
 verbessereBlaetter(), 06.10.2026. Reife: Kandidat, vom Nutzer angestoßen.
+
+## Kandidaten 2026-10-07 (Projekt verbessereBlaetter)
+
+**Sparsam und trotzdem bequem zeigen.** Wer dem Nutzer etwas zum
+Beurteilen zeigt, zeigt einen Ausschnitt als Bild in der Seitenleiste
+(rechts), klein aufgelöst, genau die Stelle, um die es geht – nicht die
+ganze Seite und nicht im Chatverlauf zum Scrollen. Das Modell sieht sich
+Seiten nur an, wenn es selbst etwas daran beurteilen muss. Grund: Lange
+Chats mit vielen Seitenbildern treiben den Verbrauch (jede Antwort
+verarbeitet den Verlauf neu; Woche 19 → 25 % in einem Abschnitt mit
+0,40 Mio Agententoken); Scrollen stört den Nutzer. Herkunft:
+verbessereBlaetter(), 07.10.2026. Reife: Kandidat, vom Nutzer angestoßen,
+möglicherweise global.
+
+**Umziehen, bevor der Verlauf teuer wird.** Ist ein Chat lang und voller
+Bilder und Werkzeugausgaben, wird nach Abschluss der laufenden
+Entscheidung umgezogen, nicht erst am Ende der Phase. Grund wie oben.
+Herkunft: verbessereBlaetter(), 07.10.2026. Reife: Kandidat.
