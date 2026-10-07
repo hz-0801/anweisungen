@@ -987,3 +987,38 @@ möglicherweise global.
 Agentenläufen (Zahl der Werkzeugaufrufe, Lesen), nicht an Chatnachrichten.
 Läufe auf das Nötige begrenzen, Lesen im Agenten eng führen. Herkunft:
 verbessereBlaetter(), 07.10.2026 (Messwert). Reife: Kandidat.
+
+## Kandidaten 2026-10-07b (Projekt verbessereBlaetter, Umzug abends)
+
+**Bestand lesen, bevor man plant.** Vor einer Planung oder neuen Regel
+werden alle Dateien mit Zielen, Beschlüssen und Plänen gelesen (bei vielen
+Dateien parallel durch Leser, nur die Funde zurück), statt aus dem
+Gesprächsverlauf zu raten. Was dort „fest“ steht, gilt, bis der Nutzer es
+ändert. Grund: Am 07.10. wurden fest beschlossene Punkte vom 04.10.
+(Auswahl, Fundstellen, Prüfstein) neu hergeleitet oder versehentlich
+umgekehrt, weil offen.html in keiner Übergabe stand; der Plan „Schalter“
+stand seit 28.09. als nächster Schritt und wurde nie gebaut. Herkunft:
+verbessereBlaetter(), 07.10.2026. Reife: Kandidat, vom Nutzer
+eingefordert („lese und rate nicht“), möglicherweise global.
+
+**Ideen sind zuerst Richtungen.** Eine Idee oder Bemerkung des Nutzers
+wird als Richtung festgehalten („eher“, mit Grund), nicht als Regel mit
+„immer/nie“; Regel wird sie auf sein Wort oder nach einem Befund am
+Ergebnis. Seine Bemerkungen sind Beispiele, keine Gesetze. Grund: Aus
+„eher wie a“ wurde ein Verbot, aus einem Tipp ein starres Schema; wörtlich
+genommene Regeln erzeugten Murks und neue Regeln (07.10.). Herkunft:
+verbessereBlaetter(), 07.10.2026. Reife: Kandidat, vom Nutzer
+eingefordert, möglicherweise global.
+
+**Selbst prüfen, dann zeigen; Befunde gesammelt.** Ein Ergebnis wird erst
+gezeigt, wenn das Modell es selbst gegen die Handwerksregeln und die
+Nutzerfrage geprüft hat; der Nutzer schickt seine Befunde in einer
+Nachricht, das Modell setzt alles in einem Gang um. Grund: Etwa die Hälfte
+der Befunde am 07.10. waren Handwerksfehler, die das Modell selbst hätte
+finden können; die Runde mit Sammelliste war die schnellste. Herkunft:
+verbessereBlaetter(), 07.10.2026. Reife: Kandidat, vom Nutzer bestätigt.
+
+**Messwert Kosten 07.10.** Arbeit im Chat (Programmumbau, viele Neubauten,
+Bilder): Woche 25 → 26 %. Sechs Fable-Leser mit zusammen rund 1,7 Mio
+Token: Woche 26 → 29 %, Fable 0 → 7 %. Herkunft: verbessereBlaetter(),
+07.10.2026. Reife: Messwert.
