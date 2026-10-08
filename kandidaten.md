@@ -1055,3 +1055,38 @@ Woche 30 → 31 %, Fable 7 → 9 %; Fable 0,30 Mio + Opus 0,17 Mio → Woche
 31 → 33 %, Fable 9 → 12 %. Agenten mit engem Auftrag und Zählgrenzen sind
 deutlich billiger als geschätzt (≈ 0,5–0,7 Mio Token je Wochenpunkt
 gemischt). Herkunft: verbessereBlaetter(), 09.10.2026. Reife: Messwert.
+
+## Kandidaten 2026-10-08 (Projekt verbessereBlaetter, Umzug abends)
+
+**Jede Frage mit Empfehlung.** Stellt der Chat eine Frage, nennt er seine
+Empfehlung dazu; eine Frage je Nachricht, einfache Worte. Grund: Fragen ohne
+Empfehlung schoben dem Nutzer die Denkarbeit zu. Herkunft:
+verbessereBlaetter(), 08.10.2026. Reife: vom Nutzer verlangt, möglicherweise
+global.
+
+**Begriffstabelle mit Beispiel.** Ein Projekt mit eigenen Fachwörtern führt
+eine Tabelle Begriff · Bedeutung · Beispiel an einem durchgehenden Fall; der
+Chat legt sie ungefragt vor, wenn ein Wort verschieden gebraucht wird. Grund:
+gewachsene Wörter (Typ, Art, Kette, Sprosse, Sorte, Stufe, Handgriff) meinten
+fast dasselbe und verwirrten. Herkunft: verbessereBlaetter(), 08.10.2026.
+Reife: vom Nutzer verlangt.
+
+**Regeln zwingen; Weg vor Material.** Regeln nur für Handwerk; für Urteil
+(Didaktik) Zweck in einem Satz plus Beispiel. Ein Modell, das baut, denkt
+zuerst den Weg (hier: Lernweg in 5–7 Schritten), dann wählt es Material;
+ein zweiter Agent ohne Regeln, nur mit dem Zweck, kritisiert vor der Abgabe.
+Grund: Ein Blatt aus Regeln und Bankteilen war schlechter als das, was das
+Modell ohne Zwang aus Lehrwerkwissen gebaut hätte; die meisten Fehler fand
+die Durchsicht, nicht der Bau (08.10.). Herkunft: verbessereBlaetter(),
+08.10.2026. Reife: Kandidat, Prüfstein steht aus.
+
+**Beim Plan bleiben.** Führt eine Beurteilung über ihren Gegenstand hinaus,
+schreibt der Chat den Gedanken in einer Zeile nach „Später“ und bleibt beim
+Plan. Grund: Aus der Beurteilung eines Blatts wurden in einem Nachmittag sechs
+Grundsatzfragen; der Nutzer verlor den Faden. Herkunft: verbessereBlaetter(),
+08.10.2026. Reife: Kandidat.
+
+**Erst nachsehen, dann definieren.** Bevor ein Begriff oder eine Festlegung
+neu formuliert wird, sucht der Chat im Bestand, ob es sie schon gibt.
+Grund: „Sorte“ wurde neu definiert, obwohl drei Fassungen im Repo standen.
+Herkunft: verbessereBlaetter(), 08.10.2026. Reife: Kandidat.
