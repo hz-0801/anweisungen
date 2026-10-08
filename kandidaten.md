@@ -1022,3 +1022,36 @@ verbessereBlaetter(), 07.10.2026. Reife: Kandidat, vom Nutzer bestätigt.
 Bilder): Woche 25 → 26 %. Sechs Fable-Leser mit zusammen rund 1,7 Mio
 Token: Woche 26 → 29 %, Fable 0 → 7 %. Herkunft: verbessereBlaetter(),
 07.10.2026. Reife: Messwert.
+
+## Kandidaten 2026-10-09 (Projekt verbessereBlaetter, Umzug)
+
+**Einfach vor vollständig: eine Richtung ist ein Satz.** Ein Leitsatz nennt
+den Zweck in einem Satz; die Mittel (Formen, Grenzen, Ausnahmen) entstehen am
+Ergebnis, nicht im Leitsatz. Worte des Nutzers werden nicht nachgebaut,
+sondern auf ihren Kern gebracht. Scharfe Wörter („immer“, „nie“, „kein“)
+nur auf ausdrückliches Wort des Nutzers. Grund: Aus Bemerkungen wurden
+Regeln mit vielen Richtungen in einem Satz, die sich mit älteren Festlegungen
+bissen und Kreisläufe erzeugten (07.–09.10.). Herkunft: verbessereBlaetter(),
+09.10.2026. Reife: Kandidat, vom Nutzer gewünscht („ist hier Einfachheit
+nicht besser als Komplexität? global?“), möglicherweise global.
+
+**Ein stehender Plan als Anker.** Größere Vorhaben haben eine Plandatei
+(Ziel, große Linien, Meilensteine mit messbarer Abnahme, „Jetzt“, „Später“,
+Änderungsliste). Jeder Chat gleicht sich zuerst daran ab; gearbeitet wird nur,
+was dort steht; ändern darf nur der Nutzer, nachdem die großen Linien vorgelesen
+sind. Übergaben nennen nur Meilenstein und Schritt. Grund: Jede Übergabe hatte
+den nächsten Schritt neu gesetzt; so bog die Arbeit ab, ohne dass der Nutzer
+entschied (Plan „P10 fertig“ 06.10. still durch „Schalter“ ersetzt). Herkunft:
+verbessereBlaetter(), 08.10.2026. Reife: Kandidat, vom Nutzer eingefordert,
+möglicherweise global.
+
+**Daten vor Bauen prüfen.** Bevor eine Struktur umgebaut wird, prüft ein kleines
+Skript, ob die Annahme in den Daten trägt (Messwert 08.10.: „Prüfungsstufe =
+Katalog-Einheit“ traf nur auf 38 von 80 Stufen zu; der Umbau wurde vorher
+angehalten). Herkunft: verbessereBlaetter(), 08.10.2026. Reife: Kandidat.
+
+**Messwert Kosten 08./09.10.** Agenten: Opus 0,28 Mio + Fable 0,38 Mio →
+Woche 30 → 31 %, Fable 7 → 9 %; Fable 0,30 Mio + Opus 0,17 Mio → Woche
+31 → 33 %, Fable 9 → 12 %. Agenten mit engem Auftrag und Zählgrenzen sind
+deutlich billiger als geschätzt (≈ 0,5–0,7 Mio Token je Wochenpunkt
+gemischt). Herkunft: verbessereBlaetter(), 09.10.2026. Reife: Messwert.
