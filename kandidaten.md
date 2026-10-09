@@ -1090,3 +1090,33 @@ Grundsatzfragen; der Nutzer verlor den Faden. Herkunft: verbessereBlaetter(),
 neu formuliert wird, sucht der Chat im Bestand, ob es sie schon gibt.
 Grund: „Sorte“ wurde neu definiert, obwohl drei Fassungen im Repo standen.
 Herkunft: verbessereBlaetter(), 08.10.2026. Reife: Kandidat.
+
+## Kandidaten 2026-10-09b (Projekt verbessereBlaetter, Umzug)
+
+**Vom Ende her sparen.** Bei knappem Kontingent wird vom Endzustand her
+gerechnet: Was muss am Ende ohne Modell laufen, und welche Daten braucht es
+dafür? Jeder Token muss solche Daten erzeugen; gelesen wird nur, was im
+Ergebnis landet. Grund: Ein Bau (0,3–0,4 Mio) legte wiederverwendbare
+Daten an, eine Leser-Runde (1,4 Mio) nur Berichte. Herkunft:
+verbessereBlaetter(), 09.10.2026. Reife: vom Nutzer verlangt, möglicherweise
+global.
+
+**Einmal aufräumen statt weiter schichten.** Wenn sich Arbeit im Kreis
+dreht, zuerst die Entscheidungsschichten zählen (Übergaben, Pläne, Regelorte)
+und aufräumen: eine Datei je Frage, Rangfolge, Rest ins Archiv; die
+Übergabe nennt keinen eigenen nächsten Schritt. Grund: 15 Übergaben in acht
+Tagen, nächster Schritt 13-mal gewechselt. Herkunft: verbessereBlaetter(),
+09.10.2026. Reife: Kandidat.
+
+**Daten jetzt, Sorte später.** Was eine spätere Wahl offenhält (z. B.
+Formel und Beispiel je Schritt für ein Selbstlernheft), kommt beim ersten
+Bau in die Daten; entschieden wird erst beim Ausgeben. Grund: nachträglich
+heißt alles neu lesen. Herkunft: verbessereBlaetter(), 09.10.2026. Reife:
+Kandidat.
+
+**Linien vom Lehrer, Kleinigkeiten vom Chat.** Der Nutzer entscheidet nur
+Linien; Einzelheiten entscheidet der Chat und sagt sie in einem Satz.
+Herkunft: verbessereBlaetter(), 09.10.2026. Reife: vom Nutzer verlangt.
+
+**Messwert 09.10.:** Fable-Leser 1,4 Mio → Woche +4, Fable +6 Punkte
+(≈ 0,35 Mio je Wochenpunkt); Opus-Bau + Setzer 0,4 Mio → Woche +1.
