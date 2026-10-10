@@ -1120,3 +1120,29 @@ Herkunft: verbessereBlaetter(), 09.10.2026. Reife: vom Nutzer verlangt.
 
 **Messwert 09.10.:** Fable-Leser 1,4 Mio → Woche +4, Fable +6 Punkte
 (≈ 0,35 Mio je Wochenpunkt); Opus-Bau + Setzer 0,4 Mio → Woche +1.
+
+## Kandidaten 2026-10-10 (Projekt verbessereBlaetter, Umzug)
+
+**Gespeicherte Ordnung nutzen, nicht neu erfinden.** Liegt ein geprüftes
+Gerüst vor (Stufenketten, Muster), füllt der Agent es; er plant den
+Aufbau nicht jedes Mal frisch. Grund: Aufträge, die „frisch planen“ oder
+„Gerüst nicht lesen“ verlangten, erzeugten bei jedem Bau ein anderes
+Ergebnis (Drift, nicht wiederholbar). Herkunft: verbessereBlaetter(),
+10.10.2026. Reife: Kandidat.
+
+**Das Ziel des Nutzers neben jede Runde legen.** Vor jeder Welle prüfen:
+dient sie dem genannten Ziel (hier: bessere Aufgaben) oder einem
+Nebenziel (Form, Ablauf)? Grund: 38 Einheiten optimierten die Blattform,
+der Nutzer wollte Aufgaben. Reife: Kandidat.
+
+**Keine Regel aus Einzelbefunden.** Wünsche als Befund sammeln, Regel erst
+bei Wiederholung und mit Zustimmung. Grund: nach jeder Welle neue Regeln
+in die Aufträge → Drift. Herkunft: Nutzer 10.10. Reife: vom Nutzer verlangt.
+
+**Vorbild zeigen statt beschreiben; unabhängiger Vergleich vor Abgabe.**
+Ein vom Nutzer gelobtes Ergebnis ist das Maß; ein zweiter Agent vergleicht
+als Bild, bevor der Nutzer etwas sieht. Selbsturteil des Bauers trog.
+Reife: Kandidat.
+
+**Messwert 10.10.:** ≈ 0,75 Mio Opus-Token je Wochenpunkt; eigene
+Hochrechnung lag 20 Punkte daneben – nur Ablesung zählt.
