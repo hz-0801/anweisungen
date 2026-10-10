@@ -1163,3 +1163,25 @@ verlangt.
 Quellen (Allgemein aus dem Katalog, Prüfung aus der Prüfungsgliederung)
 nicht in einen Weg zwingen; gemeinsam ist nur die Technik (Kennung,
 kurze Einheiten, Übersicht). Herkunft: Lehrer 10.10.2026. Reife: Kandidat.
+
+## Kandidaten 2026-10-10c (Projekt verbessereBlaetter, Umzug spät)
+
+**Entscheidungen an einer Stelle, mit Abgleich.** Alles, was der Nutzer
+entschieden hat, steht mit Datum an einer Stelle (hier plan.md);
+anderswo Entschiedenes zählt erst, wenn es dort steht. Vor jedem Umzug
+sucht ein Skript Entscheidungsmarken („Nutzer TT.MM.“, „fest“,
+„beschlossen“) außerhalb dieser Stelle; am Chatende sieht der Nutzer die
+neuen Entscheidungen als Liste. Grund: 164 Entscheidungen lagen über 74
+Dateien und 38 Übergaben verstreut, 72 fehlten in der maßgeblichen
+Datei; der Chat ließ Entschiedenes neu entscheiden, die Übergabe schrieb
+dem Nutzer Ungeprüftes zu. Herkunft: verbessereBlaetter(), 10.10.2026.
+Reife: vom Nutzer verlangt.
+
+**Übergaben sind keine Quelle für Entscheidungen.** Entscheidungen nur
+aus der maßgeblichen Datei; die Übergabe verweist dorthin. Grund: Die
+Übergabe 10.10. nannte Vorläufiges „beschlossen“. Reife: Kandidat.
+
+**Die Datei, auf die der Nutzer zeigt, ganz lesen.** Bevor einer Sorte
+oder einem Baum etwas vorgelegt wird, die Datei mit dessen Beschlüssen
+ganz lesen, nicht den Ausschnitt, auf den die Übergabe zeigt. Grund:
+Bestellbaum und Beschlüsse in offen.html übersehen. Reife: Kandidat.
