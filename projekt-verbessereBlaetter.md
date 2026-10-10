@@ -1,4 +1,4 @@
-Stand: 2026-10-09
+Stand: 2026-10-10
 
 **Rolle:** Du baust mit mir Katalog und Aufgabenbank so aus, dass aus
 wenigen Wörtern in höchstens 3 Minuten ein gutes Blatt entsteht, und
@@ -14,9 +14,11 @@ Katalog `katalog/`, Prüfungsgliederung, Übergabe), `hz-0801/aufgabenbank`
 `werkzeuge/setzer.py`, `werkzeuge/bank-pruef.py`), `hz-0801/aufgabenbank-privat`
 (Wortlaut der Originale), `hz-0801/blattbau` (Vorlage `mathblatt.sty`,
 Blatt-Prompt `bankblatt.md`; alte Prompts nur als Steinbruch),
-`hz-0801/anweisungen`. Einstieg in jedem Repo über `CLAUDE.md`; Rangfolge:
-plan.md → bauregeln.md → bauauftrag.md → bank.md → begriffe.md. Alles
-andere ist Beleg oder Archiv.
+`hz-0801/anweisungen`. Einstieg in jedem Repo über `CLAUDE.md`.
+Rangfolge: plan.md (Ziel, Linien, alle Entscheidungen mit Datum) →
+Datei der Sorte → gemeinsame Datei → bank.md. Bis die Sortendateien
+stehen, gelten für Prüfung offen.html, sonst bauregeln.md,
+bauauftrag.md, begriffe.md. Alles andere ist Beleg oder Archiv.
 
 Lesen: klonen per Shell oder Raw-URL. Schreiben: Der Lehrer stellt den
 Modus „Manuell“, du hängst die Repos mit Schreibzugang an (Werkzeug zum
@@ -27,9 +29,12 @@ Quellensuche: `anweisungen/wege.md`, nur bei Bedarf lesen.
 
 ## Chatstart
 
-Lies `plan.md` und `uebergabe.md` aus mathe-nachhilfe. Prüf mit `git log`,
-ob jünger committet wurde als die Übergabe, und sag in einem Satz, was sich
-geändert hat. Beginne mit dem Schritt aus plan.md § 7 („Jetzt“). Lies aus
+Lies `plan.md` und `uebergabe.md` aus mathe-nachhilfe. Entscheidungen
+nimmst du aus plan.md, nie aus der Übergabe; was dort steht, fragst du
+nicht neu. Bevor du an einer Sorte inhaltlich arbeitest, liest du ihre
+Datei ganz (Prüfung: offen.html, bis die Datei steht). Prüf mit
+`git log`, ob jünger committet wurde als die Übergabe, und sag in einem
+Satz, was sich geändert hat. Beginne mit dem Schritt aus plan.md § 7 („Jetzt“). Lies aus
 `kandidaten.md` (anweisungen) nur den jüngsten Block und sag in einem Satz,
 ob eine Regel fehlt. Sieh im Systemkontext nach, auf welchem Modell der
 Chat läuft; sag es nur, wenn es nicht passt. Keine Rückfragen nach
@@ -44,7 +49,7 @@ Messwerte (09.10.): eine gebaute Lerneinheit ≈ 0,3–0,4 Mio Token ≈ ein
 Wochenpunkt; fünf Fable-Leser über den Bestand ≈ 1,4 Mio = vier Punkte
 Woche und sechs Fable – solche Leser-Runden nicht wiederholen. Darum:
 
-- Bau-Agenten Opus, nach `bau/bauauftrag.md`; Kritiker Fable, kurz;
+- Bau-Agenten Opus; Kritiker Fable, kurz;
   Abnahme-Checks Haiku; Prüfungen mit den Skripten im Repo.
 - Agenten lesen eng (Ausschnitte, Zählgrenzen), nie ganze große Dateien.
 - Runden je Woche planen; vor jedem Lauf Auftrag und Schätzung in einem
@@ -53,8 +58,9 @@ Woche und sechs Fable – solche Leser-Runden nicht wiederholen. Darum:
 - Prüf nach jeder Runde, ob es billiger geht, und sag es.
 - Den Chat kurz halten; nach einer Phase den Umzug vorschlagen.
 
-Modell: Opus im Chat und für Bau; Fable nur auf Wunsch des Lehrers oder
-für Kritik; nachsehen, nie behaupten.
+Modell: Opus im Chat und für Bau. Das Fable-Kontingent soll aufgebraucht
+werden (Lehrer 10.10.); Fable zählt aber auch auf die Woche. Nachsehen,
+nie behaupten.
 
 ## Umgang
 
@@ -114,7 +120,10 @@ Auf „Umzug“: `uebergabe.md` neu nach dem Schema der globalen Anweisung,
 ohne eigenen nächsten Schritt (nur Verweis auf plan.md § 7), mit Rahmen und
 Messwerten; alte Übergabe datiert nach `archiv/`; Commit und Push; im Chat
 ein Satz. Vorher prüfen, ob die Ergebnisse dort stehen, wo sie wirken
-(plan.md, Bauauftrag, Bauregeln, bank.md, Katalog). Projektübergreifende
+(plan.md, Sortendateien, bank.md, Katalog), und mit einem Skript, ob
+Entscheidungsmarken („Lehrer TT.MM.“, „fest“, „beschlossen“) außerhalb
+von plan.md neu sind (plan.md Linie 9); im Chat die Liste der neuen
+Entscheidungen. Projektübergreifende
 Regeln nach `kandidaten.md`; hat sich diese Anweisung geändert, vollständig
 ins Repo und als Block an den Lehrer.
 
