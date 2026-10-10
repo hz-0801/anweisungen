@@ -1146,3 +1146,20 @@ Reife: Kandidat.
 
 **Messwert 10.10.:** ≈ 0,75 Mio Opus-Token je Wochenpunkt; eigene
 Hochrechnung lag 20 Punkte daneben – nur Ablesung zählt.
+
+## Kandidaten 2026-10-10b (Projekt verbessereBlaetter, Umzug abends)
+
+**Ein fester Stand in einer Datei je Sorte.** Jede Sorte von Ergebnis
+(z. B. Schulstoff-Blatt, Prüfungsheft) hat genau eine Datei, die gilt
+und alles enthält, was der Bau braucht – wie früher ein Prompt. Regeln
+nicht über mehrere Dateien verteilen; gemeinsame Technik höchstens eine
+weitere Datei. Grund: Verteilte Regeln (Plan, Bauauftrag, Bauregeln,
+Bankform, Befunde, Treppen) machten das Repo unübersichtlich; der Chat
+verlor den Überblick und baute im Kreis. Herkunft: Lehrer 10.10.2026
+(„der alte Prompt hat einen Stand festgehalten“). Reife: vom Nutzer
+verlangt.
+
+**Sorten getrennt halten, Technik teilen.** Zwei Sorten mit verschiedenen
+Quellen (Allgemein aus dem Katalog, Prüfung aus der Prüfungsgliederung)
+nicht in einen Weg zwingen; gemeinsam ist nur die Technik (Kennung,
+kurze Einheiten, Übersicht). Herkunft: Lehrer 10.10.2026. Reife: Kandidat.
