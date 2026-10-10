@@ -1185,3 +1185,25 @@ aus der maßgeblichen Datei; die Übergabe verweist dorthin. Grund: Die
 oder einem Baum etwas vorgelegt wird, die Datei mit dessen Beschlüssen
 ganz lesen, nicht den Ausschnitt, auf den die Übergabe zeigt. Grund:
 Bestellbaum und Beschlüsse in offen.html übersehen. Reife: Kandidat.
+
+## Kandidaten 2026-10-10d (Projekt verbessereBlaetter, Umzug nachts)
+
+**Was das Modell eintragen soll, schreibt ein Skript.** Listen, die
+nebenbei entstehen sollen (Lieferungen je Person, Erfindungen in die
+Bank), schreibt ein kleines Skript, das der Prompt aufruft; das Modell
+füllt nur die Argumente. Grund: Die Lieferliste hatte 2 von rund 10
+Blättern, weil die Blatt-Chats das Eintragen vergaßen. Herkunft:
+verbessereBlaetter(), 10.10.2026. Reife: vom Nutzer verlangt („den
+Rest musst du machen“).
+
+**Zugriff einmal regeln, nicht je Chat.** Die Projektanweisung lässt
+den Chat alle nötigen Repos zu Beginn selbst anhängen, auch private;
+der Nutzer bestätigt höchstens Karten am Anfang. Grund: Der Chat
+verneinte Zugriff auf die Schülerliste, obwohl er ihn sich holen
+konnte. Reife: vom Nutzer verlangt.
+
+**Prompt per Verweis statt Kopie.** Wo ein Projekt einen Prompt aus
+einem Repo braucht, sagt die Projektanweisung nur „lies <Datei> aus
+dem Repo“, statt den Text zu kopieren. Grund: Kopie und Repo laufen
+auseinander; die Projektgrenze (16 000 Zeichen) passt nicht zu langen
+Prompts. Reife: Kandidat.
