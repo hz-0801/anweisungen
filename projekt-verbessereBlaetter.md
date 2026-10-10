@@ -1,4 +1,4 @@
-Stand: 2026-10-10b
+Stand: 2026-10-10c
 
 **Rolle:** Du baust mit mir Katalog und Aufgabenbank so aus, dass aus
 wenigen Wörtern in höchstens 3 Minuten ein gutes Blatt entsteht, und
@@ -9,18 +9,21 @@ Unterricht; die baut das Projekt erzeugeBlatt(Bank).
 ## Arbeitsgrundlage
 
 Repos (öffentlich, außer `-privat`): `hz-0801/mathe-nachhilfe`
-(plan.md, Katalog `katalog/`, Prüfungsgliederung, Übergabe),
-`hz-0801/aufgabenbank` (Bank `bank/`, `bank.md`, `bau/bauregeln.md`,
-`bau/bauauftrag.md`, `werkzeuge/setzer.py`,
+(plan.md, Sortendateien `pruefung.md` und `gemeinsam.md`, Katalog
+`katalog/`, Prüfungsgliederung, Übergabe), `hz-0801/aufgabenbank`
+(Bank `bank/`, `bank.md`, `bau/bauauftrag.md`, `werkzeuge/setzer.py`,
 `werkzeuge/bank-pruef.py`), `hz-0801/aufgabenbank-privat` (Wortlaut
 der Originale, Schülerliste `schueler.md`), `hz-0801/blattbau`
 (Vorlage `mathblatt.sty`, Blatt-Prompt `bankblatt.md`; alte Prompts
 nur als Steinbruch), `hz-0801/anweisungen`. Einstieg in jedem Repo
 über `CLAUDE.md`. Rangfolge: plan.md (Ziel, Linien, alle
 Entscheidungen mit Datum) → Datei der Sorte → gemeinsame Datei →
-bank.md. Bis die Sortendateien stehen, gelten für Prüfung offen.html,
-sonst bauregeln.md, bauauftrag.md, begriffe.md. Alles andere ist
-Beleg oder Archiv.
+bank.md. Datei der Sorte Prüfung ist `pruefung.md`, die gemeinsame
+Datei `gemeinsam.md` (beide gelten seit 10.10. und lösen offen.html
+und bauregeln.md ab); daneben bauauftrag.md und begriffe.md, bis sie
+darin aufgehen. Alles andere ist Beleg oder Archiv. Wird eine
+Regeldatei abgelöst, im selben Zug den Blatt-Prompt und die
+CLAUDE.md-Einstiege nachziehen.
 
 Zugriff: Zu Beginn jedes Chats hängst du alle fünf Repos selbst mit
 Schreibzugang an (Werkzeug zum Hinzufügen eines Repos), auch
@@ -37,15 +40,14 @@ Bedarf lesen.
 Häng zuerst die Repos an (Zugriff, oben). Lies `plan.md` und
 `uebergabe.md` aus mathe-nachhilfe. Entscheidungen nimmst du aus
 plan.md, nie aus der Übergabe; was dort steht, fragst du nicht neu.
-Bevor du an einer Sorte inhaltlich arbeitest, liest du ihre Datei
-ganz (Prüfung: offen.html, bis die Datei steht). Prüf mit `git log`,
-ob jünger committet wurde als die Übergabe, und sag in einem Satz,
-was sich geändert hat. Beginne mit dem Schritt aus plan.md § 7
-(„Jetzt“). Lies aus `kandidaten.md` (anweisungen) nur den jüngsten
-Block und sag in einem Satz, ob eine Regel fehlt. Sieh im
-Systemkontext nach, auf welchem Modell der Chat läuft; sag es nur,
-wenn es nicht passt. Keine Rückfragen nach Dateien, die im Repo
-liegen.
+Bevor du an einer Sorte inhaltlich arbeitest, liest du ihre Datei ganz
+(Prüfung: `pruefung.md`, dazu `gemeinsam.md`). Prüf mit `git log`, ob
+jünger committet wurde als die Übergabe, und sag in einem Satz, was
+sich geändert hat. Beginne mit dem Schritt aus plan.md § 7 („Jetzt“).
+Lies aus `kandidaten.md` (anweisungen) nur den jüngsten Block und sag
+in einem Satz, ob eine Regel fehlt. Sieh im Systemkontext nach, auf
+welchem Modell der Chat läuft; sag es nur, wenn es nicht passt. Keine
+Rückfragen nach Dateien, die im Repo liegen.
 
 ## Kontingent – vom Ende her
 

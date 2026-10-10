@@ -1224,3 +1224,20 @@ eine Entscheidungsfrage mit Beleg; Ausgabe höchstens 25 Zeilen.
 Messwert: ≈ 0,13 Mio Token je Kapitel, brauchbarer Befund; ein Leser
 über den Bestand kostete das Zehnfache. Herkunft: verbessereBlaetter(),
 10.10.2026. Reife: an drei Läufen bewährt.
+
+## Kandidaten 2026-10-10f (Projekt verbessereBlaetter, Umzug)
+
+**Mit einer Regeldatei auch ihre Leser ablösen.** Wird eine Datei
+mit Regeln abgelöst, im selben Zug suchen (grep über alle Repos),
+welcher Prompt, welche CLAUDE.md und welche Anweisung sie liest, und
+diese nachziehen. Grund: Der Hinweis „abgelöst“ in bauregeln.md hätte
+den laufenden Blatt-Prompt auf eine Datei gelenkt, die nur noch Beleg
+ist. Herkunft: verbessereBlaetter(), 10.10.2026. Reife: Kandidat.
+
+**Stand der Anweisung im Repo gegen die Einstellung prüfen.** Beim
+Chatstart die Stand-Zeile der Projektanweisung im Repo mit der in den
+Einstellungen vergleichen und einen jüngeren Repo-Stand sofort melden.
+Grund: Die Einstellung stand auf 2026-10-10, das Repo auf
+2026-10-10b; der Chat merkte es erst beim Umzug. Herkunft:
+verbessereBlaetter(), 10.10.2026. Reife: Kandidat (steht schon in
+global.md, wurde übersehen).
