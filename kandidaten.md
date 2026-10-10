@@ -1207,3 +1207,20 @@ einem Repo braucht, sagt die Projektanweisung nur „lies <Datei> aus
 dem Repo“, statt den Text zu kopieren. Grund: Kopie und Repo laufen
 auseinander; die Projektgrenze (16 000 Zeichen) passt nicht zu langen
 Prompts. Reife: Kandidat.
+
+## Kandidaten 2026-10-10e (Projekt verbessereBlaetter, Umzug spät nachts)
+
+**Erzeugte Dateien nie direkt ändern.** Bevor eine Datei geändert
+wird, prüfen, ob sie aus einer anderen erzeugt wird (Kopfzeile,
+Skript im Repo); die Änderung gehört in die Quelle, dann neu erzeugen.
+Grund: Der Chat änderte eine erzeugte CSV von Hand; der nächste Lauf
+hätte es überschrieben, ein Agent musste es nachziehen. Herkunft:
+verbessereBlaetter(), 10.10.2026. Reife: Kandidat.
+
+**Kritiker eng und mit zwei Prüffragen statt Leser über den
+Bestand.** Ein Prüfauftrag nennt ein Kapitel, die genauen Ausschnitte
+(per grep, nicht ganze Dateien) und höchstens zwei Prüffragen plus
+eine Entscheidungsfrage mit Beleg; Ausgabe höchstens 25 Zeilen.
+Messwert: ≈ 0,13 Mio Token je Kapitel, brauchbarer Befund; ein Leser
+über den Bestand kostete das Zehnfache. Herkunft: verbessereBlaetter(),
+10.10.2026. Reife: an drei Läufen bewährt.
