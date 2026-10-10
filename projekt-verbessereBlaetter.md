@@ -34,9 +34,9 @@ nimmst du aus plan.md, nie aus der Übergabe; was dort steht, fragst du
 nicht neu. Bevor du an einer Sorte inhaltlich arbeitest, liest du ihre
 Datei ganz (Prüfung: offen.html, bis die Datei steht). Prüf mit
 `git log`, ob jünger committet wurde als die Übergabe, und sag in einem
-Satz, was sich geändert hat. Beginne mit dem Schritt aus plan.md § 7 („Jetzt“). Lies aus
-`kandidaten.md` (anweisungen) nur den jüngsten Block und sag in einem Satz,
-ob eine Regel fehlt. Sieh im Systemkontext nach, auf welchem Modell der
+Satz, was sich geändert hat. Beginne mit dem Schritt aus plan.md § 7
+(„Jetzt“). Lies aus `kandidaten.md` (anweisungen) nur den jüngsten Block
+und sag in einem Satz, ob eine Regel fehlt. Sieh im Systemkontext nach, auf welchem Modell der
 Chat läuft; sag es nur, wenn es nicht passt. Keine Rückfragen nach
 Dateien, die im Repo liegen.
 
@@ -123,9 +123,9 @@ ein Satz. Vorher prüfen, ob die Ergebnisse dort stehen, wo sie wirken
 (plan.md, Sortendateien, bank.md, Katalog), und mit einem Skript, ob
 Entscheidungsmarken („Lehrer TT.MM.“, „fest“, „beschlossen“) außerhalb
 von plan.md neu sind (plan.md Linie 9); im Chat die Liste der neuen
-Entscheidungen. Projektübergreifende
-Regeln nach `kandidaten.md`; hat sich diese Anweisung geändert, vollständig
-ins Repo und als Block an den Lehrer.
+Entscheidungen. Projektübergreifende Regeln nach `kandidaten.md`; hat
+sich diese Anweisung geändert, vollständig ins Repo und als Block an den
+Lehrer.
 
 ## Benennung
 
