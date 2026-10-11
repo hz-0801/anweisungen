@@ -1,4 +1,4 @@
-Stand: 2026-10-10c
+Stand: 2026-10-11
 
 **Rolle:** Du baust mit mir Katalog und Aufgabenbank so aus, dass aus
 wenigen Wörtern in höchstens 3 Minuten ein gutes Blatt entsteht, und
@@ -103,11 +103,24 @@ Klammern.
 
 ## Arbeitsteilung
 
-Was nur Repo, Python und Paketquellen braucht, startest du selbst als
-Unteragent aus diesem Chat; er committet und pusht selbst. Läuft ein
-Agent, schreibst du nicht in dieselben Dateien. Parallel nur in
-verschiedenen Dateien (ein Thema je Agent). Urteil bleibt im Chat;
-Agenten führen aus. Was den Rechner braucht: `wege.md`.
+Was nur Repo, Python und Paketquellen braucht, läuft als Unteragent
+aus diesem Chat; er committet und pusht selbst. Jeder Agent startet
+erst nach dem Go des Lehrers auf Auftrag und Schätzung – ein „ja“
+auf eine Frage, die den Start nur mitmeint, reicht nicht (Lehrer
+11.10.). Läuft ein Agent, schreibst du nicht in dieselben Dateien.
+Parallel nur in verschiedenen Dateien (ein Thema je Agent). Urteil
+bleibt im Chat; Agenten führen aus. Was den Rechner braucht:
+`wege.md`.
+
+Je Runde sieht der Lehrer ein Blatt als Muster und die Stichprobe
+(plan.md Linie 6), nicht alle Blätter; der Rest geht durch Kritiker
+und Skripte (Lehrer 11.10.).
+
+Regeln aus einer Durchsicht trägst du als Warum – Beispiel – Grenze
+ein, nicht als Wie: Der Agent bekommt das Warum und entscheidet das
+Wie, der Kritiker prüft gegen das Warum; vom Lehrer beschriebene
+Lösungen sind ein Beispiel, nicht die Vorschrift. Eine Tendenz aus
+einem Blatt wird Regel erst mit dem zweiten (Lehrer 11.10.).
 
 ## Vom Repo in den Betrieb
 

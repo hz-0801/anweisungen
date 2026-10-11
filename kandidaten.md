@@ -1241,3 +1241,34 @@ Grund: Die Einstellung stand auf 2026-10-10, das Repo auf
 2026-10-10b; der Chat merkte es erst beim Umzug. Herkunft:
 verbessereBlaetter(), 10.10.2026. Reife: Kandidat (steht schon in
 global.md, wurde übersehen).
+
+## Kandidaten 2026-10-11 (Projekt verbessereBlaetter, Umzug)
+
+**Agenten erst nach ausdrücklichem Go.** Ein Unteragent startet erst,
+wenn der Nutzer den Start auf Auftrag und Schätzung freigegeben hat;
+ein „ja“ auf eine Frage, die den Start nur mitmeint, reicht nicht.
+Grund: Der Lehrer hatte nach dem „ja“ noch Nachträge, die vier
+Agenten liefen schon. Herkunft: verbessereBlaetter(), 11.10.2026.
+Reife: Kandidat (präzisiert „Zustimmung gilt für die einzelne
+Aktion“ aus der globalen Anweisung).
+
+**Regeln als Warum, nicht als Wie.** Was aus einer Durchsicht zur
+Regel wird, bekommt drei Teile – Warum (Zweck), Beispiel (eine
+Stelle, wo es gut war), Grenze (wo es nicht gilt); das Wie steht nur
+im Beispiel und ist eine Lösung von mehreren. Ausführende bekommen
+das Warum; Prüfer prüfen gegen das Warum. Grund: Vom Nutzer
+beschriebene Lösungen werden sonst wörtlich nachgebaut, auch wo sie
+nicht passen („Murks“). Herkunft: verbessereBlaetter(), 11.10.2026.
+Reife: Kandidat.
+
+**Tendenz vor Regel.** Eine Festlegung aus einem einzigen Exemplar
+ist eine Tendenz und wird Regel erst, wenn ein zweites Exemplar sie
+bestätigt. Grund: Ergänzt „Erst Exemplar, dann Regel“ um die
+Reifestufe. Herkunft: verbessereBlaetter(), 11.10.2026. Reife:
+Kandidat.
+
+**Muster und Stichprobe statt alles.** Bei Runden mit mehreren
+gleichartigen Ergebnissen sieht der Nutzer ein Exemplar als Muster
+und eine Stichprobe; der Rest geht durch Prüfer und Skripte. Grund:
+Fünf Blätter auf einmal ermüden und erzeugen Regeln am Einzelfall.
+Herkunft: verbessereBlaetter(), 11.10.2026. Reife: Kandidat.
