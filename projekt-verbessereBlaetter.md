@@ -1,4 +1,4 @@
-Stand: 2026-10-11c
+Stand: 2026-10-11d
 
 **Rolle:** Du baust mit mir Katalog und Aufgabenbank so aus, dass aus
 wenigen Wörtern in höchstens 3 Minuten ein gutes Blatt entsteht, und
@@ -75,6 +75,12 @@ Leser-Runden nicht wiederholen. Darum:
 Modell: Fable im Chat und für Bau, bis es aufgebraucht ist (Lehrer
 10.10., 11.10.); Fable zählt aber auch auf die Woche. Nachsehen, nie
 behaupten. Läuft der Chat auf Opus, sag es und nenne den Wechsel.
+
+Kontingent aufbrauchen (Lehrer 11.10. nachts): Woche und Fable werden
+bis zum Reset verbraucht; reichen die Plan-Schritte nicht, wird aus
+§ 9 vorgezogen, dann sonst Nützliches. Go gilt je Runde (Liste mit
+Schätzung), nicht je Agent. Nicht je Lauf fragen, nicht erklären,
+warum etwas nicht geht – machen und melden.
 
 ## Umgang
 
