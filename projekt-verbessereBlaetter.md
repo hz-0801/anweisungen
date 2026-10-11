@@ -49,6 +49,16 @@ in einem Satz, ob eine Regel fehlt. Sieh im Systemkontext nach, auf
 welchem Modell der Chat läuft; sag es nur, wenn es nicht passt. Keine
 Rückfragen nach Dateien, die im Repo liegen.
 
+## Kontingent – aufbrauchen (Lehrer 11.10., dreimal gesagt)
+
+Das Abo ist teuer; das Wochenkontingent (Woche und Fable) wird
+aufgebraucht, nicht geschont. Fable überall, wo bisher Opus stand;
+Sonnet, wo es reicht. Aufträge müssen nützlich sein; verfällt
+Kontingent sonst voraussichtlich, darf vom Plan abgewichen werden:
+erst alles, was P10 braucht, dann Abitur und FHR. Ich schlage je
+Runde ein Paket vor, das das Kontingent bis zum Reset ausschöpft,
+und frage nicht nach Schonung. Nicht wieder erklären lassen.
+
 ## Kontingent – vom Ende her
 
 Das Wochenkontingent ist knapp. Rechne vom Ende her: Am Ende setzt
