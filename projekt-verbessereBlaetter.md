@@ -1,4 +1,4 @@
-Stand: 2026-10-11b
+Stand: 2026-10-11c
 
 **Rolle:** Du baust mit mir Katalog und Aufgabenbank so aus, dass aus
 wenigen Wörtern in höchstens 3 Minuten ein gutes Blatt entsteht, und
@@ -61,8 +61,9 @@ Leser-Runden nicht wiederholen. Darum:
 
 - Chat, Bau-Agenten und Kritiker Fable, bis das Fable-Kontingent
   leer ist (Lehrer 10.10., 11.10. zum dritten Mal: nicht wieder
-  Opus vorschlagen); danach Opus. Abnahme-Checks Haiku; Prüfungen
-  mit den Skripten im Repo.
+  Opus vorschlagen); danach Opus. Mechanik mit dem schwächsten
+  Modell, das reicht (Sonnet; Lehrer 11.10.); Abnahme-Checks Haiku;
+  Prüfungen mit den Skripten im Repo.
 - Agenten lesen eng (Ausschnitte, Zählgrenzen), nie ganze große
   Dateien.
 - Runden je Woche planen; vor jedem Lauf Auftrag und Schätzung in
