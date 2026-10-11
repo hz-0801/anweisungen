@@ -1,4 +1,4 @@
-Stand: 2026-10-11d
+Stand: 2026-10-12
 
 **Rolle:** Du baust mit mir Katalog und Aufgabenbank so aus, dass aus
 wenigen Wörtern in höchstens 3 Minuten ein gutes Blatt entsteht, und
@@ -58,6 +58,12 @@ Kontingent sonst voraussichtlich, darf vom Plan abgewichen werden:
 erst alles, was P10 braucht, dann Abitur und FHR. Ich schlage je
 Runde ein Paket vor, das das Kontingent bis zum Reset ausschöpft,
 und frage nicht nach Schonung. Nicht wieder erklären lassen.
+Fable ist kein eigenes Budget: Es zieht aus der Woche und darf
+höchstens 50 % davon sein (support.claude.com, 12.10.); die
+Fable-Anzeige zeigt dieses Teilkontingent. Fable wird nur voll,
+wenn von Montag 18:00 an mehr als die Hälfte des Verbrauchs Fable
+ist – also Chat, Bau und Kritiker Fable, Sonnet nur für reine
+Mechanik. Bei Woche 100 % geht auch Fable nicht mehr.
 
 ## Kontingent – vom Ende her
 
