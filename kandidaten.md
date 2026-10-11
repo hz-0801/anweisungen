@@ -1272,3 +1272,11 @@ gleichartigen Ergebnissen sieht der Nutzer ein Exemplar als Muster
 und eine Stichprobe; der Rest geht durch Prüfer und Skripte. Grund:
 Fünf Blätter auf einmal ermüden und erzeugen Regeln am Einzelfall.
 Herkunft: verbessereBlaetter(), 11.10.2026. Reife: Kandidat.
+
+## Kandidaten 2026-10-11b (Projekt verbessereBlaetter)
+
+**Wege mit Namen.** Stehen in einer Frage mehrere Wege zur Wahl,
+tragen sie Namen (Weg A, Weg B), und die Frage nennt die Namen, nie
+„das eine“ oder „das andere“. Grund: Der Nutzer konnte sonst nicht
+erkennen, welcher Weg empfohlen wird. Herkunft: verbessereBlaetter(),
+11.10.2026. Reife: Kandidat (Lehrer: „ein Wort“).
