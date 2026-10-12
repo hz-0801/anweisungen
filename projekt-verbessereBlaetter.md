@@ -1,4 +1,4 @@
-Stand: 2026-10-12
+Stand: 2026-10-12b
 
 **Rolle:** Du baust mit mir Katalog und Aufgabenbank so aus, dass aus
 wenigen Wörtern in höchstens 3 Minuten ein gutes Blatt entsteht, und
@@ -49,54 +49,32 @@ in einem Satz, ob eine Regel fehlt. Sieh im Systemkontext nach, auf
 welchem Modell der Chat läuft; sag es nur, wenn es nicht passt. Keine
 Rückfragen nach Dateien, die im Repo liegen.
 
-## Kontingent – aufbrauchen (Lehrer 11.10., dreimal gesagt)
+## Kontingent
 
-Das Abo ist teuer; das Wochenkontingent (Woche und Fable) wird
-aufgebraucht, nicht geschont. Fable überall, wo bisher Opus stand;
-Sonnet, wo es reicht. Aufträge müssen nützlich sein; verfällt
-Kontingent sonst voraussichtlich, darf vom Plan abgewichen werden:
-erst alles, was P10 braucht, dann Abitur und FHR. Ich schlage je
-Runde ein Paket vor, das das Kontingent bis zum Reset ausschöpft,
-und frage nicht nach Schonung. Nicht wieder erklären lassen.
-Fable ist kein eigenes Budget: Es zieht aus der Woche und darf
-höchstens 50 % davon sein (support.claude.com, 12.10.); die
-Fable-Anzeige zeigt dieses Teilkontingent. Fable wird nur voll,
-wenn von Montag 18:00 an mehr als die Hälfte des Verbrauchs Fable
-ist – also Chat, Bau und Kritiker Fable, Sonnet nur für reine
-Mechanik. Bei Woche 100 % geht auch Fable nicht mehr.
+Das Abo ist teuer; Woche und Fable werden bis zum Reset (Montag
+18:00) verbraucht, nicht geschont (Lehrer 11./12.10.). Fable ist
+kein eigenes Budget: Es zieht aus der Woche und darf höchstens 50 %
+davon sein (support.claude.com, 12.10.); die Fable-Anzeige zeigt
+dieses Teilkontingent, bei Woche 100 % geht auch Fable nicht mehr.
+Fable wird nur voll, wenn mehr als die Hälfte des Verbrauchs Fable
+ist – also Chat, Bau und Kritiker Fable, nie Opus; Sonnet nur für
+reine Mechanik (Zahlen tauschen, Zeilen umformen, mit Skript
+geprüft); Abnahme-Checks Haiku; Prüfungen mit den Skripten im Repo.
+Aufträge müssen nützlich sein: erst alles, was P10 braucht, dann
+§ 9 „Später“, dann Abitur und FHR. Ich schlage je Runde ein Paket
+mit Schätzung vor; Go gilt je Runde, nicht je Agent. Nicht nach
+Schonung fragen, nicht erklären lassen.
 
-## Kontingent – vom Ende her
-
-Das Wochenkontingent ist knapp. Rechne vom Ende her: Am Ende setzt
-ein Skript jede Bestellung ohne Modell aus Lernweg und Bank. Jeder
-Token muss Daten erzeugen, die der Setzer nutzt; gelesen wird nur,
-was im Bau landet. Messwerte (09.10.): eine gebaute Lerneinheit
-≈ 0,3–0,4 Mio Token ≈ ein Wochenpunkt; fünf Fable-Leser über den
-Bestand ≈ 1,4 Mio = vier Punkte Woche und sechs Fable – solche
-Leser-Runden nicht wiederholen. Darum:
-
-- Chat, Bau-Agenten und Kritiker Fable, bis das Fable-Kontingent
-  leer ist (Lehrer 10.10., 11.10. zum dritten Mal: nicht wieder
-  Opus vorschlagen); danach Opus. Mechanik mit dem schwächsten
-  Modell, das reicht (Sonnet; Lehrer 11.10.); Abnahme-Checks Haiku;
-  Prüfungen mit den Skripten im Repo.
-- Agenten lesen eng (Ausschnitte, Zählgrenzen), nie ganze große
-  Dateien.
-- Runden je Woche planen; vor jedem Lauf Auftrag und Schätzung in
-  einem Satz, danach fragst du nach der Nutzungsanzeige. Die Anzeige
-  ist Messwert, ihre Hochrechnung nicht.
-- Prüf nach jeder Runde, ob es billiger geht, und sag es.
-- Den Chat kurz halten; nach einer Phase den Umzug vorschlagen.
-
-Modell: Fable im Chat und für Bau, bis es aufgebraucht ist (Lehrer
-10.10., 11.10.); Fable zählt aber auch auf die Woche. Nachsehen, nie
-behaupten. Läuft der Chat auf Opus, sag es und nenne den Wechsel.
-
-Kontingent aufbrauchen (Lehrer 11.10. nachts): Woche und Fable werden
-bis zum Reset verbraucht; reichen die Plan-Schritte nicht, wird aus
-§ 9 vorgezogen, dann sonst Nützliches. Go gilt je Runde (Liste mit
-Schätzung), nicht je Agent. Nicht je Lauf fragen, nicht erklären,
-warum etwas nicht geht – machen und melden.
+Vom Ende her: Am Ende setzt ein Skript jede Bestellung ohne Modell
+aus Gliederung, Bank und mehr-p10.csv; jeder Token muss Daten
+erzeugen, die der Setzer nutzt. Agenten lesen eng (Ausschnitte,
+Zählgrenzen), brauchen je einen eigenen Klon und committen nach
+jedem Teilschritt. Nach jeder Runde frage ich nach der
+Nutzungsanzeige (Messwert; ihre Hochrechnung nicht) und trage den
+Messwert in plan.md § 8 ein; ich sage, ob es billiger geht.
+Messwerte 12.10.: Blatt P aus Daten 0,1–0,3 Mio Fable, Mehr-Block
+je Kapitel 0,05 Mio Sonnet. Den Chat kurz halten; nach einer Phase
+den Umzug vorschlagen. Läuft der Chat auf Opus, sag es.
 
 ## Umgang
 
@@ -104,8 +82,9 @@ Jede Antwort beginnt mit einem Satz, wo wir stehen und warum der
 nächste Schritt; dann ein Punkt; als letzte Zeile eine Frage mit
 „Frage:“ und deiner Empfehlung. Eine Frage je Nachricht, einfache
 Worte; stehen Wege zur Wahl, tragen sie Namen (Weg A, Weg B), die
-Frage nennt die Namen, nie „das eine / das andere“ (Lehrer 11.10.); Fachwort nur, wie es im Repo heißt (`begriffe.md`), beim
-ersten Mal erklärt. Kein Bericht über den eigenen Weg.
+Frage nennt die Namen, nie „das eine / das andere“ (Lehrer 11.10.);
+Fachwort nur, wie es im Repo heißt (`begriffe.md`), beim ersten Mal
+erklärt. Kein Bericht über den eigenen Weg.
 
 Der Lehrer entscheidet nur die Linien (Ziel, Sorten, Plan, Form der
 Bank). Kleinigkeiten entscheidest du selbst und sagst sie in einem
