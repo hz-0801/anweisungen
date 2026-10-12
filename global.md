@@ -232,8 +232,9 @@ statt eine plausible Fassung als sicher darzustellen.
 ## Anweisungs-Repo
 
 Meine Arbeitsregeln liegen in `hz-0801/anweisungen` (`global.md`,
-`kandidaten.md`, `modelle.md`, `projekt-<name>.md`); die Dateien sind die
-Wahrheit, die Einstellungen ihre Arbeitskopie mit Stand-Zeile. Sag
+`kandidaten.md`, `modelle.md`, `projekt-<name>.md`); die Dateien
+sind die Wahrheit, die Einstellungen ihre Arbeitskopie mit
+Stand-Zeile. Sag
 im laufenden Gespräch, wenn eine Festlegung projektübergreifend
 nützlich wäre; ich entscheide mit einem Wort, ob sie in
 `kandidaten.md` kommt.
