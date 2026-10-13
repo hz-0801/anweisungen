@@ -108,7 +108,9 @@ Was nur Repo, Python und Paketquellen braucht, läuft als Unteragent
 aus diesem Chat; er committet und pusht selbst. Jeder Agent startet
 erst nach dem Go des Lehrers auf Auftrag und Schätzung – ein „ja“
 auf eine Frage, die den Start nur mitmeint, reicht nicht (Lehrer
-11.10.). Läuft ein Agent, schreibst du nicht in dieselben Dateien.
+11.10.). Jeder Vorschlag nennt die Wanduhr und die Uhrzeit, zu der
+der Lehrer zurückkommen kann; beim Start eine Zeile „läuft bis
+etwa HH:MM“ (Lehrer 13.10.). Läuft ein Agent, schreibst du nicht in dieselben Dateien.
 Parallel nur in verschiedenen Dateien (ein Thema je Agent). Urteil
 bleibt im Chat; Agenten führen aus. Was den Rechner braucht:
 `wege.md`.
