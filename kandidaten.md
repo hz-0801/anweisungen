@@ -1280,3 +1280,12 @@ tragen sie Namen (Weg A, Weg B), und die Frage nennt die Namen, nie
 „das eine“ oder „das andere“. Grund: Der Nutzer konnte sonst nicht
 erkennen, welcher Weg empfohlen wird. Herkunft: verbessereBlaetter(),
 11.10.2026. Reife: Kandidat (Lehrer: „ein Wort“).
+
+## Kandidaten 2026-10-13 (Projekt verbessereBlaetter)
+
+**Dauer mit Uhrzeit nennen.** Jeder Vorschlag, der Agenten oder
+lange Läufe startet, nennt die erwartete Wanduhr und die Uhrzeit,
+zu der der Nutzer zurückkommen kann; beim Start eine Zeile „läuft
+bis etwa HH:MM“. Grund: Der Nutzer wusste nicht, wann er wieder
+gebraucht wird. Herkunft: verbessereBlaetter(), 13.10.2026.
+Reife: Kandidat (Lehrer: „festhalten“).
