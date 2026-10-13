@@ -82,6 +82,13 @@ und monatlich am ersten Chat nach dem Monatswechsel.
 |---|---|---|---|---|---|
 | 09./10.10.2026 | Runde 2, Bau | Opus 5.5 · ? | ≈ 0,75 Mio/Pkt | – | – |
 | 10.10.2026 | Kritiker, Entwürfe | Fable · ? | ≈ 0,25 Mio/Pkt | – | – |
+| 12.10.2026 | Blatt Lineare aus Daten, gleicher Auftrag | Opus 5.5 · high | 0,33 Mio, 154 min | – | blind Note 2, besser |
+| 12.10.2026 | dasselbe | Fable 5.1 · high | 0,34 Mio, 172 min | – | blind Note 3 |
+
+Befund 12.10. (ein Lauf): gleiche Tokenzahl je Aufgabe, Opus
+schneller und blind besser beurteilt; Fable kostet damit je Ergebnis
+≈ 2,5–3 × so viel Woche. Stützt die Leiter § 3. Beleg: aufgabenbank
+bau/vergleich-2026-10-12-lineare.md.
 
 ## 7 Ausführung
 
