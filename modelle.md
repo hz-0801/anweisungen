@@ -56,11 +56,27 @@ Prompt oder Daten. Prüfungen, die ein Skript kann, macht das Skript.
 
 ## 4 Was nicht gilt
 
-- Kontingent verbrauchen ist kein Ziel. Rest vor dem Reset nur für
-  Arbeit, die ohnehin ansteht und Ergebnis erzeugt.
+- Kontingent voll nutzen heißt nicht Läufe ohne Nutzen: Rest vor dem
+  Reset für Arbeit, die Ergebnis erzeugt (global.md „Kontingent“).
 - Das Fable-Teilkontingent ist kein Ziel und kein Bonus.
 - Ersetzt: „Fable aufbrauchen, nicht wieder Opus vorschlagen“
   (verbessereBlaetter, 10./11.10.2026).
+
+## 4a Sparregeln (Messung 12./13.10.)
+
+Ein Agent liest bei jedem Schritt seinen ganzen Verlauf neu; Kosten
+wachsen mit Schritten × Verlauflänge. Nach mehr als etwa 5 min Pause
+wird der Verlauf neu gemerkt (doppelt teuer).
+1. Ein Ergebnis je Agent, Schrittgrenze im Auftrag (Richtwert 60).
+2. Prüfen mit Skript; Bild-Durchsicht nur der Endfassung, kleine
+   Auflösung.
+3. Aufwand medium für Datenarbeit und Setzen, high für Kritiker und
+   Urteil; Agenten erben den Aufwand des Chats.
+4. Keine Doppel- oder Vergleichsläufe ohne Anlass.
+5. Chat kurz, Umzug nach jeder Runde.
+Messen: gewichtet aus dem Sitzungsprotokoll (Cache lesen 0,1, Cache
+schreiben 2, Ausgabe 5, Eingabe 1), nicht aus der Token-Zahl der
+Agenten-Rückmeldung – die zeigte 0,34 Mio, wo gewichtet 22 Mio waren.
 
 ## 5 Neubewertung
 
@@ -85,9 +101,12 @@ und monatlich am ersten Chat nach dem Monatswechsel.
 | 12.10.2026 | Blatt Lineare aus Daten, gleicher Auftrag | Opus 5.5 · high | 0,33 Mio, 154 min | – | blind Note 2, besser |
 | 12.10.2026 | dasselbe | Fable 5.1 · high | 0,34 Mio, 172 min | – | blind Note 3 |
 
-Befund 12.10. (ein Lauf): gleiche Tokenzahl je Aufgabe, Opus
-schneller und blind besser beurteilt; Fable kostet damit je Ergebnis
-≈ 2,5–3 × so viel Woche. Stützt die Leiter § 3. Beleg: aufgabenbank
+Befund 12.10. (ein Lauf, korrigiert 13.10.): gewichtet Fable 22,1
+Mio, Opus 16,1 Mio Token (Fable ≈ 40 % mehr, dazu 2,5-facher Preis);
+Opus schneller und blind besser beurteilt. Runde 5 gesamt: Woche
+2 → 18 %, Fable 3 → 24 % (der Fable-Lauf allein). Die Umrechnungen
+„0,25 / 0,75 Mio je Wochenpunkt“ beruhen auf der Agenten-Zahl und
+gelten nicht mehr. Stützt die Leiter § 3. Beleg: aufgabenbank
 bau/vergleich-2026-10-12-lineare.md.
 
 ## 7 Ausführung
