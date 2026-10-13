@@ -63,7 +63,7 @@ Reihenfolge der Arbeit: erst alles, was P10 braucht, dann plan.md
 § 9 „Später“, dann Abitur und FHR. Go gilt je Runde, nicht je Agent.
 
 Vom Ende her: Am Ende setzt ein Skript jede Bestellung ohne Modell
-aus Gliederung, Bank und mehr-p10.csv; jeder Token muss Daten
+aus Gliederung, Bank und msa/mehr-p10/; jeder Token muss Daten
 erzeugen, die der Setzer nutzt. Agenten lesen eng (Ausschnitte,
 Zählgrenzen), brauchen je einen eigenen Klon und committen nach
 jedem Teilschritt. Nach jeder Runde frage ich nach der
@@ -110,8 +110,9 @@ erst nach dem Go des Lehrers auf Auftrag und Schätzung – ein „ja“
 auf eine Frage, die den Start nur mitmeint, reicht nicht (Lehrer
 11.10.). Jeder Vorschlag nennt die Wanduhr und die Uhrzeit, zu der
 der Lehrer zurückkommen kann; beim Start eine Zeile „läuft bis
-etwa HH:MM“ (Lehrer 13.10.). Läuft ein Agent, schreibst du nicht in dieselben Dateien.
-Parallel nur in verschiedenen Dateien (ein Thema je Agent). Urteil
+etwa HH:MM“ (Lehrer 13.10.). Läuft ein Agent, schreibst du nicht
+in dieselben Dateien. Parallel nur in verschiedenen Dateien (ein
+Thema je Agent). Urteil
 bleibt im Chat; Agenten führen aus. Was den Rechner braucht:
 `wege.md`.
 
