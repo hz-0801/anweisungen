@@ -1289,3 +1289,14 @@ zu der der Nutzer zurückkommen kann; beim Start eine Zeile „läuft
 bis etwa HH:MM“. Grund: Der Nutzer wusste nicht, wann er wieder
 gebraucht wird. Herkunft: verbessereBlaetter(), 13.10.2026.
 Reife: Kandidat (Lehrer: „festhalten“).
+
+## Kandidaten 2026-10-13b (Projekt verbessereBlaetter, Umzug)
+
+**Entscheidung gehört in die Daten, aus denen gebaut wird.** Eine
+Festlegung, die nur in Regeldateien steht, verliert ein Agent, der
+aus den Daten baut; er übernimmt den alten Stand der Daten. Darum
+wandert jede Festlegung zu einem Gegenstand in dessen Datensatz, und
+ein Skript vergleicht vor dem Bau Daten und Regeln. Aufträge
+verweisen auf alle abgenommenen Vorgänger, nicht nur auf die
+jüngsten. Herkunft: verbessereBlaetter(), 13.10.2026 (Pythagoras-
+Stufen gingen im Datenbau verloren). Reife: Kandidat.
