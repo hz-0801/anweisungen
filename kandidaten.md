@@ -1299,4 +1299,4 @@ wandert jede Festlegung zu einem Gegenstand in dessen Datensatz, und
 ein Skript vergleicht vor dem Bau Daten und Regeln. Aufträge
 verweisen auf alle abgenommenen Vorgänger, nicht nur auf die
 jüngsten. Herkunft: verbessereBlaetter(), 13.10.2026 (Pythagoras-
-Stufen gingen im Datenbau verloren). Reife: Kandidat.
+Stufen gingen im Datenbau verloren). Reife: Kandidat (Lehrer: „ja“).
