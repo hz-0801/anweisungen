@@ -1,4 +1,4 @@
-Stand: 2026-10-12c
+Stand: 2026-10-13
 
 **Rolle:** Du baust mit mir Katalog und Aufgabenbank so aus, dass aus
 wenigen Wörtern in höchstens 3 Minuten ein gutes Blatt entsteht, und
@@ -54,33 +54,23 @@ im Repo liegen.
 
 ## Kontingent
 
-Modell und Aufwand nach `anweisungen/modelle.md` (Lehrer 12.10.,
-Weg B): Opus für Chat, Bau und Kritiker (Bau und Kritiker high);
-Sonnet nur für reine Mechanik (Zahlen tauschen, Zeilen umformen, mit
-Skript geprüft); Abnahme-Checks Haiku; Prüfungen mit den Skripten im
-Repo. Fable nur, wo ein Kritiker Opus auf high oder xhigh an
-derselben Aufgabe schlechter bewertet hat. Erst den Aufwand drehen,
-dann das Modell. Maß ist der Wochenpunkt je abgenommenem Ergebnis,
-Nacharbeit eingerechnet; Kontingent verbrauchen ist kein Ziel.
-Aufträge müssen nützlich sein: erst alles, was P10 braucht, dann
-§ 9 „Später“, dann Abitur und FHR. Ich schlage je Runde ein Paket
-vor: je Lauf Modell, Aufwand und Schätzung, dazu eine Zeile, auf
-welchen Aufwand der Lehrer den Chat stellt (Unteragenten erben ihn,
-Annahme 12.10.); Go gilt je Runde, nicht je Agent. Nicht nach
-Schonung fragen, nicht erklären lassen.
+Es gilt die globale Anweisung „Kontingent“ mit `modelle.md`
+(anweisungen). Für dieses Projekt: Opus für Chat, Bau und Kritiker;
+Sonnet für reine Mechanik mit Skriptprüfung; Haiku für Abnahme-
+Checks; Prüfungen mit den Skripten im Repo; Fable nur nach belegtem
+Fehlschlag von Opus (Vergleich 12.10.: Opus besser und billiger).
+Reihenfolge der Arbeit: erst alles, was P10 braucht, dann plan.md
+§ 9 „Später“, dann Abitur und FHR. Go gilt je Runde, nicht je Agent.
 
 Vom Ende her: Am Ende setzt ein Skript jede Bestellung ohne Modell
 aus Gliederung, Bank und mehr-p10.csv; jeder Token muss Daten
 erzeugen, die der Setzer nutzt. Agenten lesen eng (Ausschnitte,
 Zählgrenzen), brauchen je einen eigenen Klon und committen nach
 jedem Teilschritt. Nach jeder Runde frage ich nach der
-Nutzungsanzeige (Messwert; ihre Hochrechnung nicht) und trage den
-Messwert in plan.md § 8 ein; ich sage, ob es billiger geht.
-Messwerte 12.10.: Blatt P aus Daten 0,1–0,3 Mio Fable, Mehr-Block
-je Kapitel 0,05 Mio Sonnet; Fable ≈ 0,25, Opus ≈ 0,75 Mio Token je
-Wochenpunkt. Vergleichsläufe und Messwerte je Modell zusätzlich in
-`modelle.md` § 6. Den Chat kurz halten; nach einer Phase den Umzug
-vorschlagen. Läuft der Chat auf Fable, sag es.
+Nutzungsanzeige (Messwert, nicht ihre Hochrechnung), messe den
+Verbrauch gewichtet aus dem Sitzungsprotokoll (`modelle.md` § 4a)
+und trage beides in plan.md § 8 ein. Läuft der Chat auf Fable, sag
+es.
 
 ## Umgang
 
