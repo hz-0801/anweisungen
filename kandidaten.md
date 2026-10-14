@@ -1300,3 +1300,16 @@ ein Skript vergleicht vor dem Bau Daten und Regeln. Aufträge
 verweisen auf alle abgenommenen Vorgänger, nicht nur auf die
 jüngsten. Herkunft: verbessereBlaetter(), 13.10.2026 (Pythagoras-
 Stufen gingen im Datenbau verloren). Reife: Kandidat (Lehrer: „ja“).
+
+## Kandidaten 2026-10-14 (Projekt verbessereBlaetter, Umzug)
+
+**Kein Bedientext auf Gedrucktem.** Was der Leser zur Benutzung des
+Dokuments nicht braucht – „Stand …“, „anklicken springt …“,
+Beschreibungen neben einer Figur, die sie schon zeigt –, steht
+nicht darauf. Herkunft: verbessereBlaetter(), 14.10.2026 (Lehrer:
+„stell das zukünftig ab, festhalten“). Reife: Kandidat.
+
+**Erst suchen, dann „gibt es nicht“ sagen.** Bevor Claude sagt,
+etwas fehle oder sei nicht gebaut, durchsucht es Register,
+Bauordner und private Repos. Herkunft: verbessereBlaetter(),
+14.10.2026 (Basisblätter zweimal übersehen). Reife: Vorschlag.
