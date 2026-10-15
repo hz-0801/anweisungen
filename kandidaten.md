@@ -1328,4 +1328,5 @@ Fragen auf einmal“). Reife: Vorschlag.
 PDF (Acrobat/Edge), lädt es hoch; Claude liest die Kommentare per
 Skript, legt sie wörtlich mit Seite und Kennung ab und beantwortet
 sie in einem eigenen Chat. Herkunft: verbessereBlaetter(),
-15.10.2026. Reife: Vorschlag.
+15.10.2026. Reife: übernommen in global.md
+(„Kommentiertes PDF“, „Zeigen“), Lehrer 15.10.
