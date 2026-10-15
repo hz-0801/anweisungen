@@ -179,6 +179,9 @@ Zugriff:
 - Abgelegt wird nur, was in seinem Bereich vollständig ist (ein Buch
   mit allen Seiten, ein Heftsatz ganz) – nichts Halbfertiges zum
   Ersetzen später (Lehrer 15.10.).
+- Abgelegt wird erst, wenn der Lehrer das Stück begutachtet hat
+  (Lehrer 15.10.). Jedes Buch-PDF hat klickbaren Inhalt, Lesezeichen
+  und auf jeder Seite „← zurück“.
 - Dateiname kurz und eindeutig (Art, Verlag, Stufe: „Tafelwerk Duden
   Sek I.pdf“), Seite 1 zeigt das Umschlagfoto mit vollem Titel
   (Lehrer 15.10.).
