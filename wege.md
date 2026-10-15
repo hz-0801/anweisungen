@@ -176,6 +176,9 @@ Zugriff:
 - Ins Repo kommen Daten, Skripte und erkannter Text; Verlagstext
   nur ins private Repo, mit Verweis auf den Drive-Pfad.
 - Claude löscht in Drive nichts.
+- Abgelegt wird nur, was in seinem Bereich vollständig ist (ein Buch
+  mit allen Seiten, ein Heftsatz ganz) – nichts Halbfertiges zum
+  Ersetzen später (Lehrer 15.10.).
 
 ## Quellen
 
