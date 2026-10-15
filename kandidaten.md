@@ -1330,3 +1330,13 @@ Skript, legt sie wörtlich mit Seite und Kennung ab und beantwortet
 sie in einem eigenen Chat. Herkunft: verbessereBlaetter(),
 15.10.2026. Reife: übernommen in global.md
 („Kommentiertes PDF“, „Zeigen“), Lehrer 15.10.
+
+## Kandidaten 2026-10-15b (Projekt verbessereBlaetter, Umzug)
+
+**Große Dateien nicht über den Drive-Zugang im Chat.** Der
+Drive-Connector überträgt Dateien als base64 durch den Kontext (1 MB
+≈ 0,4 Mio Token). PDFs, Scans und Bücher holt Claude über einen
+gespiegelten Ordner auf dem Rechner (Drive für Desktop „Spiegeln“,
+Verbindung zur Claude-App, ohne Token); der Connector nur für Suche
+und Text. Herkunft: verbessereBlaetter(), 15.10.2026. Reife:
+Vorschlag.
