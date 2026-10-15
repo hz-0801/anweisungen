@@ -1350,3 +1350,17 @@ Folgepunkten wechselt. Grund: Das Ende der Kommentarliste ist nicht
 das Ende der Durchsicht (Lehrer 16.10.: „ich habe doch erst Geo
 kommentiert, denke mit“). Herkunft: verbessereBlaetter(), 16.10.2026.
 Reife: Vorschlag.
+
+## Kandidaten 2026-10-16 (Projekt verbessereBlaetter, Umzug Chat Bau)
+
+**Teure Wege nie allein vorlegen.** Schlägt Claude einen Lauf mit
+Modell vor, nennt es daneben den billigsten Weg, der den Zweck noch
+erfüllt (Skript, Ausschnitt statt Neuzeichnen, auf Bestellung statt
+Vorrat). Herkunft: Tafelwerk-Figuren, 15.10. („für die Tafelwerke
+ist das viel zu viel“). Reife: Vorschlag.
+
+**Stumme Fehler laut machen.** Was beim Erzeugen still verloren
+gehen kann (fehlende Zeichen einer Schrift, leere Bilder), bricht
+den Lauf ab, statt nur im Protokoll zu stehen. Herkunft: 33 Zeichen
+fehlten im Tafelwerk-PDF, das Prüfskript meldete 0, 15.10. Reife:
+Vorschlag.
