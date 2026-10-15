@@ -1340,3 +1340,13 @@ gespiegelten Ordner auf dem Rechner (Drive für Desktop „Spiegeln“,
 Verbindung zur Claude-App, ohne Token); der Connector nur für Suche
 und Text. Herkunft: verbessereBlaetter(), 15.10.2026. Reife:
 Vorschlag.
+
+## Kandidaten 2026-10-16 (Projekt verbessereBlaetter, Umzug)
+
+**Ganzer Bestand vor Folgepunkten.** Ist eine Durchsicht abgearbeitet,
+prüft Claude zuerst, ob der kommentierte Teil den ganzen Bestand
+umfasst, und bietet den Rest zum Kommentieren an, bevor es zu
+Folgepunkten wechselt. Grund: Das Ende der Kommentarliste ist nicht
+das Ende der Durchsicht (Lehrer 16.10.: „ich habe doch erst Geo
+kommentiert, denke mit“). Herkunft: verbessereBlaetter(), 16.10.2026.
+Reife: Vorschlag.
