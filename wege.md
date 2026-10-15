@@ -165,7 +165,8 @@ Nicht dort: Microsoft 365/OneDrive (Lehrer will es nicht), Repo
 Zugriff:
 - Regelweg: Google Drive für Desktop im Modus „Spiegeln“ auf dem
   Rechner des Lehrers (eingerichtet 15.10.; Ordner
-  `C:\Users\holge\Meine Ablage\Claude\Mathe`, in Drive „Claude/Mathe“); Claude holt und schreibt Dateien über die
+  `C:\Users\holge\Meine Ablage\Mathe`, in Drive „Meine Ablage/Mathe“,
+  nicht unter „Claude“ (Lehrer 15.10.)); Claude holt und schreibt Dateien über die
   Verbindung zum Rechner (device_stage_files / device_commit_files,
   bis 400 MB je Datei, ohne Token). Drive gleicht selbst ab.
 - Rechner aus: Drive-Zugang im Chat nur für Suche und Text
