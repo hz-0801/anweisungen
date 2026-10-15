@@ -1313,3 +1313,19 @@ nicht darauf. Herkunft: verbessereBlaetter(), 14.10.2026 (Lehrer:
 etwas fehle oder sei nicht gebaut, durchsucht es Register,
 Bauordner und private Repos. Herkunft: verbessereBlaetter(),
 14.10.2026 (Basisblätter zweimal übersehen). Reife: Vorschlag.
+
+## Kandidaten 2026-10-15 (Projekt verbessereBlaetter, Umzug)
+
+**Paket mit Grenze statt Go je Runde.** Bei langer Agentenarbeit
+schlägt Claude ein Paket mit Kontingent-Grenze vor; innerhalb
+entscheidet es die Form selbst, führt eine Liste „Offen (Lehrer)“
+und hält nur bei Unumkehrbarem an. Grund: Warten kostet verfallendes
+Kontingent, späteres Umwerfen ist billig, wo die Form in Daten
+liegt. Herkunft: verbessereBlaetter(), 15.10.2026 (Lehrer: „zu viele
+Fragen auf einmal“). Reife: Vorschlag.
+
+**Durchsicht als kommentiertes PDF.** Der Lehrer kommentiert im
+PDF (Acrobat/Edge), lädt es hoch; Claude liest die Kommentare per
+Skript, legt sie wörtlich mit Seite und Kennung ab und beantwortet
+sie in einem eigenen Chat. Herkunft: verbessereBlaetter(),
+15.10.2026. Reife: Vorschlag.
