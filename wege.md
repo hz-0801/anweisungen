@@ -2,8 +2,8 @@
 
 Stand 2026-10-09. Ausgelagert aus projekt-verbessereBlaetter.md (Fassung bis
 08.10.), wortgleich. Nur lesen, wenn ein Auftrag den Rechner, den Code-Tab,
-Web-Sitzungen, geplante Aufgaben, Quellensuche oder die alten Blatt-Prompts
-braucht. Teile davon sind seit dem 28.09. nicht mehr benutzt (Cloud-Guthaben
+Web-Sitzungen, geplante Aufgaben, Quellensuche, Materialablage oder
+die alten Blatt-Prompts braucht. Teile davon sind seit dem 28.09. nicht mehr benutzt (Cloud-Guthaben
 0 €, kein Testlauf, keine Nachtaufträge); sie bleiben als Beleg.
 
 ## Arbeitsteilung mit Claude Code
@@ -151,6 +151,29 @@ Abgleich von Etiketten, Auswertung von Quellen, Ermessensfälle)
 bleibt in diesem Chat. Claude Code führt aus, entscheidet nicht.
 Dateien trägt kein Modell: Sie wandern per Download, Shell
 oder Commit.
+
+## Ablage der Materialien (Lehrer 15.10.2026, Weg A)
+
+Bücher, Scans, Originalhefte (P10, Abitur, FHR, IQB) und alles, was
+der Lehrer immer zur Hand haben will, liegen in Google Drive, Ordner
+„Mathe“ – Drive enthält nur Mathe. Der Lehrer legt dort selbst ab.
+Ordner: `Bücher/` (Scans, aufbereitete PDFs), `Prüfungen/`
+(Originalhefte), `Eingang/` (Neues, das Claude verarbeiten soll).
+Nicht dort: Microsoft 365/OneDrive (Lehrer will es nicht), Repo
+(Dateien über 100 MB, Verlagstexte, für den Lehrer unpraktisch).
+
+Zugriff:
+- Regelweg: Google Drive für Desktop im Modus „Spiegeln“ auf dem
+  Rechner des Lehrers; Claude holt und schreibt Dateien über die
+  Verbindung zum Rechner (device_stage_files / device_commit_files,
+  bis 400 MB je Datei, ohne Token). Drive gleicht selbst ab.
+- Rechner aus: Drive-Zugang im Chat nur für Suche und Text
+  (search_files, read_file_content). Dateien laufen dort als base64
+  durch den Kontext – 1 MB ≈ 0,4 Mio Token; keine PDFs so holen
+  oder hochladen.
+- Ins Repo kommen Daten, Skripte und erkannter Text; Verlagstext
+  nur ins private Repo, mit Verweis auf den Drive-Pfad.
+- Claude löscht in Drive nichts.
 
 ## Quellen
 
