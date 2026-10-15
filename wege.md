@@ -179,6 +179,8 @@ Zugriff:
 - Abgelegt wird nur, was in seinem Bereich vollständig ist (ein Buch
   mit allen Seiten, ein Heftsatz ganz) – nichts Halbfertiges zum
   Ersetzen später (Lehrer 15.10.).
+- Dateiname = echter Titel des Buchs bzw. Hefts (wie auf dem
+  Umschlag), Seite 1 zeigt das Umschlagfoto (Lehrer 15.10.).
 
 ## Quellen
 
