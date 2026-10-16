@@ -1364,3 +1364,19 @@ gehen kann (fehlende Zeichen einer Schrift, leere Bilder), bricht
 den Lauf ab, statt nur im Protokoll zu stehen. Herkunft: 33 Zeichen
 fehlten im Tafelwerk-PDF, das Prüfskript meldete 0, 15.10. Reife:
 Vorschlag.
+
+## Kandidaten 2026-10-16b (Projekt verbessereBlaetter, Umzug)
+
+**Regel ins Werkzeug, nicht nur in die Datei.** Eine Formregel, die
+schon einmal festgelegt und dann nicht eingehalten wurde, bekommt ein
+Prüfskript, und das erzeugende Werkzeug verweigert die Ausgabe bei
+einer Meldung. Grund: Regeln in Dateien lesen Agenten nicht
+zuverlässig; ein Skript prüft billig und immer. Herkunft:
+verbessereBlaetter(), 16.10.2026 (Lösungsform seit 03.–06.10.
+festgelegt, am 16.10. erneut verletzt). Reife: Vorschlag.
+
+**Vor jeder Festlegung den Bestand durchsuchen.** Bevor Claude eine
+Regel vorschlägt, sucht es per grep in Plan, Regeldateien und Archiv
+nach früheren Festlegungen zum selben Gegenstand und nennt sie.
+Herkunft: verbessereBlaetter(), 16.10.2026 (Lehrer: „du solltest
+nachsehen, was wir dazu schon festgehalten hatten“). Reife: Vorschlag.
