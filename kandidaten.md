@@ -1389,3 +1389,12 @@ Nutzungsanzeige wird vor dem Start abgefragt, sonst lässt sich der
 Verbrauch keiner Runde zuordnen. Herkunft: verbessereBlaetter(),
 16.10.2026 (Schätzung 0,3 Punkte, gemessen 2 Punkte mit parallelem
 Chat). Reife: Vorschlag.
+
+## Kandidaten 2026-10-16d (Projekt verbessereBlaetter, Umzug Bau 3)
+
+**Muster neben das Prüfskript.** Ein Skript meldet nur Verstöße;
+was eine Regel erlaubt, aber das abgenommene Muster immer hat, sieht
+es nicht. Vor der Breite das Pilotergebnis Zeile für Zeile gegen das
+Muster halten, nicht nur „Skript 0“. Herkunft: verbessereBlaetter(),
+16.10.2026 (Werte ohne Namen, „27 cm³“ statt „V = 27 cm³“, Skript
+meldete 0). Reife: Vorschlag.
