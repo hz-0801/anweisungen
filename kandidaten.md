@@ -1380,3 +1380,12 @@ Regel vorschlägt, sucht es per grep in Plan, Regeldateien und Archiv
 nach früheren Festlegungen zum selben Gegenstand und nennt sie.
 Herkunft: verbessereBlaetter(), 16.10.2026 (Lehrer: „du solltest
 nachsehen, was wir dazu schon festgehalten hatten“). Reife: Vorschlag.
+
+## Kandidaten 2026-10-16c (Projekt verbessereBlaetter, Umzug Durchsicht 4)
+
+**Chat mitschätzen, Anzeige vor dem Start.** Die Schätzung einer
+Runde enthält die Chat-Antworten, nicht nur die Agenten; die
+Nutzungsanzeige wird vor dem Start abgefragt, sonst lässt sich der
+Verbrauch keiner Runde zuordnen. Herkunft: verbessereBlaetter(),
+16.10.2026 (Schätzung 0,3 Punkte, gemessen 2 Punkte mit parallelem
+Chat). Reife: Vorschlag.
