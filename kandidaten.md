@@ -1443,3 +1443,18 @@ zeigen; erst die Zeilen als kurzen Textentwurf abstimmen, dann einmal
 bauen und zeigen. Jede Bildrunde trägt den ganzen Verlauf mit.
 Herkunft: verbessereBlaetter(), 17.10.2026 (Titelseite Abiturbuch
 sechsmal gebaut). Reife: Vorschlag.
+
+## Kandidaten 2026-10-17c (Projekt verbessereBlaetter, Umzug Abitur 2)
+
+**Parallele Agenten schreiben Zwischendateien nur in eigene Ordner.**
+Wer Seiten rendert oder Zwischendateien anlegt, nimmt einen Ordner je
+Agent, nie /tmp oder einen festen Namen: Gleichnamige Dateien
+überschreiben sich, und ein Agent arbeitet unbemerkt mit fremden
+Daten. Herkunft: verbessereBlaetter(), 17.10.2026 (ein Agent sah
+Seiten eines anderen Hefts und meldete Fehlendes). Reife: Vorschlag.
+
+**Abnehmer nennen, bevor Daten erzeugt werden.** Vor einem Lauf, der
+nur Vorrat erzeugt, sagen, wer ihn liest und wann; hat er heute
+keinen, als eigenen Punkt vorlegen statt still starten. Herkunft:
+verbessereBlaetter(), 17.10.2026 (Wortlaut Abitur: Lehrer entschied
+mit Blick auf kommende Blätter). Reife: Vorschlag.
