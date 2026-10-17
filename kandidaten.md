@@ -1427,3 +1427,19 @@ Datei öffnet, umschreibt und zurückschreibt, schreibt erst in eine
 neue Datei und ersetzt dann; sonst ist bei einem Fehler das Original
 weg (17.10.: ein Register-Teil verloren, aus dem Protokoll gerettet).
 Herkunft: verbessereBlaetter(), 17.10.2026. Reife: Vorschlag.
+
+## Kandidaten 2026-10-17b (Projekt verbessereBlaetter, Umzug Abitur 1)
+
+**Doppelte Kennung erst nach dem letzten Pull prüfen.** Pullen vor
+dem Vergeben reicht nicht: Zwischen Pull und Push kann ein anderer
+Chat dieselbe Kennung vergeben (17.10. i doppelt). Nach dem letzten
+Pull vor dem Push zählen, ob die Kennung genau einmal vorkommt;
+sonst vor dem Push ausweichen. Herkunft: verbessereBlaetter(),
+17.10.2026. Reife: Vorschlag.
+
+**Gestaltung erst als Text, dann einmal bauen.** Wünsche zu
+Titelseite und Verzeichnissen nicht einzeln umsetzen und je als Bild
+zeigen; erst die Zeilen als kurzen Textentwurf abstimmen, dann einmal
+bauen und zeigen. Jede Bildrunde trägt den ganzen Verlauf mit.
+Herkunft: verbessereBlaetter(), 17.10.2026 (Titelseite Abiturbuch
+sechsmal gebaut). Reife: Vorschlag.
