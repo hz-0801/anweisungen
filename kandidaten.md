@@ -1458,3 +1458,15 @@ nur Vorrat erzeugt, sagen, wer ihn liest und wann; hat er heute
 keinen, als eigenen Punkt vorlegen statt still starten. Herkunft:
 verbessereBlaetter(), 17.10.2026 (Wortlaut Abitur: Lehrer entschied
 mit Blick auf kommende Blätter). Reife: Vorschlag.
+
+## Kandidaten 2026-10-17d (Projekt verbessereBlaetter, Umzug FHR 1)
+
+**Bei Formfragen erst ein Muster des Nutzers, dann Regeln.** Soll
+eine Form (Lösung, Layout, Text) getroffen werden, und widersprechen
+sich die Kommentare nach zwei Runden, schlägt Claude vor, dass der
+Nutzer ein einziges Beispiel selbst schreibt oder einen Anker wählt
+(etwa eine amtliche Fassung), statt weitere Regeln abzuleiten:
+Regeln aus Einzelkommentaren greifen in Fälle, für die sie nicht
+gemeint waren. Herkunft: verbessereBlaetter(), 17.10.2026 (vier
+Fassungen Lösungsweg Sek II, je ein Widerspruch umgekippt; Anker
+Erwartungshorizont sofort „viel besser“). Reife: Vorschlag.
