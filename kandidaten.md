@@ -1412,3 +1412,18 @@ Reife: Vorschlag.
 erst nach einem zweiten Versuch und mit der wörtlichen Meldung des
 Werkzeugs; die Brücke schläft oft nur. Herkunft: verbessereBlaetter(),
 17.10.2026 (Lehrer: „glaube ich nicht“ – stimmte). Reife: Vorschlag.
+
+## Kandidaten 2026-10-17b (Projekt verbessereBlaetter, Umzug Bau 5)
+
+**Eigene Grenze als eigene benennen.** Lehnt Claude etwas ab (z. B.
+Nachbau eines Verlagswerks), sagt es das als seine Grenze, mit Grund,
+und führt sie nie als Entscheidung oder Linie des Nutzers an – auch
+wenn sie früher so ins Repo geschrieben wurde. Herkunft:
+verbessereBlaetter(), 17.10.2026 (Lehrer: „das sind Sachen, die du
+entschieden hast“). Reife: Vorschlag.
+
+**Nie im selben Zug lesen und überschreiben.** Ein Skript, das eine
+Datei öffnet, umschreibt und zurückschreibt, schreibt erst in eine
+neue Datei und ersetzt dann; sonst ist bei einem Fehler das Original
+weg (17.10.: ein Register-Teil verloren, aus dem Protokoll gerettet).
+Herkunft: verbessereBlaetter(), 17.10.2026. Reife: Vorschlag.
