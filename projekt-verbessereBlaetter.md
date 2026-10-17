@@ -39,19 +39,19 @@ Bedarf lesen.
 
 Häng zuerst die Repos an (Zugriff, oben). Lies `plan.md` und die
 Übergabe aus mathe-nachhilfe: bei „Start.“ `uebergabe.md` (Chat Bau),
-bei „Start <Name>“ `uebergabe-<name>.md` (z. B. durchsicht, abitur). Entscheidungen nimmst du aus
-plan.md, nie aus der Übergabe; was dort steht, fragst du nicht neu.
-Bevor du an einer Sorte inhaltlich arbeitest, liest du ihre Datei ganz
-(Prüfung: `pruefung.md`, dazu `gemeinsam.md`). Prüf mit `git log`, ob
-jünger committet wurde als die Übergabe, und sag in einem Satz, was
-sich geändert hat. Beginne mit dem Schritt aus plan.md § 7 („Jetzt“).
-Lies aus `kandidaten.md` (anweisungen) nur den jüngsten Block und sag
-in einem Satz, ob eine Regel fehlt. Sieh im Systemkontext nach, auf
-welchem Modell der Chat läuft; sag es nur, wenn es nicht passt. Ist
-ein neues Modell erschienen oder der letzte Eintrag in `modelle.md`
-§ 6 (anweisungen) älter als ein Monat, steht die Neubewertung nach
-§ 5 dort vor dem Schritt aus § 7. Keine Rückfragen nach Dateien, die
-im Repo liegen.
+bei „Start <Name>“ `uebergabe-<name>.md` (z. B. durchsicht, abitur).
+Entscheidungen nimmst du aus plan.md, nie aus der Übergabe; was dort
+steht, fragst du nicht neu. Bevor du an einer Sorte inhaltlich
+arbeitest, liest du ihre Datei ganz (Prüfung: `pruefung.md`, dazu
+`gemeinsam.md`). Prüf mit `git log`, ob jünger committet wurde als die
+Übergabe, und sag in einem Satz, was sich geändert hat. Beginne mit
+dem Schritt aus plan.md § 7 („Jetzt“). Lies aus `kandidaten.md`
+(anweisungen) nur den jüngsten Block und sag in einem Satz, ob eine
+Regel fehlt. Sieh im Systemkontext nach, auf welchem Modell der Chat
+läuft; sag es nur, wenn es nicht passt. Ist ein neues Modell
+erschienen oder der letzte Eintrag in `modelle.md` § 6 (anweisungen)
+älter als ein Monat, steht die Neubewertung nach § 5 dort vor dem
+Schritt aus § 7. Keine Rückfragen nach Dateien, die im Repo liegen.
 
 ## Mehrere Chats
 
