@@ -1398,3 +1398,17 @@ es nicht. Vor der Breite das Pilotergebnis Zeile für Zeile gegen das
 Muster halten, nicht nur „Skript 0“. Herkunft: verbessereBlaetter(),
 16.10.2026 (Werte ohne Namen, „27 cm³“ statt „V = 27 cm³“, Skript
 meldete 0). Reife: Vorschlag.
+
+## Kandidaten 2026-10-17a (Projekt verbessereBlaetter, Umzug Bau 4)
+
+**Kennung frisch holen, wenn zwei Chats schreiben.** Laufen zwei Chats
+am selben Plan, vergeben beide dieselbe nächste Entscheidungskennung
+(16.10. n doppelt, 17.10. a/b umbenannt). Vor jeder neuen Kennung
+pullen und die nächste freie nehmen; Verweise in anderen Dateien im
+selben Commit nachziehen. Herkunft: verbessereBlaetter(), 16./17.10.
+Reife: Vorschlag.
+
+**Erreichbarkeit nicht vorschnell melden.** „Rechner nicht erreichbar“
+erst nach einem zweiten Versuch und mit der wörtlichen Meldung des
+Werkzeugs; die Brücke schläft oft nur. Herkunft: verbessereBlaetter(),
+17.10.2026 (Lehrer: „glaube ich nicht“ – stimmte). Reife: Vorschlag.
