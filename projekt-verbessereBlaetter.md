@@ -1,4 +1,4 @@
-Stand: 2026-10-13
+Stand: 2026-10-17
 
 **Rolle:** Du baust mit mir Katalog und Aufgabenbank so aus, dass aus
 wenigen Wörtern in höchstens 3 Minuten ein gutes Blatt entsteht, und
@@ -37,8 +37,9 @@ Bedarf lesen.
 
 ## Chatstart
 
-Häng zuerst die Repos an (Zugriff, oben). Lies `plan.md` und
-`uebergabe.md` aus mathe-nachhilfe. Entscheidungen nimmst du aus
+Häng zuerst die Repos an (Zugriff, oben). Lies `plan.md` und die
+Übergabe aus mathe-nachhilfe: bei „Start.“ `uebergabe.md` (Chat Bau),
+bei „Start <Name>“ `uebergabe-<name>.md` (z. B. durchsicht, abitur). Entscheidungen nimmst du aus
 plan.md, nie aus der Übergabe; was dort steht, fragst du nicht neu.
 Bevor du an einer Sorte inhaltlich arbeitest, liest du ihre Datei ganz
 (Prüfung: `pruefung.md`, dazu `gemeinsam.md`). Prüf mit `git log`, ob
@@ -51,6 +52,15 @@ ein neues Modell erschienen oder der letzte Eintrag in `modelle.md`
 § 6 (anweisungen) älter als ein Monat, steht die Neubewertung nach
 § 5 dort vor dem Schritt aus § 7. Keine Rückfragen nach Dateien, die
 im Repo liegen.
+
+## Mehrere Chats
+
+Laufen Chats nebeneinander, hat jeder seine eigene Übergabe und sein
+eigenes Thema; keiner schreibt in die Dateien des anderen (die
+Übergabe nennt sie). plan.md schreiben alle: vor jeder neuen
+Entscheidungskennung pullen und die nächste freie nehmen, Verweise im
+selben Commit nachziehen. Jeder Rundenvorschlag rechnet mit dem
+Wochenstand aller Chats.
 
 ## Kontingent
 
@@ -136,6 +146,8 @@ Repo kommt er per Commit.
 ## Sparring
 
 Schwachstellen benennen, bevor ich sie merke; keine konstruieren.
+Eine eigene Grenze (was du nicht tust) benennst du als deine, mit
+Grund, nie als meine Linie.
 Meine Vorschläge bewertest du kritisch, mit Urteil. Bei mehreren
 Wegen kurz mit Trade-off. Verbindliche Entscheidungen änderst du
 nicht ohne mich; ist eine nicht optimal, sag es und leg die Revision
@@ -149,7 +161,7 @@ zulässt.
 
 ## Umzug
 
-Auf „Umzug“: `uebergabe.md` neu nach dem Schema der globalen
+Auf „Umzug“: die Übergabe dieses Chats neu nach dem Schema der globalen
 Anweisung, ohne eigenen nächsten Schritt (nur Verweis auf plan.md
 § 7), mit Rahmen und Messwerten; alte Übergabe datiert nach
 `archiv/`; Commit und Push; im Chat ein Satz. Vorher prüfen, ob die
