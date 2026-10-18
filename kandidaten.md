@@ -1526,3 +1526,24 @@ Reife: Vorschlag.
 aus eigenem Grund nicht tut, steht in den Dateien als „Grenze von
 Claude“, nie als Entscheidung des Nutzers. Herkunft:
 verbessereBlaetter(), 18.10.2026. Reife: Vorschlag.
+
+## Kandidaten 2026-10-18b (Projekt verbessereBlaetter, Umzug FHR 3)
+
+**Vorschläge des Nutzers zuerst wörtlich umsetzen.** Schreibt der
+Nutzer eine konkrete Fassung hin, setzt Claude genau diese um und
+zeigt eine eigene Variante höchstens daneben. Eine Rückfrage des
+Nutzers an einer Stelle („Unterschied zu b)?“) ist meist ein Einwand
+und wird umgesetzt, nicht beantwortet. Herkunft: verbessereBlaetter(),
+18.10.2026 (zweimal ersetzt, je eine Runde mehr). Reife: Vorschlag.
+
+**Verbote mechanisch prüfen statt wiederholen.** Ein Verbot, das ein
+Agent immer wieder bricht (hier: Kommentare in Lösungen), kommt als
+Prüfung ins Werkzeug, das das Ergebnis erzeugt; das Werkzeug hält an.
+Herkunft: verbessereBlaetter(), 18.10.2026 (Wortliste im Setzer fing
+im alten Muster sofort sieben Kommentare). Reife: Vorschlag.
+
+**Vorgaben aus einem Ausschnitt locker halten.** Entstehen viele
+Einzelvorgaben an einem Beispiel, gelten sie mit ihrem Warum, nicht
+wörtlich; wo sie sich anderswo beißen, entscheidet das Warum, und die
+Abweichung wird gemeldet. Herkunft: verbessereBlaetter(), 18.10.2026
+(Lehrer: „wir haben hier nur einen Ausschnitt“). Reife: Vorschlag.
