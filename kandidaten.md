@@ -1488,3 +1488,20 @@ verbessereBlaetter(), 18.10.2026. Reife: Vorschlag.
 liest der Agent dort und nicht im OCR-Text; aus OCR erschlossene Werte
 waren im Pilot falsch. Herkunft: verbessereBlaetter(), 18.10.2026.
 Reife: Vorschlag.
+
+## Kandidaten 2026-10-18a (Projekt verbessereBlaetter, Umzug FHR 2)
+
+**Ein Muster für Agenten erst abnehmen lassen, dann vervielfältigen.**
+Ein Muster, nach dem Agenten in die Breite arbeiten, überträgt seine
+Lücken treu in jedes Ergebnis. Claude legt dem Nutzer das Muster und
+den Pilot vor und startet die Breite erst nach dessen Durchsicht.
+Herkunft: verbessereBlaetter(), 18.10.2026 (im Muster fehlte die
+notwendige Bedingung; der Pilot-Agent ließ sie „zuverlässig“ weg).
+Reife: Vorschlag.
+
+**Bei Formfragen eine Probe zeigen, keine Beschreibung.** Geht es um
+Layout oder Darstellung, setzt Claude eine kleine Probe und zeigt sie,
+statt Varianten zu beschreiben; das Urteil am Bild ist schneller und
+genauer. Herkunft: verbessereBlaetter(), 18.10.2026 (Skizze: drei
+Proben in einer Stunde, jede beschriebene Variante wäre anders
+verstanden worden). Reife: Vorschlag.
