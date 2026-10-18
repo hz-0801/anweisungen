@@ -1470,3 +1470,21 @@ Regeln aus Einzelkommentaren greifen in Fälle, für die sie nicht
 gemeint waren. Herkunft: verbessereBlaetter(), 17.10.2026 (vier
 Fassungen Lösungsweg Sek II, je ein Widerspruch umgekippt; Anker
 Erwartungshorizont sofort „viel besser“). Reife: Vorschlag.
+
+## Kandidaten 2026-10-18 (Projekt verbessereBlaetter, Umzug Stochastik 1)
+
+**Aufteilen per Skript prüfen.** Wer Arbeit in Gruppen für parallele
+Agenten teilt, prüft mit einem Skript, dass jede Einheit genau einmal
+vorkommt, bevor die Agenten starten. Ein Fehler beim Anhängen des Rests
+ließ 12 Seiten aus und doppelte eine Gruppe; gemerkt erst am Ergebnis.
+Herkunft: verbessereBlaetter(), 17.10.2026. Reife: Vorschlag.
+
+**Lizenz vor Wortlaut.** Bei fremden Quellen die Lizenz je Quelle
+erfassen, bevor Wortlaut übernommen wird; Bilder einzeln, denn freie
+Texte enthalten unfreie Bilder (VERA: Adobe-Stock-Foto). Herkunft:
+verbessereBlaetter(), 18.10.2026. Reife: Vorschlag.
+
+**Original vor OCR.** Gibt es die Quelle als Original (PDF, Word),
+liest der Agent dort und nicht im OCR-Text; aus OCR erschlossene Werte
+waren im Pilot falsch. Herkunft: verbessereBlaetter(), 18.10.2026.
+Reife: Vorschlag.
