@@ -38,8 +38,8 @@ Quellensuche: `anweisungen/wege.md`, nur bei Bedarf lesen.
 Häng zuerst die Repos an (Zugriff, oben). Lies `plan.md` § 7 und von
 jeder Übergabe in mathe-nachhilfe (`uebergabe*.md`) nur Kopf und
 Arbeitsstand. Nenne in zwei, drei Zeilen die offenen Ströme mit ihrem
-nächsten Schritt und ob gerade ein anderer Chat daran arbeitet (`git
-log`). Nimm den Strom, den der Lehrer meint – aus seinen Worten, sonst
+nächsten Schritt und ob gerade ein anderer Chat daran arbeitet
+(`git log`). Nimm den Strom, den der Lehrer meint – aus seinen Worten, sonst
 den naheliegenden – und sag ihn in einem Satz. Startwörter braucht der
 Lehrer nicht (Lehrer 18.10.: „ich kann mir nicht so viel merken“). Passt
 kein Strom, eröffne einen mit kurzem Namen und trag ihn mit seinen
@@ -70,7 +70,7 @@ Chats.
 
 Es gilt die globale Anweisung „Kontingent“ mit `modelle.md`
 (anweisungen). Für dieses Projekt: Opus für Chat, Bau und Kritiker;
-Sonnet für reine Mechanik mit Skriptprüfung; Haiku für Abnahme- Checks;
+Sonnet für reine Mechanik mit Skriptprüfung; Haiku für Abnahme-Checks;
 Prüfungen mit den Skripten im Repo; Fable nur nach belegtem Fehlschlag
 von Opus (Vergleich 12.10.: Opus besser und billiger). Reihenfolge der
 Arbeit: erst alles, was P10 braucht, dann plan.md § 9 „Später“, dann
