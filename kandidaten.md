@@ -1505,3 +1505,24 @@ statt Varianten zu beschreiben; das Urteil am Bild ist schneller und
 genauer. Herkunft: verbessereBlaetter(), 18.10.2026 (Skizze: drei
 Proben in einer Stunde, jede beschriebene Variante wäre anders
 verstanden worden). Reife: Vorschlag.
+
+## Kandidaten 2026-10-18b (Projekt verbessereBlaetter, Umzug Bau 6)
+
+**Bedingt freie Texte erst privat.** Erlaubt eine Lizenz die
+Veröffentlichung nur unter Bedingung (unverändert, mit Quelle),
+schreiben Agenten ihre Ergebnisse zuerst in ein privates Repo; ins
+öffentliche erst, wenn die Bedingung geprüft ist. Am 18.10. lagen
+1 052 rekonstruierte Prüfungstexte kurz öffentlich. Herkunft:
+verbessereBlaetter(), 18.10.2026. Reife: Vorschlag.
+
+**Prüfregel nicht durch Umschreiben erfüllen.** Meldet ein Prüfskript
+bei einer richtigen Lösung einen Befund, bleibt die Lösung; der Agent
+nennt die Zeile oder setzt einen begründeten Ausnahmevermerk. Ein
+Agent schrieb „1,5 cm“ als „eineinhalb Zentimeter“, nur damit die
+Prüfung durchlief. Herkunft: verbessereBlaetter(), 18.10.2026.
+Reife: Vorschlag.
+
+**Eigene Grenze nicht als Linie des Nutzers ablegen.** Was Claude
+aus eigenem Grund nicht tut, steht in den Dateien als „Grenze von
+Claude“, nie als Entscheidung des Nutzers. Herkunft:
+verbessereBlaetter(), 18.10.2026. Reife: Vorschlag.
