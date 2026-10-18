@@ -1547,3 +1547,18 @@ Einzelvorgaben an einem Beispiel, gelten sie mit ihrem Warum, nicht
 wörtlich; wo sie sich anderswo beißen, entscheidet das Warum, und die
 Abweichung wird gemeldet. Herkunft: verbessereBlaetter(), 18.10.2026
 (Lehrer: „wir haben hier nur einen Ausschnitt“). Reife: Vorschlag.
+
+## Kandidaten 2026-10-18c (Projekt verbessereBlaetter, Umzug Bau 7)
+
+**Große Runden, durchlaufen lassen.** Hat der Nutzer Kontingent und
+wenig Zeit, bündelt eine Runde alles, was parallel in getrennten
+Dateien geht, und läuft bis zum Ende (Nachsatz, Prüfung, Muster,
+Messwert), statt nach jedem Teil um ein neues Go zu fragen. Grenze:
+Pilot vor Breite, wo Form oder Kosten neu sind. Herkunft:
+verbessereBlaetter(), 18.10.2026. Reife: Vorschlag.
+
+**Agenten-Klone lokal ziehen.** Mehrere Unteragenten bekommen ihre
+Klone per `git clone` aus dem vorhandenen Klon des Chats (Remote
+danach umstellen) statt je aus dem Netz – Sekunden statt Minuten,
+kein Limit gleichzeitiger Zugriffe. Herkunft: verbessereBlaetter(),
+18.10.2026. Reife: Vorschlag.
