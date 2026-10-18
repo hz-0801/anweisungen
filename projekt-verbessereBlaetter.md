@@ -1,4 +1,4 @@
-Stand: 2026-10-17
+Stand: 2026-10-18
 
 **Rolle:** Du baust mit mir Katalog und Aufgabenbank so aus, dass aus
 wenigen Wörtern in höchstens 3 Minuten ein gutes Blatt entsteht, und
@@ -37,21 +37,28 @@ Bedarf lesen.
 
 ## Chatstart
 
-Häng zuerst die Repos an (Zugriff, oben). Lies `plan.md` und die
-Übergabe aus mathe-nachhilfe: bei „Start.“ `uebergabe.md` (Chat Bau),
-bei „Start <Name>“ `uebergabe-<name>.md` (z. B. durchsicht, abitur).
-Entscheidungen nimmst du aus plan.md, nie aus der Übergabe; was dort
-steht, fragst du nicht neu. Bevor du an einer Sorte inhaltlich
-arbeitest, liest du ihre Datei ganz (Prüfung: `pruefung.md`, dazu
-`gemeinsam.md`). Prüf mit `git log`, ob jünger committet wurde als die
-Übergabe, und sag in einem Satz, was sich geändert hat. Beginne mit
-dem Schritt aus plan.md § 7 („Jetzt“). Lies aus `kandidaten.md`
-(anweisungen) nur den jüngsten Block und sag in einem Satz, ob eine
-Regel fehlt. Sieh im Systemkontext nach, auf welchem Modell der Chat
-läuft; sag es nur, wenn es nicht passt. Ist ein neues Modell
-erschienen oder der letzte Eintrag in `modelle.md` § 6 (anweisungen)
-älter als ein Monat, steht die Neubewertung nach § 5 dort vor dem
-Schritt aus § 7. Keine Rückfragen nach Dateien, die im Repo liegen.
+Häng zuerst die Repos an (Zugriff, oben). Lies `plan.md` § 7 und von
+jeder Übergabe in mathe-nachhilfe (`uebergabe*.md`) nur Kopf und
+Arbeitsstand. Nenne in zwei, drei Zeilen die offenen Ströme mit ihrem
+nächsten Schritt und ob gerade ein anderer Chat daran arbeitet
+(`git log`). Nimm den Strom, den der Lehrer meint – aus seinen Worten,
+sonst den naheliegenden – und sag ihn in einem Satz. Startwörter
+braucht der Lehrer nicht (Lehrer 18.10.: „ich kann mir nicht so viel
+merken“). Passt kein Strom, eröffne einen mit kurzem Namen und trag
+ihn mit seinen Dateien in plan.md § 7 ein. Die Übergabe deines Stroms
+liest du dann ganz. Entscheidungen nimmst du aus plan.md, nie aus der
+Übergabe; was dort steht, fragst du nicht neu. Bevor du an einer
+Sorte inhaltlich arbeitest, liest du ihre Datei ganz (Prüfung:
+`pruefung.md`, dazu `gemeinsam.md`). Prüf mit `git log`, ob jünger
+committet wurde als die Übergabe, und sag in einem Satz, was sich
+geändert hat. Beginne mit dem Schritt aus plan.md § 7 („Jetzt“). Lies
+aus `kandidaten.md` (anweisungen) nur den jüngsten Block und sag in
+einem Satz, ob eine Regel fehlt. Sieh im Systemkontext nach, auf
+welchem Modell der Chat läuft; sag es nur, wenn es nicht passt. Ist
+ein neues Modell erschienen oder der letzte Eintrag in `modelle.md`
+§ 6 (anweisungen) älter als ein Monat, steht die Neubewertung nach
+§ 5 dort vor dem Schritt aus § 7. Keine Rückfragen nach Dateien, die
+im Repo liegen.
 
 ## Mehrere Chats
 
@@ -161,7 +168,9 @@ zulässt.
 
 ## Umzug
 
-Auf „Umzug“: die Übergabe dieses Chats neu nach dem Schema der globalen
+Auf „Umzug“: die Übergabe des Stroms, an dem der Chat gearbeitet hat
+(`uebergabe.md` für Bau, sonst `uebergabe-<strom>.md`), neu nach dem
+Schema der globalen
 Anweisung, ohne eigenen nächsten Schritt (nur Verweis auf plan.md
 § 7), mit Rahmen und Messwerten; alte Übergabe datiert nach
 `archiv/`; Commit und Push; im Chat ein Satz. Vorher prüfen, ob die
