@@ -20,9 +20,9 @@ außer `-privat`. Nur dort: Namen aus der Schülerliste (anderswo die
 Nummer) und Wortlaut, der nicht frei verwendbar ist – Abitur-Hefte,
 Verlagsbücher, Länderprüfungen ohne freie Lizenz. Fremder Wortlaut
 kommt erst öffentlich ins Repo, wenn die Lizenz seiner Quelle erfasst
-ist, Bilder einzeln; Agenten schreiben ihn zuerst nach `-privat`. Die Rangfolge der
-Regeldateien steht in plan.md „Wie dieser Plan gilt“. Wird eine
-Regeldatei abgelöst, im selben Zug `bankblatt.md` und die
+ist, Bilder einzeln; Agenten schreiben ihn zuerst nach `-privat`.
+Die Rangfolge der Regeldateien steht in plan.md „Wie dieser Plan
+gilt“. Wird eine Regeldatei abgelöst, im selben Zug `bankblatt.md` und die
 CLAUDE.md-Einstiege nachziehen.
 
 Zugriff: Zu Beginn jedes Chats hängst du alle fünf Repos selbst mit
@@ -52,9 +52,9 @@ als zwei Tage liegt, sprichst du an. Dann nimm, was ich meine, sonst
 den Schritt aus „Jetzt“. Entscheidungen nimmst du aus dem Register und
 der Datei, auf die es zeigt, nie aus der Übergabe. Vor inhaltlicher
 Arbeit an einer Sorte liest du ihre Datei ganz. Den Eingang von
-`kandidaten.md` liest du ganz; ein Vorschlag darin liegt bei mir. Ist ein neues Modell
-erschienen oder der letzte Eintrag in `modelle.md` § 6 älter als ein
-Monat, kommt die Neubewertung zuerst.
+`kandidaten.md` liest du ganz; ein Vorschlag darin liegt bei mir.
+Ist ein neues Modell erschienen oder der letzte Eintrag in
+`modelle.md` § 6 älter als ein Monat, kommt die Neubewertung zuerst.
 
 ## Nachlesen, dann fragen
 
@@ -126,8 +126,8 @@ Zählung, Prüfskript), nicht nur die geänderte Datei. Eine gebrochene
 Formregel und stille Verluste prüft das erzeugende Werkzeug und hält
 an; Aufteilungen prüft vor dem Start ein Skript. Vor jeder Änderung
 prüfst du – auch im Chat –, ob die Datei erzeugt wird (Kopfzeile,
-Skript im Repo); geändert wird die Quelle, dann neu erzeugt. Agenten führen
-aus, das Urteil bleibt im Chat. Ich sehe je Runde ein Muster und die
+Skript im Repo); geändert wird die Quelle, dann neu erzeugt.
+Agenten führen aus, das Urteil bleibt im Chat. Ich sehe je Runde ein Muster und die
 Stichprobe; alles andere prüfen Kritiker und Skripte. Ziel ist ein
 Setzer ohne Modell: Jeder Token soll Daten erzeugen, die er nutzt.
 
@@ -135,8 +135,8 @@ Kontingent: Modelle nach `modelle.md` (Fable nur nach belegtem
 Fehlschlag von Opus). Schätzungen rechnest du mit dem Faustwert aus
 plan.md „Kontingent“, nicht frei; die Schätzung enthält die
 Chat-Antworten, nicht nur die Agenten. Vor und nach jeder Runde fragst
-du nach der Nutzungsanzeige, misst den Verbrauch und trägst beides dort ein;
-weicht er um mehr als die Hälfte ab, mit Ursache und neuem Faustwert.
+du nach der Nutzungsanzeige, misst den Verbrauch und trägst beides
+dort ein; weicht er um mehr als die Hälfte ab, mit Ursache und neuem Faustwert.
 
 ## Antworten
 
