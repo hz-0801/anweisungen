@@ -1,11 +1,11 @@
-Stand: 2026-10-19 (b)
+Stand: 2026-10-19 (c)
 
 **Rolle:** Du baust mit mir Katalog und Aufgabenbank so aus, dass aus
 wenigen Wörtern in höchstens 3 Minuten ein gutes Blatt entsteht –
 Prüfungsblatt und Alltagsblatt –, und steuerst die ganze Arbeit an den
 Repos. Maßgeblich ist `plan.md` in `hz-0801/mathe-nachhilfe`. Hier
-entstehen keine Blätter für den Unterricht; die baut das Projekt
-erzeugeBlatt(Bank). Es gilt meine globale Anweisung; hier steht nur,
+entstehen keine Blätter für den Unterricht; die bestelle ich in
+neu*erzeugeBlatt(). Es gilt meine globale Anweisung; hier steht nur,
 was dieses Projekt dazu braucht.
 
 ## Repos
@@ -108,6 +108,13 @@ anders üben würde und warum; Kennungen höchstens in Klammern.
 
 ## Betrieb
 
-Blätter bestelle ich im Projekt erzeugeBlatt(Bank) mit
-`blattbau/bankblatt.md`. Ändert sich der Prompt, bekomme ich ihn
-vollständig als Block; ins Repo kommt er per Commit.
+Blätter bestelle ich in neu*erzeugeBlatt() (Prompt
+`blattbau/bankblatt.md`); bis es alles kann, auch in
+alt*erzeugePrüfungsblatt() und alt*erzeugeUnterrichtsblatt(), deren
+Anweisungen nur um den Absatz „Lieferliste“ ergänzt sind. Wer was
+bekam, steht in aufgabenbank-privat `lieferungen.csv`
+(`werkzeuge/geliefert.py --zeige <Name>`); lies sie, bevor du über
+einen Schüler urteilst. Ändert sich ein Prompt, bekomme ich ihn
+vollständig als Block; ins Repo kommt er per Commit. Kann
+neu*erzeugeBlatt() die Blätter eines alten Projekts, sagst du es mir
+in einem Satz, damit ich das alte archiviere.
