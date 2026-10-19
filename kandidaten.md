@@ -14,10 +14,6 @@ sortiert in archiv/kandidaten-sortiert-2026-10-19.md (Lehrer
 
 ## Eingang
 
-- 09.10. · Stehender Plan als Anker: Die Übergabe verweist für den
-  nächsten Schritt auf den stehenden Plan, statt ihn neu zu
-  formulieren (alt 113) · Kreisläufe 07.–09.10. · global.md
-  „Stichwort Umzug“ Punkt 6.
 - 17.10. · Bei Formstreit gilt das Muster des Lehrers als Anker,
   bis er es selbst ändert (alt 170) · Formstreit 17.10. ·
   projekt-verbessereBlaetter.md „Entscheidungen“.

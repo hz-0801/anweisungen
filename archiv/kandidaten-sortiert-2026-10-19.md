@@ -409,3 +409,12 @@ Eingang; „Verweis in Projektanweisungen“: „Lies beim Chatstart den
 Eingang von `kandidaten.md` …“). Die Reifestufen (Kandidat → erprobt →
 global) entfallen mit dem Eingang: Es gab nur ein Projekt, „erprobt in
 einem zweiten“ trat nie ein; übernommen wurde stets auf Lehrerwort.
+
+## Umzug 19.10. spät
+
+Übernommen (steht in projekt-verbessereBlaetter.md „Ein Chat zur Zeit“: „nächster Schritt nur als Verweis auf plan.md „Jetzt““):
+
+- 09.10. · Stehender Plan als Anker: Die Übergabe verweist für den
+  nächsten Schritt auf den stehenden Plan, statt ihn neu zu
+  formulieren (alt 113) · Kreisläufe 07.–09.10. · global.md
+  „Stichwort Umzug“ Punkt 6.
