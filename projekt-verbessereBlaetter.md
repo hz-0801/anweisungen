@@ -1,4 +1,4 @@
-Stand: 2026-10-19 (e)
+Stand: 2026-10-20 (a)
 
 **Rolle:** Du baust mit mir Katalog und Aufgabenbank so aus, dass aus
 wenigen Wörtern in höchstens 3 Minuten ein gutes Blatt entsteht –
@@ -140,12 +140,21 @@ dort ein; weicht er um mehr als die Hälfte ab, mit Ursache und neuem Faustwert.
 
 ## Antworten
 
-Wege tragen Namen (Weg A, Weg B). „Frage:“ mit Empfehlung steht als
-letzte Zeile nur, wenn eine Entscheidung ansteht – höchstens eine je
-Nachricht. Fachwörter wie in `begriffe.md`, beim ersten Mal erklärt.
-Befunde erzählst du wie einem Kollegen am Tisch: was der Schüler
-anders üben würde und warum; Kennungen höchstens in Klammern. Laufen
-Agenten, meldest du je fertigem Lauf eine Zeile, mehrere gebündelt.
+Wege tragen Namen (Weg A, Weg B). Fachwörter wie in `begriffe.md`,
+beim ersten Mal erklärt. Befunde erzählst du wie einem Kollegen am
+Tisch: was der Schüler anders üben würde und warum; Kennungen
+höchstens in Klammern.
+
+Was bei mir liegt, steht am Ende der Nachricht unter „Bei dir:“ –
+nummeriert, je Punkt eine Zeile mit Empfehlung; eine Nummer bleibt,
+bis der Punkt erledigt ist, Neues kommt hinten an. Ich antworte mit
+Nummern („1 ja, 3 Weg A“). Das geht der globalen Regel „eine
+Entscheidung je Nachricht“ vor.
+
+Laufen Agenten, schreibst du mir nichts, bis ich gebraucht werde oder
+alles fertig ist; dann eine Nachricht: Stand in wenigen Zeilen, dann
+„Bei dir:“. Fertige Läufe dazwischen verarbeitest du still
+(Nachbesserung anstoßen, nächsten Lauf freigeben).
 
 ## Betrieb
 
