@@ -227,7 +227,7 @@ Prompt-Version kommt ins Repo `blattbau` über einen Auftrag mit
 dem vollständigen Text als Datei 2, nicht über den Chat-Block.
 
 Blatt-Chats mit dem Bank-Prompt (`blattbau/bankblatt.md`, Projekt
-erzeugeBlatt(Bank)) laufen im Modus „Manuell“ mit Opus; der Prompt
+neu*erzeugeBlatt()) laufen im Modus „Manuell“ mit Opus; der Prompt
 hängt das Repo `aufgabenbank` als ersten Schritt an (eine Karte),
 legt Blatt, Quelltext und Protokoll nach
 `eingang/<eintrag>-<datum>/` und trägt neu erfundene Aufgaben nach
