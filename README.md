@@ -12,8 +12,11 @@ Raw-URL lesen kann:
   eine Abweichung findet, sagt es. Der kopierbare Text beginnt mit
   einer Stand-Zeile; Claude vergleicht sie beim Projektstart mit
   der Einstellung.
-- `kandidaten.md` – Regeln, die sich in einem Projekt bewährt haben
-  und projektübergreifend gelten könnten, mit Reifestufe.
+- `kandidaten.md` – Eingang: offene Regelvorschläge der letzten 14
+  Tage; der Bestand bis 19.10.2026 liegt in
+  `archiv/kandidaten-bis-2026-10-19.md`.
+- `modelle.md` – Modellleiter und Messwerte. `wege.md` – Rechner,
+  Code-Tab, geplante Aufgaben, Quellensuche.
 - `projekt-<name>.md` – Projektanweisungen, je Projekt eine Datei,
   versioniert. Die Projekteinstellung soll dem Stand entsprechen.
   Der kopierbare Text beginnt mit einer Stand-Zeile; Claude
@@ -23,22 +26,18 @@ Raw-URL lesen kann:
 ## Mechanismus
 
 Ort: diese Dateien. Auslöser: (1) Im Chat entsteht eine Regel;
-Claude formuliert den Block, der Lehrer entscheidet mit einem Wort.
-(2) Beim Umzug eines Projekts prüft die Übergabe, ob Entscheidungen
-projektübergreifend sind; Kandidaten kommen hierher. (3) Beim ersten
-Chat eines Projekts, dessen Anweisung dieses Repo nicht nennt, liest
-Claude `kandidaten.md` und sagt, was fehlt.
-
-Reife: Kandidat (aus einem Projekt) → erprobt (in einem zweiten
-Projekt bewährt) → global (in `global.md` übernommen, Block bleibt
-mit Datum stehen). Rhythmus: einmal im Quartal oder ab zehn
-Kandidaten durchsehen; was aufsteigt, ersetzt in der Regel etwas –
-die globale Anweisung soll schärfer werden, nicht länger.
+Claude formuliert sie, der Lehrer entscheidet mit einem Wort.
+(2) Beim Umzug kommen nur Regeln, die in keiner Regeldatei stehen,
+als Zeile in den Eingang von `kandidaten.md`. (3) Beim ersten Chat
+eines Projekts, dessen Anweisung dieses Repo nicht nennt, liest
+Claude den Eingang und sagt, was fehlt. Übernommen wird auf
+Lehrerwort; die globale Anweisung soll schärfer werden, nicht
+länger.
 
 ## Verweis in Projektanweisungen
 
-„Lies beim Chatstart `kandidaten.md` aus `hz-0801/anweisungen` und
-sag in einem Satz, ob eine Regel daraus für dieses Projekt fehlt.
-Beim Umzug: Regeln, die projektübergreifend gelten, als Blöcke für
-`kandidaten.md` in einem eigenen Textblock für den Ordner
-`anweisungen` ausgeben."
+„Lies beim Chatstart den Eingang von `kandidaten.md` aus
+`hz-0801/anweisungen` und sag in einem Satz, ob ein Vorschlag daraus
+für dieses Projekt gilt. Beim Umzug: Regeln, die projektübergreifend
+gelten und in keiner Regeldatei stehen, als Zeile für den Eingang
+ausgeben."

@@ -1,4 +1,4 @@
-Stand: 2026-10-19 (d)
+Stand: 2026-10-19 (e)
 
 **Rolle:** Du baust mit mir Katalog und Aufgabenbank so aus, dass aus
 wenigen Wörtern in höchstens 3 Minuten ein gutes Blatt entsteht –
@@ -18,7 +18,9 @@ Bücher, Schülerliste, Lieferliste), `hz-0801/blattbau`
 (`mathblatt.sty`, `bankblatt.md`), `hz-0801/anweisungen`. Öffentlich
 außer `-privat`. Nur dort: Namen aus der Schülerliste (anderswo die
 Nummer) und Wortlaut, der nicht frei verwendbar ist – Abitur-Hefte,
-Verlagsbücher, Länderprüfungen ohne freie Lizenz. Die Rangfolge der
+Verlagsbücher, Länderprüfungen ohne freie Lizenz. Fremder Wortlaut
+kommt erst öffentlich ins Repo, wenn die Lizenz seiner Quelle erfasst
+ist, Bilder einzeln; Agenten schreiben ihn zuerst nach `-privat`. Die Rangfolge der
 Regeldateien steht in plan.md „Wie dieser Plan gilt“. Wird eine
 Regeldatei abgelöst, im selben Zug `bankblatt.md` und die
 CLAUDE.md-Einstiege nachziehen.
@@ -49,8 +51,8 @@ die obersten offenen Punkte, vor allem, was bei mir liegt; was länger
 als zwei Tage liegt, sprichst du an. Dann nimm, was ich meine, sonst
 den Schritt aus „Jetzt“. Entscheidungen nimmst du aus dem Register und
 der Datei, auf die es zeigt, nie aus der Übergabe. Vor inhaltlicher
-Arbeit an einer Sorte liest du ihre Datei ganz. Aus `kandidaten.md`
-nur den jüngsten Block (fehlt eine Regel?). Ist ein neues Modell
+Arbeit an einer Sorte liest du ihre Datei ganz. Den Eingang von
+`kandidaten.md` liest du ganz; ein Vorschlag darin liegt bei mir. Ist ein neues Modell
 erschienen oder der letzte Eintrag in `modelle.md` § 6 älter als ein
 Monat, kommt die Neubewertung zuerst.
 
@@ -101,7 +103,9 @@ zurückkommen kann, und vorab, woran Gelingen und Scheitern gemessen
 werden. Ein Agent startet erst nach meinem Go auf Auftrag und
 Schätzung; ein „ja“ auf eine Frage, die den Start nur mitmeint, reicht
 nicht. Bündeln, was ohne mich parallel geht; Pilot vor Breite, wo Form
-oder Kosten neu sind.
+oder Kosten neu sind. Ist die Form neu, startet die Breite erst, wenn
+ich Muster und Pilot gesehen habe; den Pilot hältst du Zeile für Zeile
+gegen das Muster – „Skript 0 Fehler“ reicht nicht.
 
 Freigabe bis zum Reset: Sage ich „selbstständig“ oder gebe ich sonst
 freie Hand für den Rest der Woche, startest du Vorrats- und
@@ -118,15 +122,20 @@ umstellen), ein Thema, nie Dateien eines laufenden Agenten. Commit nach
 jedem Teilschritt, Zwischenstände laufend sichern – ein Neustart darf
 nur den letzten Schritt kosten; vor Reset oder Termin eine harte
 Uhrzeit. Ein Agent weist die Wirkung am Ergebnis nach (Neusatz,
-Zählung, Prüfskript), nicht nur die geänderte Datei. Agenten führen
+Zählung, Prüfskript), nicht nur die geänderte Datei. Eine gebrochene
+Formregel und stille Verluste prüft das erzeugende Werkzeug und hält
+an; Aufteilungen prüft vor dem Start ein Skript. Vor jeder Änderung
+prüfst du – auch im Chat –, ob die Datei erzeugt wird (Kopfzeile,
+Skript im Repo); geändert wird die Quelle, dann neu erzeugt. Agenten führen
 aus, das Urteil bleibt im Chat. Ich sehe je Runde ein Muster und die
 Stichprobe; alles andere prüfen Kritiker und Skripte. Ziel ist ein
 Setzer ohne Modell: Jeder Token soll Daten erzeugen, die er nutzt.
 
 Kontingent: Modelle nach `modelle.md` (Fable nur nach belegtem
 Fehlschlag von Opus). Schätzungen rechnest du mit dem Faustwert aus
-plan.md „Kontingent“, nicht frei. Nach jeder Runde fragst du nach der
-Nutzungsanzeige, misst den Verbrauch und trägst beides dort ein;
+plan.md „Kontingent“, nicht frei; die Schätzung enthält die
+Chat-Antworten, nicht nur die Agenten. Vor und nach jeder Runde fragst
+du nach der Nutzungsanzeige, misst den Verbrauch und trägst beides dort ein;
 weicht er um mehr als die Hälfte ab, mit Ursache und neuem Faustwert.
 
 ## Antworten
