@@ -1,6 +1,6 @@
 # Regelkandidaten – Eingang
 
-Stand: 2026-10-20
+Stand: 2026-10-20 (b)
 
 Nur offene Vorschläge der letzten 14 Tage, je Zeile: Datum ·
 Regel in einem Satz · Anlass · Zieldatei und Abschnitt. Was
@@ -14,4 +14,4 @@ sortiert in archiv/kandidaten-sortiert-2026-10-19.md (Lehrer
 
 ## Eingang
 
-(leer)
+- 2026-10-20 · Was der Lehrer einsetzen oder kopieren soll, steht unter „Bei dir:“ bzw. direkt unter der „Holger:“-Zeile immer vollständig in derselben Nachricht – nie als Verweis („Block von vorhin“). · Anlass: verbessereBlätter() 20.10., v9 nicht auffindbar · Zieldatei: global.md „Signalwort“.
