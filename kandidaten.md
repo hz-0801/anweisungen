@@ -1,6 +1,6 @@
 # Regelkandidaten – Eingang
 
-Stand: 2026-10-19
+Stand: 2026-10-20
 
 Nur offene Vorschläge der letzten 14 Tage, je Zeile: Datum ·
 Regel in einem Satz · Anlass · Zieldatei und Abschnitt. Was
@@ -14,6 +14,4 @@ sortiert in archiv/kandidaten-sortiert-2026-10-19.md (Lehrer
 
 ## Eingang
 
-- 17.10. · Bei Formstreit gilt das Muster des Lehrers als Anker,
-  bis er es selbst ändert (alt 170) · Formstreit 17.10. ·
-  projekt-verbessereBlaetter.md „Entscheidungen“.
+(leer)

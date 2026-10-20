@@ -418,3 +418,7 @@ einem zweiten“ trat nie ein; übernommen wurde stets auf Lehrerwort.
   nächsten Schritt auf den stehenden Plan, statt ihn neu zu
   formulieren (alt 113) · Kreisläufe 07.–09.10. · global.md
   „Stichwort Umzug“ Punkt 6.
+
+## Nachtrag 20.10.2026
+
+- Verworfen (Lehrer 20.10., Weg B, „wir versuchen B“): 17.10. „Bei Formstreit gilt das Muster des Lehrers als Anker, bis er es selbst ändert“ (alt 170). Grund: gedeckt durch „Form hält eine Runde“ und „Agenten führen aus, das Urteil bleibt im Chat“ (projekt-verbessereBlaetter.md). Probe: Wird ein Muster des Lehrers wieder ohne sein Wort verändert, kommt der Vorschlag neu.
