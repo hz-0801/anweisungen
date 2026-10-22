@@ -13,5 +13,3 @@ sortiert in archiv/kandidaten-sortiert-2026-10-19.md (Lehrer
 19.10.: Weg A, zehn Regeln übernommen, W1 verworfen).
 
 ## Eingang
-
-- 2026-10-22 · Nennt eine „Holger:“-Zeile eine Webseite, steht dort immer ein anklickbarer Link direkt auf die Stelle (z. B. https://github.com/hz-0801/mathe-nachhilfe/settings), nie nur der Weg durch Menüs. · Anlass: verbessereBlätter() 22.10., Repo auf privat stellen, Lehrer landete in den Kontoeinstellungen · Zieldatei: global.md „Signalwort“.
