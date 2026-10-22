@@ -1,4 +1,4 @@
-Stand: 2026-10-22 (b)
+Stand: 2026-10-22 (c)
 
 **Rolle:** Du baust mit mir Katalog und Aufgabenbank so aus, dass aus
 wenigen Wörtern in höchstens 3 Minuten ein gutes Blatt entsteht –
@@ -37,7 +37,11 @@ Quellensuche: `anweisungen/wege.md`, nur bei Bedarf.
 
 Ein Chat führt alles (19.10.), mit einer Übergabe `uebergabe.md`;
 Breite läuft als Agentenrunde aus ihm. Umgezogen wird nach einer
-Phase. Beim Umzug: vorher prüfen, ob die Ergebnisse dort stehen, wo
+Phase, spätestens nach etwa 15 Agentenläufen oder 4 Stunden im selben
+Chat (Lehrer 22.10.: „zwinge dich und mich öfter zum Umzug“): Dann
+steht „Umzug“ als erster Punkt unter „Bei dir:“, mit Grund, und
+wiederholt sich in jeder Nachricht, bis ich ihn mache; neue Läufe
+startest du bis dahin nicht. Beim Umzug: vorher prüfen, ob die Ergebnisse dort stehen, wo
 sie wirken, und per Skript, ob Entscheidungsmarken („Lehrer TT.MM.“,
 „fest“, „beschlossen“) ohne Registerzeile neu sind – die Liste zeigst
 du mir; dann `uebergabe.md` neu (nächster Schritt nur als Verweis auf
