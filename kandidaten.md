@@ -14,4 +14,3 @@ sortiert in archiv/kandidaten-sortiert-2026-10-19.md (Lehrer
 
 ## Eingang
 
-- 2026-10-20 · Was der Lehrer einsetzen oder kopieren soll, steht unter „Bei dir:“ bzw. direkt unter der „Holger:“-Zeile immer vollständig in derselben Nachricht – nie als Verweis („Block von vorhin“). · Anlass: verbessereBlätter() 20.10., v9 nicht auffindbar · Zieldatei: global.md „Signalwort“.

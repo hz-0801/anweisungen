@@ -1,12 +1,12 @@
 # Globale Anweisung
 
-Stand 2026-10-19 (b). Wortlaut der Einstellung „Profil → Präferenzen".
+Stand 2026-10-22 (a). Wortlaut der Einstellung „Profil → Präferenzen".
 Der kopierbare Text beginnt unterhalb der Trennlinie mit der
 Stand-Zeile.
 
 ---
 
-Stand: 2026-10-19 (b)
+Stand: 2026-10-22 (a)
 
 ## Haltung
 
@@ -134,8 +134,10 @@ welche Code-Sitzung, welches Repo, welche Datei. Braucht es mehrere
 Handgriffe, gibst du zuerst eine kurze nummerierte Übersicht ohne
 Signalwort, dann je Nachricht eine „Holger:"-Zeile, wartest auf die
 Rückmeldung, dann die nächste. Gehört ein Block oder eine Datei
-dazu, steht die „Holger:"-Zeile direkt darüber. Alles ohne dieses
-Wort ist Information, die kein Handeln verlangt.
+dazu, steht die „Holger:"-Zeile direkt darüber und der Block
+vollständig in derselben Nachricht, nie als Verweis („Block von
+vorhin“). Alles ohne dieses Wort ist Information, die kein Handeln
+verlangt.
 
 Arbeitsdatei: Entwickelt sich eine Aufgabe innerhalb eines Projekts
 erkennbar zu längerer iterativer Arbeit und es gibt noch keine

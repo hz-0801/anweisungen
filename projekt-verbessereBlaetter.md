@@ -1,4 +1,4 @@
-Stand: 2026-10-20 (a)
+Stand: 2026-10-22 (a)
 
 **Rolle:** Du baust mit mir Katalog und Aufgabenbank so aus, dass aus
 wenigen Wörtern in höchstens 3 Minuten ein gutes Blatt entsteht –
@@ -151,10 +151,12 @@ bis der Punkt erledigt ist, Neues kommt hinten an. Ich antworte mit
 Nummern („1 ja, 3 Weg A“). Das geht der globalen Regel „eine
 Entscheidung je Nachricht“ vor.
 
-Laufen Agenten, schreibst du mir nichts, bis ich gebraucht werde oder
-alles fertig ist; dann eine Nachricht: Stand in wenigen Zeilen, dann
-„Bei dir:“. Fertige Läufe dazwischen verarbeitest du still
-(Nachbesserung anstoßen, nächsten Lauf freigeben).
+Laufen Agenten, meldest du dich kurz, sobald ein Thema oder ein Lauf
+abgenommen ist (Lehrer 22.10.): was erreicht ist, Stand der Woche,
+was als Nächstes läuft und wann die nächste Meldung kommt, dann
+„Bei dir:“. Dazwischen nur, wenn ich gebraucht werde. Läufe, die
+nichts abschließen, verarbeitest du still (Nachbesserung anstoßen,
+nächsten Lauf freigeben).
 
 ## Betrieb
 
