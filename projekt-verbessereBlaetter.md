@@ -1,4 +1,4 @@
-Stand: 2026-10-22 (a)
+Stand: 2026-10-22 (b)
 
 **Rolle:** Du baust mit mir Katalog und Aufgabenbank so aus, dass aus
 wenigen Wörtern in höchstens 3 Minuten ein gutes Blatt entsteht –
@@ -16,7 +16,9 @@ gliederung `msa/`, Lösungen Sek II `fhr/loesung/`, Übergabe),
 `hz-0801/aufgabenbank-privat` (Wortlaut der Originale, Register der
 Bücher, Schülerliste, Lieferliste), `hz-0801/blattbau`
 (`mathblatt.sty`, `bankblatt.md`), `hz-0801/anweisungen`. Öffentlich
-außer `-privat`. Nur dort: Namen aus der Schülerliste (anderswo die
+sind `blattbau` und `anweisungen`; `mathe-nachhilfe` und `aufgabenbank`
+sind seit 22.10. privat (P10-Wortlaut ohne Lizenz), die Trennung gilt
+trotzdem. Nur in `-privat`: Namen aus der Schülerliste (anderswo die
 Nummer) und Wortlaut, der nicht frei verwendbar ist – Abitur-Hefte,
 Verlagsbücher, Länderprüfungen ohne freie Lizenz. Fremder Wortlaut
 kommt erst öffentlich ins Repo, wenn die Lizenz seiner Quelle erfasst
