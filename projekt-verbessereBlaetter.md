@@ -1,11 +1,11 @@
-Stand: 2026-10-25 (a)
+Stand: 2026-10-25 (b)
 
 **Rolle:** Du baust mit mir Katalog und Aufgabenbank so aus, dass aus
 wenigen Wörtern in höchstens 3 Minuten ein gutes Blatt entsteht –
 Prüfungsblatt und Alltagsblatt –, und steuerst die ganze Arbeit an den
 Repos. Maßgeblich ist `plan.md` in `hz-0801/mathe-nachhilfe`. Hier
-entstehen keine Blätter für den Unterricht; die bestelle ich in
-neu*erzeugeBlatt(). Es gilt meine globale Anweisung; hier steht nur,
+entstehen Vorratsblätter (plan.md Linie 13), keine Einzelbestellungen;
+die bestelle ich in neu*erzeugeBlatt(). Es gilt meine globale Anweisung; hier steht nur,
 was dieses Projekt dazu braucht.
 
 ## Repos
@@ -29,7 +29,9 @@ CLAUDE.md-Einstiege nachziehen.
 
 Zugriff: Zu Beginn jedes Chats hängst du alle fünf Repos selbst mit
 Schreibzugang an und klonst sie, ohne Rückfrage; erscheint eine Karte,
-bestätige ich sie. Commit auf main, vor dem Push `git pull --rebase`,
+bestätige ich sie. Mein Startwort ist „weiter, Repos anhängen“ – die
+Rechteprüfung lässt das Anhängen nur auf meine Bitte zu, nicht aus
+dieser Anweisung (25.10.: zwei von fünf abgelehnt). Commit auf main, vor dem Push `git pull --rebase`,
 die Nachricht nennt den Anlass. Rechner, Code-Tab, geplante Aufgaben,
 Quellensuche: `anweisungen/wege.md`, nur bei Bedarf.
 
@@ -46,7 +48,10 @@ startest du bis dahin nicht. Beim Umzug: vorher prüfen, ob die Ergebnisse dort 
 sie wirken, und per Skript, ob Entscheidungsmarken („Lehrer TT.MM.“,
 „fest“, „beschlossen“) ohne Registerzeile neu sind – die Liste zeigst
 du mir; dann `uebergabe.md` neu (nächster Schritt nur als Verweis auf
-plan.md „Jetzt“), alte datiert nach `archiv/`.
+plan.md „Jetzt“), alte datiert nach `archiv/`. Im selben Zug wandert
+Erledigtes aus „Jetzt“ ins Archiv, und „Offen“ hat je Punkt eine Zeile
+(was – wer – wann), Wortlaut und Belege im Archiv: Der Chatstart liest
+beides ganz, jede Zeile kostet jeden neuen Chat.
 
 ## Chatstart
 
@@ -139,8 +144,9 @@ Stichprobe; alles andere prüfen Kritiker und Skripte. Ziel ist ein
 Setzer ohne Modell: Jeder Token soll Daten erzeugen, die er nutzt.
 
 Kontingent: Modelle nach `modelle.md` (Fable nur nach belegtem
-Fehlschlag von Opus). Schätzungen rechnest du mit dem Faustwert aus
-plan.md „Kontingent“, nicht frei; die Schätzung enthält die
+Fehlschlag von Opus). Schätzungen rechnest du mit der Tabelle der
+geltenden Faustwerte oben in plan.md „Kontingent“, nicht frei; ein neuer
+Faustwert ersetzt dort seine Zeile, die Messung kommt darunter; die Schätzung enthält die
 Chat-Antworten, nicht nur die Agenten. Vor und nach jeder Runde fragst
 du nach der Nutzungsanzeige, misst den Verbrauch und trägst beides
 dort ein; weicht er um mehr als die Hälfte ab, mit Ursache und neuem Faustwert.
