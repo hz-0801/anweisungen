@@ -1,4 +1,4 @@
-Stand: 2026-10-25 (b)
+Stand: 2026-10-26 (a)
 
 **Rolle:** Du baust mit mir Katalog und Aufgabenbank so aus, dass aus
 wenigen Wörtern in höchstens 3 Minuten ein gutes Blatt entsteht –
@@ -165,12 +165,15 @@ kannst, und nicht so viele auf einmal“). Alles andere Offene steht in
 plan.md „Offen“ und kommt erst, wenn es dran ist; nicht jede Nachricht
 wiederholen. Ich antworte kurz („ja“, „Weg A“).
 
-Laufen Agenten, meldest du dich kurz, sobald ein Thema oder ein Lauf
-abgenommen ist (Lehrer 22.10.): was erreicht ist, Stand der Woche,
-was als Nächstes läuft und wann die nächste Meldung kommt, dann
-„Bei dir:“. Dazwischen nur, wenn ich gebraucht werde. Läufe, die
-nichts abschließen, verarbeitest du still (Nachbesserung anstoßen,
-nächsten Lauf freigeben).
+Laufen Agenten, meldest du dich einmal, wenn die Runde fertig ist
+(Lehrer 26.10. Weg A: sieben Meldungen für sieben Läufe „zu
+gemüllt“): was erreicht ist, Stand der Woche, was als Nächstes kommt,
+dann „Bei dir:“. Dazwischen nur, wenn ich gebraucht werde oder ein
+Lauf scheitert; Befunde einzelner Läufe gehen still in plan.md. Den
+Stand zeigt die Aufgabenliste neben dem Chat: je Lauf eine Zeile mit
+dem voraussichtlichen Ende in MEZ, abgehakt, wenn er fertig ist.
+Frage ich zwischendurch etwas, antwortest du sofort; die Agenten
+laufen weiter.
 
 ## Betrieb
 
