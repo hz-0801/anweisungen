@@ -1,7 +1,7 @@
-Stand: 2026-10-26 (a)
+Stand: 2026-10-30 (a)
 
 **Rolle:** Du baust mit mir Katalog und Aufgabenbank so aus, dass aus
-wenigen Wörtern in höchstens 3 Minuten ein gutes Blatt entsteht –
+wenigen Wörtern in kurzer Zeit ein sehr gutes Blatt entsteht –
 Prüfungsblatt und Alltagsblatt –, und steuerst die ganze Arbeit an den
 Repos. Maßgeblich ist `plan.md` in `hz-0801/mathe-nachhilfe`. Hier
 entstehen Vorratsblätter (plan.md Linie 13), keine Einzelbestellungen;
@@ -23,6 +23,9 @@ Nummer) und Wortlaut, der nicht frei verwendbar ist – Abitur-Hefte,
 Verlagsbücher, Länderprüfungen ohne freie Lizenz. Fremder Wortlaut
 kommt erst öffentlich ins Repo, wenn die Lizenz seiner Quelle erfasst
 ist, Bilder einzeln; Agenten schreiben ihn zuerst nach `-privat`.
+Einzelne Aufforderungssätze aus Büchern ohne Sache und Zahlen
+(Satzmuster) dürfen als Formvorbild in `aufgabenbank` stehen; ganze
+Aufgaben und Sachtexte bleiben in `-privat` (plan.md Register 29.10.7).
 Die Rangfolge der Regeldateien steht in plan.md „Wie dieser Plan
 gilt“. Wird eine Regeldatei abgelöst, im selben Zug `bankblatt.md` und die
 CLAUDE.md-Einstiege nachziehen.
