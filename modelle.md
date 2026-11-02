@@ -68,6 +68,15 @@ Ein Agent liest bei jedem Schritt seinen ganzen Verlauf neu; Kosten
 wachsen mit Schritten × Verlauflänge. Nach mehr als etwa 5 min Pause
 wird der Verlauf neu gemerkt (doppelt teuer).
 1. Ein Ergebnis je Agent, Schrittgrenze im Auftrag (Richtwert 60).
+   Auch der Qualität wegen (Lehrer 02.11.): Bau und Kritik eines
+   Blatts oder Hefts macht je ein eigener Agent, nie mehrere
+   hintereinander. Warum – in der Serie sinkt die Mühe je Stück
+   (3–8 statt 17–45 min), der Agent kopiert seine erste Lösung,
+   spätere Stücke werden dünner; Versuch Einzelbau 26./27.10.
+   (verbessereBlaetter): Lehrer 6 : 0, Kritiker blind 3 : 2 : 1.
+   Beispiel – P10-Breite 31.10., 12 Hefte, je ein Agent. Grenze –
+   mechanische Arbeit nach fester Regelliste darf gebündelt werden
+   (P10-Nachbesserung 02.11., zwei Hefte je Agent, sauber).
 2. Prüfen mit Skript; Bild-Durchsicht nur der Endfassung, kleine
    Auflösung.
 3. Aufwand medium für Datenarbeit und Setzen, high für Kritiker und
