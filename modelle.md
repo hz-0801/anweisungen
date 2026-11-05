@@ -110,6 +110,11 @@ und monatlich am ersten Chat nach dem Monatswechsel.
 | 12.10.2026 | Blatt Lineare aus Daten, gleicher Auftrag | Opus 5.5 · high | 0,33 Mio, 154 min | – | blind Note 2, besser |
 | 12.10.2026 | dasselbe | Fable 5.1 · high | 0,34 Mio, 172 min | – | blind Note 3 |
 
+Neubewertung 05.11.2026 (Monatswechsel, § 5 Schritt 1): choosing-a-model und models/overview gelesen. Kein neues Modell für
+Kunden seit 22.09.; Mythos 5.1 nur für verifizierte Organisationen. Preise unverändert (Fable 5.1 10/50 $, Opus 5.5 4/20 $;
+dazu Sonnet 5.5 2/10 $, Haiku 5.5 ab 0,10/0,50 $). Empfehlung unverändert: mit Opus 5.5 beginnen, Fable erst, wenn Opus bei
+xhigh/max nicht reicht. Leiter § 3 unverändert, kein Vergleichslauf nötig. Limits (support.claude.com) nicht neu gelesen.
+
 Befund 12.10. (ein Lauf, korrigiert 13.10.): gewichtet Fable 22,1
 Mio, Opus 16,1 Mio Token (Fable ≈ 40 % mehr, dazu 2,5-facher Preis);
 Opus schneller und blind besser beurteilt. Runde 5 gesamt: Woche
