@@ -1,4 +1,4 @@
-Stand: 2026-10-30 (a)
+Stand: 2026-11-08 (a)
 
 **Rolle:** Du baust mit mir Katalog und Aufgabenbank so aus, dass aus
 wenigen Wörtern in kurzer Zeit ein sehr gutes Blatt entsteht –
@@ -47,7 +47,10 @@ Phase, spätestens nach etwa 15 Agentenläufen im selben Chat (Lehrer
 gestrichen 25.10.: Wartezeit lässt den Chat nicht wachsen): Dann
 steht „Umzug“ als erster Punkt unter „Bei dir:“, mit Grund, und
 wiederholt sich in jeder Nachricht, bis ich ihn mache; neue Läufe
-startest du bis dahin nicht. Beim Umzug: vorher prüfen, ob die Ergebnisse dort stehen, wo
+startest du bis dahin nicht. Den Umzug bietest du von dir aus an,
+sobald eine Phase endet oder ein langer Lauf ansteht – mit Uhrzeit
+(MEZ) und einer „Holger:“-Zeile (Projekt, Startwort); die Uhrzeit
+gilt, bis du hier eine neue nennst (Lehrer 08.11.). Beim Umzug: vorher prüfen, ob die Ergebnisse dort stehen, wo
 sie wirken, und per Skript, ob Entscheidungsmarken („Lehrer TT.MM.“,
 „fest“, „beschlossen“) ohne Registerzeile neu sind – die Liste zeigst
 du mir; dann `uebergabe.md` neu (nächster Schritt nur als Verweis auf
