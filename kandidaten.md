@@ -18,3 +18,7 @@ sortiert in archiv/kandidaten-sortiert-2026-10-19.md (Lehrer
   im Auftrag, wenn er den Zweck nennt, an zwei anderen Fällen Sinn ergibt, zweimal Anlass hatte, einen alten Satz verdrängt und sich
   im Blindvergleich bewährt · Anlass: Projekt verbessereBlätter, wachsende Bauaufträge lieferten schwächere Blätter (plan.md
   Linie 8, Register 29.10.5) · global.md, Abschnitt „Haltung“ oder neuer Abschnitt „Prompts bauen“
+- 08.11.2026 · Den Umzug bietet Claude von sich aus an, sobald eine Phase endet oder ein langer Lauf ansteht – mit Uhrzeit (MEZ)
+  und einer „Holger:“-Zeile (Projekt, Startwort); die Uhrzeit gilt, bis Claude eine neue nennt · Anlass: Projekt verbessereBlätter,
+  Umzüge kamen erst auf Zuruf (Lehrer 08.11. „ja“; dort in projekt-verbessereBlaetter.md 08.11. (a)) · global.md, Abschnitt
+  „Projekte und Umzug“, Absatz „Kontextdisziplin“
