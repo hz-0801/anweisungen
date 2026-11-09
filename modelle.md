@@ -20,6 +20,13 @@ ist teurer als ein teurer, der sitzt.
 - Listenpreis je Mio Token Ein-/Ausgabe: Fable 5.1 10/50 $, Opus 5.5
   4/20 $, also Faktor 2,5 (Anthropic, Preisseite, laut Sekundärquelle
   22.09.2026).
+- Neu 09.11.2026: Fable 5.2, allgemein verfügbar, 8/40 $ (Opus 5.5 4/20 $, also Faktor 2),
+  Standardaufwand high; Anthropic rät weiter: mit Opus beginnen, Fable erst, wenn Opus auf
+  höherem Aufwand nicht reicht (platform.claude.com, fable-5-2/overview, whats-new). Max-Abo:
+  ein bis drei „Fable-Resets“ je nach Abodauer (< 6 Monate 1, 6–12 Monate 2, > 12 Monate 3);
+  ein Reset gibt den auf Fable verbrauchten Teil der Woche zurück, nicht den übrigen; verfallen
+  08.03.2027 (support.claude.com, Artikel 17506494). Ob die 50-%-Grenze für Fable 5.2 gilt,
+  sagt Artikel 15424964 nicht (nennt nur Fable 5/5.1).
 - Eigene Messung (mathe-nachhilfe plan.md § 8): Fable ≈ 0,25 Mio Token
   je Wochenpunkt, Opus ≈ 0,75 Mio – gleiche Arbeit kostet mit Fable
   etwa dreimal so viel Woche.
@@ -122,6 +129,9 @@ Opus schneller und blind besser beurteilt. Runde 5 gesamt: Woche
 „0,25 / 0,75 Mio je Wochenpunkt“ beruhen auf der Agenten-Zahl und
 gelten nicht mehr. Stützt die Leiter § 3. Beleg: aufgabenbank
 bau/vergleich-2026-10-12-lineare.md.
+
+Neubewertung 09.11.2026 (Auslöser: Fable 5.2 erschienen, § 5 Schritt 1): Quellen wie § 2. Leiter § 3 vorerst unverändert;
+Vergleichslauf (Schritt 2) vorgeschlagen an der Neueichung Oak (plan.md Jetzt 2) – Entscheidung beim Lehrer.
 
 ## 7 Ausführung
 
