@@ -13,7 +13,4 @@ sortiert in archiv/kandidaten-sortiert-2026-10-19.md (Lehrer
 19.10.: Weg A, zehn Regeln übernommen, W1 verworfen).
 
 ## Eingang
-- 08.11.2026 · Den Umzug bietet Claude von sich aus an, sobald eine Phase endet oder ein langer Lauf ansteht – mit Uhrzeit (MEZ)
-  und einer „Holger:“-Zeile (Projekt, Startwort); die Uhrzeit gilt, bis Claude eine neue nennt · Anlass: Projekt verbessereBlätter,
-  Umzüge kamen erst auf Zuruf (Lehrer 08.11. „ja“; dort in projekt-verbessereBlaetter.md 08.11. (a)) · global.md, Abschnitt
-  „Projekte und Umzug“, Absatz „Kontextdisziplin“
+- (leer)
