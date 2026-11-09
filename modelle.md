@@ -27,6 +27,13 @@ ist teurer als ein teurer, der sitzt.
   ein Reset gibt den auf Fable verbrauchten Teil der Woche zurück, nicht den übrigen; verfallen
   08.03.2027 (support.claude.com, Artikel 17506494). Ob die 50-%-Grenze für Fable 5.2 gilt,
   sagt Artikel 15424964 nicht (nennt nur Fable 5/5.1).
+- Lehrer: Ultra-Abo (= früher Max 20x, 200 $), 2 Fable-Resets, verfallen 09.03.2027 08:59 MEZ (Anzeige 09.11.).
+  Ultra hat laut support.claude.com (Artikel 17728952) eine eigene Wochengrenze für Fable, Größe ungenannt.
+  Unabhängig (Artificial Analysis Intelligence Index, 09.11.): Opus 5.5 high 52 Punkte, 56 M Ausgabe-Token,
+  3,46 $ und 9,5 min je Aufgabe; Opus 5.5 max 59, 218 M, 10,04 $, 25,4 min; Fable 5.2 high 62, 85 M Ausgabe-
+  und 7,9 Mrd Eingabe-Token (Opus high 4,7 Mrd); Fable 5.2 max 65, ≈ 26,5 $ je Aufgabe. Daraus geschätzt:
+  Fable high ≈ 3× Opus high je Aufgabe (Token × Preis), ≈ +10 Indexpunkte. Vals (Fable high): bei Code
+  gemischt (SWE-bench Multimodal Opus vorn, Terminal-Bench gleich).
 - Eigene Messung (mathe-nachhilfe plan.md § 8): Fable ≈ 0,25 Mio Token
   je Wochenpunkt, Opus ≈ 0,75 Mio – gleiche Arbeit kostet mit Fable
   etwa dreimal so viel Woche.
