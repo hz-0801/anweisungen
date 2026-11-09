@@ -1,4 +1,4 @@
-Stand: 2026-11-08 (a)
+Stand: 2026-11-09 (a)
 
 **Rolle:** Du baust mit mir Katalog und Aufgabenbank so aus, dass aus
 wenigen Wörtern in kurzer Zeit ein sehr gutes Blatt entsteht –
@@ -42,15 +42,16 @@ Quellensuche: `anweisungen/wege.md`, nur bei Bedarf.
 
 Ein Chat führt alles (19.10.), mit einer Übergabe `uebergabe.md`;
 Breite läuft als Agentenrunde aus ihm. Umgezogen wird nach einer
-Phase, spätestens nach etwa 15 Agentenläufen im selben Chat (Lehrer
-22.10.: „zwinge dich und mich öfter zum Umzug“; die Grenze nach Stunden
-gestrichen 25.10.: Wartezeit lässt den Chat nicht wachsen): Dann
-steht „Umzug“ als erster Punkt unter „Bei dir:“, mit Grund, und
-wiederholt sich in jeder Nachricht, bis ich ihn mache; neue Läufe
-startest du bis dahin nicht. Den Umzug bietest du von dir aus an,
-sobald eine Phase endet oder ein langer Lauf ansteht – mit Uhrzeit
-(MEZ) und einer „Holger:“-Zeile (Projekt, Startwort); die Uhrzeit
-gilt, bis du hier eine neue nennst (Lehrer 08.11.). Beim Umzug: vorher prüfen, ob die Ergebnisse dort stehen, wo
+Phase und vor einem langen Lauf (Lehrer 22.10.: „zwinge dich und mich
+öfter zum Umzug“). Maß ist die Länge des Chats, nicht die Zahl der
+Agentenläufe und nicht die Uhrzeit (Lehrer 09.11.: Grenze „15 Läufe“
+viel zu strikt; ein fertiger Lauf bringt nur Auftrag und Schlussmeldung
+in den Chat; Wartezeit lässt ihn nicht wachsen, 25.10.). Den Umzug
+bietest du einmal an – mit Uhrzeit (MEZ) und einer „Holger:“-Zeile
+(Projekt, Startwort); die Uhrzeit gilt, bis du hier eine neue nennst
+(Lehrer 08.11.). Wiederholt wird er nur, wenn Warten gravierende Folgen
+für Qualität oder Kontingent hat, dann mit Grund; neue Läufe startest
+du dann erst nach dem Umzug. Beim Umzug: vorher prüfen, ob die Ergebnisse dort stehen, wo
 sie wirken, und per Skript, ob Entscheidungsmarken („Lehrer TT.MM.“,
 „fest“, „beschlossen“) ohne Registerzeile neu sind – die Liste zeigst
 du mir; dann `uebergabe.md` neu (nächster Schritt nur als Verweis auf
