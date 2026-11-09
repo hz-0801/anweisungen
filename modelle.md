@@ -28,7 +28,7 @@ ist teurer als ein teurer, der sitzt.
   08.03.2027 (support.claude.com, Artikel 17506494). Ob die 50-%-Grenze für Fable 5.2 gilt,
   sagt Artikel 15424964 nicht (nennt nur Fable 5/5.1).
 - Lehrer: Ultra-Abo (= früher Max 20x, 200 $), 2 Fable-Resets, verfallen 09.03.2027 08:59 MEZ (Anzeige 09.11.).
-  Ultra hat laut support.claude.com (Artikel 17728952) eine eigene Wochengrenze für Fable, Größe ungenannt.
+  Ultra hat eine eigene Wochengrenze für Fable: „bis zu 50 % deines Wochenlimits“ (Nutzungsanzeige 09.11.).
   Unabhängig (Artificial Analysis Intelligence Index, 09.11.): Opus 5.5 high 52 Punkte, 56 M Ausgabe-Token,
   3,46 $ und 9,5 min je Aufgabe; Opus 5.5 max 59, 218 M, 10,04 $, 25,4 min; Fable 5.2 high 62, 85 M Ausgabe-
   und 7,9 Mrd Eingabe-Token (Opus high 4,7 Mrd); Fable 5.2 max 65, ≈ 26,5 $ je Aufgabe. Daraus geschätzt:
@@ -142,7 +142,8 @@ gelten nicht mehr. Stützt die Leiter § 3. Beleg: aufgabenbank
 bau/vergleich-2026-10-12-lineare.md.
 
 Neubewertung 09.11.2026 (Auslöser: Fable 5.2 erschienen, § 5 Schritt 1): Quellen wie § 2. Leiter § 3 vorerst unverändert;
-Vergleichslauf (Schritt 2) vorgeschlagen an der Neueichung Oak (plan.md Jetzt 2) – Entscheidung beim Lehrer.
+Vergleichslauf (Schritt 2) an der Neueichung Oak (plan.md Jetzt 2): Fable Mittel, Fable Hoch, Opus Hoch. Woche 09.–16.11. auf Fable
+Mittel mit zwei Zurücksetzungen (Lehrer 09.11. „Go“, mathe-nachhilfe plan.md Register 09.11.11); Leiter nach der Messung.
 
 ## 7 Ausführung
 
