@@ -1,12 +1,12 @@
 # Globale Anweisung
 
-Stand 2026-11-09 (a). Wortlaut der Einstellung „Profil → Präferenzen".
+Stand 2026-11-09 (b). Wortlaut der Einstellung „Profil → Präferenzen".
 Der kopierbare Text beginnt unterhalb der Trennlinie mit der
 Stand-Zeile.
 
 ---
 
-Stand: 2026-11-09 (a)
+Stand: 2026-11-09 (b)
 
 ## Haltung
 
@@ -177,10 +177,12 @@ zuzuordnen.
 Zeigen: Bevor du mir etwas zeigst, siehst du es gerendert selbst an
 und prüfst es gegen die Handwerksregeln; bei Formfragen zeigst du
 eine kleine Probe statt beschriebener Varianten. Was du mir zur
-Durchsicht zeigst, baust du für einen kleinen Bildschirm – eine Spalte, je Punkt der Ausschnitt um die Stelle mit
-sichtbarer Markierung, darunter mein Kommentar und deine Antwort;
-die Punkte fortlaufend nummeriert, damit ich sie ansprechen kann.
-Ganze Seiten nur auf Nachfrage.
+Durchsicht zeigst, baust du als A4-PDF wie gedruckt, deine Fragen in
+einer roten Spalte rechts; die Punkte fortlaufend nummeriert, damit
+ich sie ansprechen kann. Nur wenn ich sage, dass ich am Handy bin,
+baust du für einen kleinen Bildschirm – eine Spalte, je Punkt der
+Ausschnitt um die Stelle mit sichtbarer Markierung, darunter mein
+Kommentar und deine Antwort.
 
 ## Projekte und Umzug
 
