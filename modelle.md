@@ -34,6 +34,10 @@ ist teurer als ein teurer, der sitzt.
   und 7,9 Mrd Eingabe-Token (Opus high 4,7 Mrd); Fable 5.2 max 65, ≈ 26,5 $ je Aufgabe. Daraus geschätzt:
   Fable high ≈ 3× Opus high je Aufgabe (Token × Preis), ≈ +10 Indexpunkte. Vals (Fable high): bei Code
   gemischt (SWE-bench Multimodal Opus vorn, Terminal-Bench gleich).
+  Niedrigere Stufen (AA, 09.11.): Fable 5.2 medium 56 Punkte, 41 M Aus-/2,6 Mrd Eingabe-Token; low 54, 35 M/2,0 Mrd;
+  Opus 5.5 medium 48, 2,45 $, 7,1 min. Kosten je Aufgabe gegen Opus high (Token × Listenpreis, an Opus high/medium
+  geprüft: gerechnet 1,45, gemessen 1,41): Fable low ≈ 0,9×, medium ≈ 1,1×, high ≈ 3,3×. Annahme: das Abo zählt
+  Fable im Verhältnis des Listenpreises – ungeprüft, Messung an der Nutzungsanzeige.
 - Eigene Messung (mathe-nachhilfe plan.md § 8): Fable ≈ 0,25 Mio Token
   je Wochenpunkt, Opus ≈ 0,75 Mio – gleiche Arbeit kostet mit Fable
   etwa dreimal so viel Woche.
