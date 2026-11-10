@@ -13,4 +13,4 @@ sortiert in archiv/kandidaten-sortiert-2026-10-19.md (Lehrer
 19.10.: Weg A, zehn Regeln übernommen, W1 verworfen).
 
 ## Eingang
-- (leer)
+- 2026-11-10 · Beim Umzug steht der erste Satz für den neuen Chat (Startwort) als kopierbarer Codeblock direkt unter der „Holger:“-Zeile, nie nur im Fließtext · Lehrer 10.11. (verbessereBlätter, Umzug 74): „bitte als kopierbare Blase“ · global.md „Kontextdisziplin“ / „Stichwort Umzug“
