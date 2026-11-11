@@ -13,4 +13,4 @@ sortiert in archiv/kandidaten-sortiert-2026-10-19.md (Lehrer
 19.10.: Weg A, zehn Regeln übernommen, W1 verworfen).
 
 ## Eingang
-- (leer)
+- 2026-11-11 · Am Ende jeder Antwort stehen unter „Zum Kopieren“ alle noch offenen Kopierblöcke und Dateien des Chats noch einmal, in der Reihenfolge ihrer Ausgabe; Erledigtes fällt weg, sehr lange Blöcke stehen als Link · Lehrer 11.11. (verbessereBlätter, Chat 77): „damit ich nicht jedes Mal scrollen muss … Scrollen ist die Hölle beim langen Chat“ · global.md „Handeln“, Absatz „Signalwort“
