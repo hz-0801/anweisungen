@@ -1,0 +1,15 @@
+[
+ {
+  "titel": "Bestellung starten (mit Datum von heute)",
+  "wohin": "Claude → Projekt neu*erzeugeBlatt() → neuer Chat: einfügen, dahinter die Bestellung (z. B. „Finja Test“)",
+  "text": "{heute} Bestellung – Repos anhängen. "
+ },
+ {
+  "titel": "Globale Anweisung 2026-11-11 (c)",
+  "wohin": "Claude → Einstellungen → Profil → Präferenzen: alten Text ganz ersetzen",
+  "link": "https://claude.ai/settings/profile",
+  "datei": "global.md",
+  "ab": "Stand:",
+  "erledigt": true
+ }
+]

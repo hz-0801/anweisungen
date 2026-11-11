@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """brett.py – Kopierbrett: eine Seite mit allem, was der Lehrer aus dem Chat kopieren soll, je Eintrag ein Knopf.
-Aufruf: python3 brett.py eintraege.json index.html   (eintraege.json: Liste aus titel, wohin, link, text oder datei, erledigt)"""
+Aufruf: python3 brett.py eintraege.json index.html   (eintraege.json: Liste aus titel, wohin, link, text oder datei, erledigt; {heute} im Text = Wochentag und Datum beim Öffnen)"""
 import json, sys, html
 E = json.load(open(sys.argv[1], encoding='utf-8'))
 for e in E:
@@ -29,6 +29,9 @@ button.ok{background:#2c7a4b;border-color:#2c7a4b}details{margin-top:2px;font-si
 pre{white-space:pre-wrap;overflow-wrap:anywhere;background:#f4f6f8;border-radius:4px;padding:10px;max-height:300px;overflow:auto;color:#1c2530;font:12px/1.4 ui-monospace,Consolas,monospace}
 </style></head><body><main><h1>Zum Kopieren</h1><p class="s">%s · offen oben, Erledigtes grau</p><ul>%s</ul></main>
 <script>const T=%s;
+// {heute} im Text wird beim Öffnen durch Wochentag und Datum ersetzt („Mittwoch 11.11.26“) – für Startzeilen neuer Chats
+(()=>{const d=new Date(),z=n=>String(n).padStart(2,"0"),h=["Sonntag","Montag","Dienstag","Mittwoch","Donnerstag","Freitag","Samstag"][d.getDay()]+" "+z(d.getDate())+"."+z(d.getMonth()+1)+"."+String(d.getFullYear()).slice(2);
+T.forEach((t,i)=>{if(t.includes("{heute}")){T[i]=t.split("{heute}").join(h);const p=document.querySelectorAll("pre")[i];p.textContent=T[i];p.closest("details").open=true}})})();
 document.querySelectorAll("button[data-i]").forEach(b=>b.addEventListener("click",()=>{
   const ok=()=>{b.textContent="Kopiert ✓";b.classList.add("ok");setTimeout(()=>{b.textContent="Kopieren";b.classList.remove("ok")},2500)};
   const hand=()=>{const d=b.closest("li").querySelector("details");d.open=true;const r=document.createRange();r.selectNodeContents(d.querySelector("pre"));const s=getSelection();s.removeAllRanges();s.addRange(r);b.textContent="Markiert – Strg+C"};
