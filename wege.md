@@ -185,6 +185,8 @@ Zugriff:
 - Abgelegt wird erst, wenn der Lehrer das Stück begutachtet hat
   (Lehrer 15.10.). Jedes Buch-PDF hat klickbaren Inhalt, Lesezeichen
   und auf jeder Seite „← zurück“.
+- In `Bücher/` liegen direkt die Bücher der Schüler; alle anderen
+  in `Bücher/Nebenbücher/` (Lehrer 12.11.).
 - Dateiname kurz und eindeutig (Art, Verlag, Stufe: „Tafelwerk Duden
   Sek I.pdf“), Seite 1 zeigt das Umschlagfoto mit vollem Titel
   (Lehrer 15.10.).
