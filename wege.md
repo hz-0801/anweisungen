@@ -178,7 +178,10 @@ Zugriff:
 - Claude löscht in Drive nichts.
 - Abgelegt wird nur, was in seinem Bereich vollständig ist (ein Buch
   mit allen Seiten, ein Heftsatz ganz) – nichts Halbfertiges zum
-  Ersetzen später (Lehrer 15.10.).
+  Ersetzen später (Lehrer 15.10.). Ausnahme nur auf sein
+  ausdrückliches Wort, dass auf das Fehlende verzichtet wird (Lehrer
+  12.11.; Beispiel: Titelseiten S. 1–2 von Schnittpunkt 9). Fehlt
+  etwas und er hat nicht verzichtet, bleibt das Buch im Chat.
 - Abgelegt wird erst, wenn der Lehrer das Stück begutachtet hat
   (Lehrer 15.10.). Jedes Buch-PDF hat klickbaren Inhalt, Lesezeichen
   und auf jeder Seite „← zurück“.
