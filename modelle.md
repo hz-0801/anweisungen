@@ -145,6 +145,8 @@ Neubewertung 09.11.2026 (Auslöser: Fable 5.2 erschienen, § 5 Schritt 1): Quell
 Vergleichslauf (Schritt 2) an der Neueichung Oak (plan.md Jetzt 2): Fable Mittel, Fable Hoch, Opus Hoch. Woche 09.–16.11. auf Fable
 Mittel mit zwei Zurücksetzungen (Lehrer 09.11. „Go“, mathe-nachhilfe plan.md Register 09.11.11); Leiter nach der Messung.
 
+Nachtrag 13.11.2026 (Eichung P2 und Nachtrunde): Fable Mittel blind gleich gut oder besser als Opus hoch, kostet aber ohne Zurücksetzung je Paket ≈ 3,5-mal so viele Wochenpunkte. Lehrer 13.11.: bis Reset 16.11. Opus für Chat und Läufe, Fable nur in Wochen mit Zurücksetzung bis zur Grenze (mathe-nachhilfe plan.md Register 13.11.4). Leiter § 3 unverändert.
+
 ## 7 Ausführung
 
 - Claude nennt in jedem Rundenvorschlag je Lauf Modell und Aufwand,
