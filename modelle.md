@@ -39,9 +39,10 @@ ist teurer als ein teurer, der sitzt.
     Fable-Balken zeigt den Anteil an diesem Rahmen: 63 % Fable = 31,5 Wochenpunkte (Anzeige 13.11.).
   - Wie viele verfügbar sind, zeigt die Anzeige (§ 8, Filter „Zurücksetz“). Belegt 13.11. und 14.11. (Werkstatt 40): zwei –
     eine Fable, eine wöchentliche. Die Zeile „Lehrer: Ultra-Abo …“ darüber ist Stand 09.11.; es gilt dieser Punkt.
-  - Das Abo Ultra läuft Anfang Dezember 2026 ab (Lehrer 13.11.). Offen: das genaue Datum – Claude fragt einmal (Register
-    13.11.4 „Datum nachfragen“) und trägt es hier ein; es legt die letzte volle Abo-Woche für die wöchentliche
-    Zurücksetzung fest. Danach sind beide Zurücksetzungen wertlos.
+  - Das Abo Ultra endet am 05.12.2026; dann Herabstufung auf Pro monatlich (Abo-Seite, Lehrer 14.11. Werkstatt 40).
+    Letzte volle Abo-Woche: Mo 23.11. 17:00 – Mo 30.11. 17:00; die Woche ab 30.11. ist nur bis 05.12. Ultra. Die
+    wöchentliche Zurücksetzung spätestens in der Woche ab 30.11. vor dem 05.12. ziehen. Danach sind beide
+    Zurücksetzungen wertlos.
   - Wann gezogen wird, steht im Register: 13.11.4 (Fable zur Wochenmitte bei vollem Fable-Balken vor einem großen Lauf;
     die wöchentliche bei fast vollem Wochenbalken, spätestens in der letzten vollen Abo-Woche) und 14.11.18 (kurz vor dem
     Reset nie – was fehlt, wird zurückgestellt; am Wochenende gezogen verfällt das meiste am Montag).
