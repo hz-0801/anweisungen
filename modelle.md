@@ -108,7 +108,7 @@ wird der Verlauf neu gemerkt (doppelt teuer).
 2. Prüfen mit Skript; Bild-Durchsicht nur der Endfassung, kleine
    Auflösung.
 3. Aufwand medium für Datenarbeit und Setzen, high für Kritiker und
-   Urteil; Agenten erben den Aufwand des Chats.
+   Urteil; Claude setzt ihn je Agent selbst (§ 7).
 4. Keine Doppel- oder Vergleichsläufe ohne Anlass.
 5. Chat kurz, Umzug nach jeder Runde.
 Messen: gewichtet aus dem Sitzungsprotokoll (Cache lesen 0,1, Cache
@@ -167,8 +167,8 @@ Nachtrag 13.11.2026 (Eichung P2 und Nachtrunde): Fable Mittel blind gleich gut o
 - Modell und Aufwand des Chats stellt nur der Lehrer ein; Claude kann sie
   nicht wechseln. Normalfall Opus, Mittel. Braucht ein Schritt im Chat
   selbst mehr (Konzeptgespräch, Prüfen einer Anweisung gegen das
-  Register), sagt Claude es vorher in einem Satz („stell auf Hoch“), danach
-  zurück.
+  Register), sagt Claude es vorher in einem Satz mit Modell und Aufwand
+  („stell auf Fable 5.2, Hoch“), danach zurück (global.md „Nennen“).
 - Skripte brauchen weder Modell noch Aufwand und kosten keine Wochenpunkte.
 - Claude nennt in jedem Rundenvorschlag je Lauf Modell und Aufwand.
   (Abgelöst 14.11.: die Annahme vom 12.10., Unteragenten erbten den Aufwand
