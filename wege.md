@@ -1,10 +1,65 @@
 # Wege – Nachschlagen bei Bedarf (aus der Projektanweisung verbessereBlätter)
 
-Stand 2026-10-09. Ausgelagert aus projekt-verbessereBlaetter.md (Fassung bis
-08.10.), wortgleich. Nur lesen, wenn ein Auftrag den Rechner, den Code-Tab,
+Stand 2026-11-14. Ausgelagert aus projekt-verbessereBlaetter.md (Fassung bis
+08.10.) und, seit 14.11., aus global.md (e) und der Projektanweisung (a),
+wortgleich. Nur lesen, wenn ein Auftrag den Rechner, den Code-Tab,
 Web-Sitzungen, geplante Aufgaben, Quellensuche, Materialablage oder
-die alten Blatt-Prompts braucht. Teile davon sind seit dem 28.09. nicht mehr benutzt (Cloud-Guthaben
+die alten Blatt-Prompts braucht, oder wenn global.md oder die
+Projektanweisung hierher verweist (Umzug, Durchsicht am Handy). Teile davon sind seit dem 28.09. nicht mehr benutzt (Cloud-Guthaben
 0 €, kein Testlauf, keine Nachtaufträge); sie bleiben als Beleg.
+
+## Umzug
+
+Aus global.md „Stichwort Umzug“ (bis Stand 2026-11-14 (e)) und
+projekt-verbessereBlaetter.md „Ein Chat zur Zeit“ (bis Stand 2026-11-09
+(a)), wortgleich. Lesen beim Stichwort „Umzug“ und bei jedem
+Umzugsangebot, bevor die Übergabe geschrieben wird. Wann und wie der
+Umzug angeboten wird, wohin die Übergabe kommt und womit die Nachricht
+endet, steht in global.md („Kontextdisziplin“, „Stichwort Umzug“).
+
+### Übergabe (alle Chats)
+
+Bring zuerst eine Arbeitsdatei auf den zuletzt gemeinsam erarbeiteten
+Stand: beschlossene Änderungen übernehmen, verworfene Fassungen nicht
+versehentlich wieder einsetzen, auf Widersprüche und ungewollte
+Rücksetzungen prüfen; gibt es keine, sichert die Übergabe den
+Arbeitsstand selbst.
+
+Die Übergabe erzählt den Chat nicht nach, sondern enthält nur, was zum
+Weiterarbeiten nötig ist, in dieser Reihenfolge:
+
+1. Ziel (ein bis zwei Sätze)
+2. Arbeitsgrundlage (maßgebliche Datei oder Stand; bei mehreren je eine
+   Zeile zur Rolle)
+3. Arbeitsstand (was abgeschlossen ist, was noch läuft, wesentliche
+   Änderungen seit dem letzten Stand)
+4. verbindliche Entscheidungen und Rahmenbedingungen (was ohne neuen
+   Anlass nicht wieder aufgerollt wird; Fakten, die nicht aus der
+   Arbeitsgrundlage hervorgehen)
+5. offene Punkte und verworfene Ansätze (Verworfenes nur, wenn es sonst
+   wieder aufkommt, mit je einer Zeile Grund)
+6. nächster Arbeitsschritt (die Aufgabe, mit der der neue Chat beginnt)
+
+Prüf vor der Ausgabe still, ob ein neuer Chat allein mit
+Arbeitsgrundlage und Übergabe sachgerecht weiterarbeiten könnte.
+
+### Teil verbessereBlätter
+
+Vorher prüfen, ob die Ergebnisse dort stehen, wo sie wirken, und per
+Skript, ob Entscheidungsmarken („Lehrer TT.MM.“, „fest“, „beschlossen“)
+ohne Registerzeile neu sind – die Liste zeigst du mir; dann
+`uebergabe.md` neu (nächster Schritt nur als Verweis auf plan.md
+„Jetzt“), alte datiert nach `archiv/`. Im selben Zug wandert Erledigtes
+aus „Jetzt“ ins Archiv, und „Offen“ hat je Punkt eine Zeile (was – wer –
+wann), Wortlaut und Belege im Archiv: Der Chatstart liest beides ganz,
+jede Zeile kostet jeden neuen Chat.
+
+## Durchsicht am Handy
+
+Aus global.md „Zeigen“ (bis Stand 2026-11-14 (e)), wortgleich. Nur wenn
+der Lehrer sagt, dass er am Handy ist: Du baust für einen kleinen
+Bildschirm – eine Spalte, je Punkt der Ausschnitt um die Stelle mit
+sichtbarer Markierung, darunter mein Kommentar und deine Antwort.
 
 ## Arbeitsteilung mit Claude Code
 

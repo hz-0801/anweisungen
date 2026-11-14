@@ -16,7 +16,7 @@ Raw-URL lesen kann:
   Tage; der Bestand bis 19.10.2026 liegt in
   `archiv/kandidaten-bis-2026-10-19.md`.
 - `modelle.md` – Modellleiter und Messwerte. `wege.md` – Rechner,
-  Code-Tab, geplante Aufgaben, Quellensuche.
+  Code-Tab, geplante Aufgaben, Quellensuche, Umzug, Durchsicht am Handy.
 - `projekt-<name>.md` – Projektanweisungen, je Projekt eine Datei,
   versioniert. Die Projekteinstellung soll dem Stand entsprechen.
   Der kopierbare Text beginnt mit einer Stand-Zeile; Claude
