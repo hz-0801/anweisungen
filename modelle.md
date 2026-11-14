@@ -137,6 +137,7 @@ und monatlich am ersten Chat nach dem Monatswechsel.
 | 10.10.2026 | Kritiker, Entwürfe | Fable · ? | ≈ 0,25 Mio/Pkt | – | – |
 | 12.10.2026 | Blatt Lineare aus Daten, gleicher Auftrag | Opus 5.5 · high | 0,33 Mio, 154 min | – | blind Note 2, besser |
 | 12.10.2026 | dasselbe | Fable 5.1 · high | 0,34 Mio, 172 min | – | blind Note 3 |
+| 14.11.2026 | Chat Werkstatt 38, Start bis 1. Messpunkt (38 Anfragen, ohne Agenten) | Opus 5.5 · medium | 1,38 Mio gewichtet (8,6 Mio Cache lesen) | 71 → 71 % (< 1, Anzeige ganzzahlig) | erster Eichpunkt gewichtet je Punkt |
 
 Neubewertung 05.11.2026 (Monatswechsel, § 5 Schritt 1): choosing-a-model und models/overview gelesen. Kein neues Modell für
 Kunden seit 22.09.; Mythos 5.1 nur für verifizierte Organisationen. Preise unverändert (Fable 5.1 10/50 $, Opus 5.5 4/20 $;
