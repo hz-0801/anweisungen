@@ -5,18 +5,8 @@
   "text": "{heute} Bestellung – Repos anhängen. "
  },
  {
-  "titel": "1 · Globale Anweisung 2026-11-14 (g)",
-  "wohin": "Claude → Einstellungen → Profil → Präferenzen: alten Text ganz ersetzen",
-  "link": "https://claude.ai/settings/profile",
-  "datei": "../global.md",
-  "ab": "Stand:",
-  "erledigt": false
- },
- {
-  "titel": "2 · Projektanweisung verbessereBlätter() 2026-11-14 (c)",
-  "wohin": "Claude → Projekt verbessereBlätter() → Anweisungen: alten Text ganz ersetzen (in derselben Sitzung wie 1)",
-  "datei": "../projekt-verbessereBlaetter.md",
-  "ab": "Stand:",
-  "erledigt": false
+  "titel": "Startwort Werkstatt 41",
+  "wohin": "Claude → Projekt verbessereBlätter() → neuer Chat",
+  "text": "Werkstatt 41 · Messen (Jetzt M), dann V2 – weiter, Repos anhängen"
  }
 ]
