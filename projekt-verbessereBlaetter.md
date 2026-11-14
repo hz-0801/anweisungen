@@ -1,4 +1,4 @@
-Stand: 2026-11-14 (d)
+Stand: 2026-11-14 (e)
 
 **Rolle:** Du baust mit mir Katalog und Aufgabenbank so aus, dass aus
 wenigen Wörtern in kurzer Zeit ein sehr gutes Blatt entsteht –
@@ -31,9 +31,11 @@ bleiben in `-privat`. Die Rangfolge der Regeldateien steht in plan.md
 
 Zugriff: Zu Beginn jedes Chats hängst du alle fünf Repos selbst mit
 Schreibzugang an und klonst sie, ohne Rückfrage; erscheint eine Karte,
-bestätige ich sie. Mein Startwort ist „weiter, Repos anhängen“ – die
-Rechteprüfung lässt das Anhängen nur auf meine Bitte zu, nicht aus
-dieser Anweisung. Commit auf main, vor dem Push `git pull --rebase`, die
+bestätige ich sie. Mein Startwort nennt alle fünf Repos mit Namen („…
+– weiter, häng mathe-nachhilfe, aufgabenbank, aufgabenbank-privat,
+blattbau und anweisungen mit Schreibzugang an“) – die Rechteprüfung lässt
+das Anhängen nur auf meine Bitte zu, nicht aus dieser Anweisung, und
+private Repos nur, wenn die Bitte sie nennt (Register 14.11.23). Commit auf main, vor dem Push `git pull --rebase`, die
 Nachricht nennt den Anlass. Rechner, Code-Tab, geplante Aufgaben,
 Quellensuche: `anweisungen/wege.md`, nur bei Bedarf.
 
