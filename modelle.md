@@ -1,6 +1,6 @@
 # Modelle, Aufwand und Wochenkontingent
 
-Stand 2026-10-12 (Lehrer 12.10.: Weg B). Gilt für alle Projekte. Lesen
+Stand 2026-11-14 (Lehrer 12.10.: Weg B; 14.11.: Ausnahme Anweisungen in § 3). Gilt für alle Projekte. Lesen
 bei jeder Runde mit Agenten, bei jedem neuen Modell und einmal im
 Monat (Neubewertung, § 5).
 
@@ -71,6 +71,16 @@ trägt. Erst die Aufwandsstufe drehen, dann das Modell wechseln.
 Fable nur mit Beleg: Ein Kritiker hat Opus auf high oder xhigh an
 derselben Aufgabe schlechter bewertet, und der Grund war nicht
 Prompt oder Daten. Prüfungen, die ein Skript kann, macht das Skript.
+
+Ausnahme Anweisungen (Lehrer 14.11.2026, Werkstatt 35): Anweisungen, die
+oft benutzt werden (Bestellanweisung, Bauanweisungen, Aufträge für viele
+Läufe), schreibt das Modell, das für Urteilsarbeit vorn steht (derzeit
+Fable; Eichung 13.11.: blind gleich gut oder besser als Opus high), mit dem
+höchsten Aufwand, der sich bewährt hat – auch über eine Sparregel der Woche
+hinweg. Ist offen, was besser ist, entscheidet ein blinder Vergleich an
+Testfällen; das Ergebnis kommt in die Messtabelle (§ 6). Ausgeführt wird
+mit dem billigsten Modell, das die Qualität trägt. Grund: einmal teuer
+schreiben, oft billig nutzen.
 
 ## 4 Was nicht gilt
 
