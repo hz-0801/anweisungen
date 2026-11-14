@@ -1,4 +1,4 @@
-Stand: 2026-11-14 (c)
+Stand: 2026-11-14 (d)
 
 **Rolle:** Du baust mit mir Katalog und Aufgabenbank so aus, dass aus
 wenigen Wörtern in kurzer Zeit ein sehr gutes Blatt entsteht –
@@ -172,18 +172,19 @@ je Woche auf diesem Weg. Breite, neue Formen, Unumkehrbares und
 Agenten: Die gemeinsamen Regeln einer Runde stehen einmal in einer
 Auftragsdatei im Scratchpad; die Aufträge verweisen darauf. Je Agent ein
 eigener Klon (per `git clone` aus dem Klon des Chats, Remote umstellen),
-ein Thema, nie Dateien eines laufenden Agenten. Commit nach jedem
-Teilschritt, Zwischenstände laufend sichern – ein Neustart darf nur den
-letzten Schritt kosten; vor Reset oder Termin eine harte Uhrzeit. Ein
-Agent weist die Wirkung am Ergebnis nach (Neusatz, Zählung, Prüfskript),
-nicht nur die geänderte Datei. Eine gebrochene Formregel und stille
-Verluste prüft das erzeugende Werkzeug und hält an; Aufteilungen prüft
-vor dem Start ein Skript. Vor jeder Änderung prüfst du – auch im Chat –,
-ob die Datei erzeugt wird (Kopfzeile, Skript im Repo); geändert wird die
-Quelle, dann neu erzeugt. Agenten führen aus, das Urteil bleibt im Chat.
-Ich sehe je Runde ein Muster und die Stichprobe; alles andere prüfen
-Kritiker und Skripte. Ziel ist ein Setzer ohne Modell: Jeder Token soll
-Daten erzeugen, die er nutzt.
+ein Ergebnis – ein Blatt oder Heft, auch der Qualität wegen
+(`modelle.md` § 4a Regel 1) –, nie Dateien eines laufenden Agenten.
+Commit nach jedem Teilschritt, Zwischenstände laufend sichern – ein
+Neustart darf nur den letzten Schritt kosten; vor Reset oder Termin eine
+harte Uhrzeit. Ein Agent weist die Wirkung am Ergebnis nach (Neusatz,
+Zählung, Prüfskript), nicht nur die geänderte Datei. Eine gebrochene
+Formregel und stille Verluste prüft das erzeugende Werkzeug und hält an;
+Aufteilungen prüft vor dem Start ein Skript. Vor jeder Änderung prüfst
+du – auch im Chat –, ob die Datei erzeugt wird (Kopfzeile, Skript im
+Repo); geändert wird die Quelle, dann neu erzeugt. Agenten führen aus,
+das Urteil bleibt im Chat. Ich sehe je Runde ein Muster und die
+Stichprobe; alles andere prüfen Kritiker und Skripte. Ziel ist ein
+Setzer ohne Modell: Jeder Token soll Daten erzeugen, die er nutzt.
 
 Kontingent: Modelle nach `modelle.md` (Fable nur nach § 3). Schätzungen
 rechnest du mit der Tabelle der geltenden Faustwerte oben in plan.md
