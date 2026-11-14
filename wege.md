@@ -1,62 +1,32 @@
 # Wege – Nachschlagen bei Bedarf (aus der Projektanweisung verbessereBlätter)
 
-Stand 2026-11-14. Ausgelagert aus projekt-verbessereBlaetter.md (Fassung bis
-08.10.) und, seit 14.11., aus global.md (e) und der Projektanweisung (a),
-wortgleich. Nur lesen, wenn ein Auftrag den Rechner, den Code-Tab,
-Web-Sitzungen, geplante Aufgaben, Quellensuche, Materialablage oder
-die alten Blatt-Prompts braucht, oder wenn global.md oder die
-Projektanweisung hierher verweist (Umzug, Durchsicht am Handy). Teile davon sind seit dem 28.09. nicht mehr benutzt (Cloud-Guthaben
-0 €, kein Testlauf, keine Nachtaufträge); sie bleiben als Beleg.
+Stand 2026-11-14 (b). Ausgelagert aus projekt-verbessereBlaetter.md (Fassung bis
+08.10.) und, seit 14.11., aus global.md (e) (Durchsicht am Handy), wortgleich.
+Nur lesen, wenn ein Auftrag den Rechner, den Code-Tab, Web-Sitzungen, geplante
+Aufgaben, Quellensuche, Materialablage oder die alten Blatt-Prompts braucht,
+oder wenn die Projektanweisung hierher verweist (Durchsicht am Handy). Der
+Umzug steht nicht mehr hier, sondern wieder in global.md (g). Teile davon sind
+seit dem 28.09. nicht mehr benutzt (Cloud-Guthaben 0 €, kein Testlauf, keine
+Nachtaufträge); sie bleiben als Beleg.
 
-## Umzug
+## Umzug – abgelöst, steht wieder in global.md (g)
 
-Aus global.md „Stichwort Umzug“ (bis Stand 2026-11-14 (e)) und
-projekt-verbessereBlaetter.md „Ein Chat zur Zeit“ (bis Stand 2026-11-09
-(a)), wortgleich. Lesen beim Stichwort „Umzug“ und bei jedem
-Umzugsangebot, bevor die Übergabe geschrieben wird. Wann und wie der
-Umzug angeboten wird, wohin die Übergabe kommt und womit die Nachricht
-endet, steht in global.md („Kontextdisziplin“, „Stichwort Umzug“).
+Abgelöst 14.11.2026 (mathe-nachhilfe plan.md Register 14.11.19; 11.11.3:
+Auslagern verlor Geltung). Hier nichts mehr lesen. Es gilt:
 
-### Übergabe (alle Chats)
+- Übergabe (alle Chats): global.md „Stichwort Umzug“ – der Wortlaut, der hier
+  stand.
+- Teil verbessereBlätter: projekt-verbessereBlaetter.md „Ein Chat zur Zeit“.
+- Wann umgezogen wird: global.md „Kontextdisziplin“; die Rechnung dazu in
+  modelle.md § 9.
 
-Bring zuerst eine Arbeitsdatei auf den zuletzt gemeinsam erarbeiteten
-Stand: beschlossene Änderungen übernehmen, verworfene Fassungen nicht
-versehentlich wieder einsetzen, auf Widersprüche und ungewollte
-Rücksetzungen prüfen; gibt es keine, sichert die Übergabe den
-Arbeitsstand selbst.
-
-Die Übergabe erzählt den Chat nicht nach, sondern enthält nur, was zum
-Weiterarbeiten nötig ist, in dieser Reihenfolge:
-
-1. Ziel (ein bis zwei Sätze)
-2. Arbeitsgrundlage (maßgebliche Datei oder Stand; bei mehreren je eine
-   Zeile zur Rolle)
-3. Arbeitsstand (was abgeschlossen ist, was noch läuft, wesentliche
-   Änderungen seit dem letzten Stand)
-4. verbindliche Entscheidungen und Rahmenbedingungen (was ohne neuen
-   Anlass nicht wieder aufgerollt wird; Fakten, die nicht aus der
-   Arbeitsgrundlage hervorgehen)
-5. offene Punkte und verworfene Ansätze (Verworfenes nur, wenn es sonst
-   wieder aufkommt, mit je einer Zeile Grund)
-6. nächster Arbeitsschritt (die Aufgabe, mit der der neue Chat beginnt)
-
-Prüf vor der Ausgabe still, ob ein neuer Chat allein mit
-Arbeitsgrundlage und Übergabe sachgerecht weiterarbeiten könnte.
-
-### Teil verbessereBlätter
-
-Vorher prüfen, ob die Ergebnisse dort stehen, wo sie wirken, und per
-Skript, ob Entscheidungsmarken („Lehrer TT.MM.“, „fest“, „beschlossen“)
-ohne Registerzeile neu sind – die Liste zeigst du mir; dann
-`uebergabe.md` neu (nächster Schritt nur als Verweis auf plan.md
-„Jetzt“), alte datiert nach `archiv/`. Im selben Zug wandert Erledigtes
-aus „Jetzt“ ins Archiv, und „Offen“ hat je Punkt eine Zeile (was – wer –
-wann), Wortlaut und Belege im Archiv: Der Chatstart liest beides ganz,
-jede Zeile kostet jeden neuen Chat.
+Der Wortlaut bis 14.11. liegt in archiv/runde-r-2026-11-14/auslagerung.md
+(Block A).
 
 ## Durchsicht am Handy
 
-Aus global.md „Zeigen“ (bis Stand 2026-11-14 (e)), wortgleich. Nur wenn
+Aus global.md „Zeigen“ (bis Stand 2026-11-14 (e)), wortgleich; der Verweis
+steht seit 14.11. in projekt-verbessereBlaetter.md (c) „Durchsicht“. Nur wenn
 der Lehrer sagt, dass er am Handy ist: Du baust für einen kleinen
 Bildschirm – eine Spalte, je Punkt der Ausschnitt um die Stelle mit
 sichtbarer Markierung, darunter mein Kommentar und deine Antwort.
