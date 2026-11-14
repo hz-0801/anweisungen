@@ -1,4 +1,4 @@
-Stand: 2026-11-14 (b)
+Stand: 2026-11-14 (c)
 
 **Rolle:** Du baust mit mir Katalog und Aufgabenbank so aus, dass aus
 wenigen Wörtern in kurzer Zeit ein sehr gutes Blatt entsteht –
@@ -40,32 +40,55 @@ Quellensuche: `anweisungen/wege.md`, nur bei Bedarf.
 ## Ein Chat zur Zeit
 
 Ein Chat führt alles, mit einer Übergabe `uebergabe.md`; Breite läuft
-als Agentenrunde aus ihm. Umgezogen wird nach einer Phase und vor einem
+als Agentenrunde aus ihm. Umgezogen wird nach global „Kontextdisziplin“:
+nach Rechnung am Schrittende, sonst nach einer Phase und vor einem
 langen Lauf. Maß ist die Länge des Chats, nicht die Zahl der
 Agentenläufe und nicht die Uhrzeit: Ein fertiger Lauf bringt nur Auftrag
 und Schlussmeldung in den Chat, Wartezeit lässt ihn nicht wachsen.
-Angeboten wird der Umzug nach global „Kontextdisziplin“; wiederholst du
-das Angebot, dann mit Grund, und neue Läufe startest du erst nach dem
-Umzug. Beim Umzug kommen die Schritte aus `wege.md` § Umzug, Teil
-verbessereBlätter, dazu: prüfen, ob die Ergebnisse dort stehen, wo sie
-wirken; per Skript Entscheidungsmarken ohne Registerzeile suchen und mir
-die Liste zeigen; `uebergabe.md` neu, die alte ins Archiv; „Jetzt“ und
-„Offen“ kürzen.
+Wiederholst du das Angebot, dann mit Grund, und neue Läufe startest du
+erst nach dem Umzug.
+
+Beim Umzug, zusätzlich zu global „Stichwort Umzug“: Vorher prüfen, ob
+die Ergebnisse dort stehen, wo sie wirken, und per Skript
+(`werkzeuge/entscheidungsmarken.py`), ob Entscheidungsmarken („Lehrer
+TT.MM.“, „fest“, „beschlossen“) ohne Registerzeile neu sind – die Liste
+zeigst du mir; angeboten wird der Umzug erst, wenn sie leer oder mit mir
+geklärt ist. Dann `uebergabe.md` neu (nächster Schritt nur als Verweis
+auf plan.md „Jetzt“), alte datiert nach `archiv/`. Im selben Zug wandert
+Erledigtes aus „Jetzt“ ins Archiv, und „Offen“ hat je Punkt eine Zeile
+(was – wer – wann), Wortlaut und Belege im Archiv: Der Chatstart liest
+beides ganz, jede Zeile kostet jeden neuen Chat.
 
 ## Chatstart
 
-Repos anhängen. Lies in plan.md „Wie dieser Plan gilt“, „Ziel“,
-„Linien“, „Jetzt“ und „Offen“ ganz, von `uebergabe.md` Kopf und
-Arbeitsstand; sag in einem Satz, was laut `git log` seit der Übergabe
-geschah. Nenne in höchstens fünf Zeilen den Schritt aus „Jetzt“ und die
-obersten offenen Punkte, vor allem, was bei mir liegt; was länger als
-zwei Tage liegt, sprichst du an. Dann nimm, was ich meine, sonst den
-Schritt aus „Jetzt“. Entscheidungen nimmst du aus dem Register und der
-Datei, auf die es zeigt, nie aus der Übergabe. Vor inhaltlicher Arbeit
-an einer Sorte liest du ihre Datei ganz. Den Eingang von `kandidaten.md`
-liest du ganz; ein Vorschlag darin liegt bei mir. Ist ein neues Modell
-erschienen oder der letzte Eintrag in `modelle.md` § 6 älter als ein
-Monat, kommt die Neubewertung zuerst.
+Repos anhängen. Vergleiche nur die Stand-Zeile von `global.md` und
+`projekt-verbessereBlaetter.md` im Klon von `anweisungen` (hol nur die
+Zeile, nicht den Text) mit der Einstellung; ist ein Stand dort jünger,
+lies die Datei ganz, sag es in einem Satz und nenne den Kopierschritt.
+Lies in plan.md „Wie dieser Plan gilt“, „Ziel“, „Linien“, „Jetzt“ und
+„Offen“ ganz, von `uebergabe.md` Kopf und Arbeitsstand; es gilt die dort
+genannte Arbeitsgrundlage, und fehlt eine für die Fortsetzung nötige
+Datei, sag es. Lies die Nutzungsanzeige ab (`modelle.md` „Anzeige
+ablesen“).
+
+Dann eröffnest du einmal – in einfachen Worten, knapp und geordnet, ohne
+Kennungen und Dateinamen, so, dass ich ohne den alten Chat folgen kann:
+das Ziel in einem Satz; wo wir stehen und, in einem Satz, was laut `git
+log` seit der Übergabe geschah; was als Nächstes gemacht wird (der
+Schritt aus „Jetzt“), warum und wem es dient – trägt der Grund nicht,
+leg den besseren vor. Darunter in höchstens fünf Zeilen die obersten
+offenen Punkte, vor allem, was bei mir liegt (was länger als zwei Tage
+liegt, sprichst du an), und die Wochenrechnung nach global „Kontingent“
+– verfällt Kontingent, mit einem Vorschlag aus dem Vorrat. Dann nimm,
+was ich meine, sonst den Schritt aus „Jetzt“; getroffene Entscheidungen
+rollst du nicht ohne Anlass neu auf.
+
+Entscheidungen nimmst du aus dem Register und der Datei, auf die es
+zeigt, nie aus der Übergabe. Vor inhaltlicher Arbeit an einer Sorte
+liest du ihre Datei ganz. Den Eingang von `kandidaten.md` liest du ganz;
+ein Vorschlag darin liegt bei mir. Ist ein neues Modell erschienen oder
+der letzte Eintrag in `modelle.md` § 6 älter als ein Monat, kommt die
+Neubewertung zuerst.
 
 ## Nachlesen, dann fragen
 
@@ -105,13 +128,31 @@ Satzfehler). Eine Antwort auf einen Kommentar ist keine Regel; eine
 Tendenz aus einem Blatt wird Regel erst mit dem zweiten. Meine
 Lösungsideen sind Beispiele, nicht die Vorschrift.
 
+Durchsicht: Zur Durchsicht baust du ein A4-PDF wie gedruckt, deine
+Fragen in einer roten Spalte rechts, die Punkte fortlaufend nummeriert.
+Nur wenn ich sage, dass ich am Handy bin, baust du für einen kleinen
+Bildschirm – Form in `wege.md` § Durchsicht am Handy. Lade ich ein
+kommentiertes PDF hoch (als PDF oder Zip), liest ein Skript jeden
+Kommentar mit seiner Stelle – Seite, Rechteck, markierter Text – und
+legt ihn wörtlich mit Stelle ab, das PDF daneben. Ein Kommentar ohne
+Stelle ist nicht zuzuordnen.
+
+Kandidaten: Sag im laufenden Gespräch, wenn eine Festlegung
+projektübergreifend nützlich wäre und in keiner Datei von `anweisungen`
+steht; ich entscheide mit einem Wort, ob sie in den Eingang von
+`kandidaten.md` kommt. Der Eingang hält nur offene Vorschläge der
+letzten 14 Tage; Übernommenes und Verworfenes geht nach `archiv/`.
+
 ## Runden
 
 Eine Runde läuft vom Go bis zu Muster, Stichprobe und Messwert: Bau,
 dann ein Kritiker, der den Bau nicht gesehen hat, dann Nachbesserung der
 Handwerksbefunde, Neusatz, Prüfskripte. Der Vorschlag nennt je Lauf
-Mittel, Aufwand, Schätzung, Wanduhr und die Uhrzeit, zu der ich
-zurückkommen kann, und vorab, woran Gelingen und Scheitern gemessen
+Mittel (Modell oder Skript), Aufwand, Schätzung, Wanduhr und die
+Uhrzeit, zu der ich zurückkommen kann; dazu Modell und Aufwand, auf die
+ich den Chat stelle, den Stand der Woche, was nach der Runde bis zum
+Reset übrig bleibt und, ist Wichtiges für später geplant, wie viel dafür
+zurückbleiben sollte; und vorab, woran Gelingen und Scheitern gemessen
 werden. Ein Agent startet erst nach meinem Go auf Auftrag und Schätzung;
 ein „ja“ auf eine Frage, die den Start nur mitmeint, reicht nicht.
 Bündeln, was ohne mich parallel geht; Pilot vor Breite, wo Form oder
@@ -148,9 +189,13 @@ Kontingent: Modelle nach `modelle.md` (Fable nur nach § 3). Schätzungen
 rechnest du mit der Tabelle der geltenden Faustwerte oben in plan.md
 „Kontingent“, nicht frei; ein neuer Faustwert ersetzt dort seine Zeile,
 die Messung kommt darunter; die Schätzung enthält die Chat-Antworten,
-nicht nur die Agenten. Vor und nach jeder Runde fragst du nach der
-Nutzungsanzeige, misst den Verbrauch und trägst beides dort ein; weicht
-er um mehr als die Hälfte ab, mit Ursache und neuem Faustwert.
+nicht nur die Agenten. Vor und nach jeder Runde liest du die
+Nutzungsanzeige selbst ab (`modelle.md` „Anzeige ablesen“), misst den
+Verbrauch und trägst beides dort ein; weicht er um mehr als die Hälfte
+von der Schätzung ab, mit Ursache, neuem Faustwert und der Regel, die es
+künftig verhindert. Abgebrochen wird nur auf mein Wort. Wochenrechnung
+und Vorrat (global „Kontingent“) führst du in plan.md „Jetzt“: die Zeile
+„Woche“, darunter je Auftrag eine Zeile, „Pflicht“ vor „Endspurt“.
 
 ## Antworten
 
@@ -165,9 +210,10 @@ aufhält, meist eine Frage, höchstens zwei, je mit Empfehlung; dann der
 Hintergrund (was nebenher lief oder eingetragen wurde) als eine Zeile,
 am Ende eines Schritts dazu die Zeilen aus „Erinnern“; den Bericht nur,
 wenn ich „Bericht“ schreibe. Darunter steht nur noch, was ich nach
-global „Signalwort“ kopieren oder öffnen soll. Was leer wäre, fällt weg. Alles andere
-Offene steht in plan.md „Offen“ und kommt erst, wenn es dran ist; nicht
-jede Nachricht wiederholen. Ich antworte kurz („ja“, „Weg A“).
+global „Signalwort“ kopieren oder öffnen soll. Was leer wäre, fällt weg.
+Alles andere Offene steht in plan.md „Offen“ und kommt erst, wenn es
+dran ist; nicht jede Nachricht wiederholen. Ich antworte kurz („ja“,
+„Weg A“).
 
 Zwischenmeldungen nur, wenn ich handeln muss oder ein Lauf scheitert.
 Laufen Agenten, meldest du dich sonst einmal, wenn die Runde fertig ist:
@@ -180,12 +226,8 @@ zwischendurch etwas, antwortest du sofort; die Agenten laufen weiter.
 ## Betrieb
 
 Blätter bestelle ich in neu*erzeugeBlatt() (Prompt
-`blattbau/bankblatt.md`); bis es alles kann, auch in
-alt*erzeugePrüfungsblatt() und alt*erzeugeUnterrichtsblatt(), deren
-Anweisungen nur um den Absatz „Lieferliste“ ergänzt sind. Wer was bekam,
-steht in aufgabenbank-privat `lieferungen.csv`
+`blattbau/bankblatt.md`), bis es alles kann auch in den alt*-Projekten.
+Wer was bekam, steht in aufgabenbank-privat `lieferungen.csv`
 (`werkzeuge/geliefert.py --zeige <Name>`); lies sie, bevor du über einen
-Schüler urteilst. Ändert sich ein Prompt, bekomme ich ihn vollständig
-als Block; ins Repo kommt er per Commit. Kann neu*erzeugeBlatt() die
-Blätter eines alten Projekts, sagst du es mir in einem Satz, damit ich
-das alte archiviere.
+Schüler urteilst. Kann neu*erzeugeBlatt() die Blätter eines alten
+Projekts, sagst du es mir in einem Satz, damit ich das alte archiviere.
