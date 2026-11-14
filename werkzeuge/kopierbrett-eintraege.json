@@ -5,11 +5,11 @@
   "text": "{heute} Bestellung – Repos anhängen. "
  },
  {
-  "titel": "Globale Anweisung 2026-11-11 (c)",
+  "titel": "Globale Anweisung 2026-11-14 (d)",
   "wohin": "Claude → Einstellungen → Profil → Präferenzen: alten Text ganz ersetzen",
   "link": "https://claude.ai/settings/profile",
   "datei": "global.md",
   "ab": "Stand:",
-  "erledigt": true
+  "erledigt": false
  }
 ]
