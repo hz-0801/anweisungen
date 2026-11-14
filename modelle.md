@@ -1,6 +1,6 @@
 # Modelle, Aufwand und Wochenkontingent
 
-Stand 2026-11-14 (Lehrer 12.10.: Weg B; 14.11.: Ausnahme Anweisungen in § 3). Gilt für alle Projekte. Lesen
+Stand 2026-11-14 (Lehrer 12.10.: Weg B; 14.11.: Ausnahme Anweisungen in § 3, § 7 Aufwand der Agenten setzt Claude). Gilt für alle Projekte. Lesen
 bei jeder Runde mit Agenten, bei jedem neuen Modell und einmal im
 Monat (Neubewertung, § 5).
 
@@ -159,11 +159,17 @@ Nachtrag 13.11.2026 (Eichung P2 und Nachtrunde): Fable Mittel blind gleich gut o
 
 ## 7 Ausführung
 
-- Claude nennt in jedem Rundenvorschlag je Lauf Modell und Aufwand,
-  dazu den Aufwand, auf den der Lehrer den Chat stellen soll.
-- Das Modell eines Unteragenten setzt Claude selbst beim Start.
-- Den Aufwand der Unteragenten kann Claude in claude.ai derzeit nicht
-  je Lauf setzen (Agent-Werkzeug ohne Feld; Definitionsdateien wirken
-  erst in einem neuen Chat). Annahme (12.10.): Unteragenten erben den
-  Aufwand des Chats – darum stellt der Lehrer vor einer Runde den
-  Aufwand des Chats auf den der Runde. Wird geprüft (§ 5).
+- Claude setzt Modell und Aufwand jedes Unteragenten selbst beim Start
+  (Agent-Werkzeug mit Feld für Modell und Aufwand; geprüft 09.11., benutzt
+  11.11. und 14.11.), unabhängig von der Einstellung des Chats – nach der
+  Leiter (§ 3) und der Ausnahme für Anweisungen. Der Lehrer stellt dafür
+  nichts um.
+- Modell und Aufwand des Chats stellt nur der Lehrer ein; Claude kann sie
+  nicht wechseln. Normalfall Opus, Mittel. Braucht ein Schritt im Chat
+  selbst mehr (Konzeptgespräch, Prüfen einer Anweisung gegen das
+  Register), sagt Claude es vorher in einem Satz („stell auf Hoch“), danach
+  zurück.
+- Skripte brauchen weder Modell noch Aufwand und kosten keine Wochenpunkte.
+- Claude nennt in jedem Rundenvorschlag je Lauf Modell und Aufwand.
+  (Abgelöst 14.11.: die Annahme vom 12.10., Unteragenten erbten den Aufwand
+  des Chats und der Lehrer müsse ihn vor einer Runde umstellen.)
