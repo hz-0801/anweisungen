@@ -248,8 +248,9 @@ wenn
 
 Faustzahl: Der Umzug lohnt ab N = U ÷ (0,1 × (K − S)) Anfragen – bei K = 240 000 ab 22, bei K = 400 000 ab 11.
 Auswertung holen: Skill `explain-usage` (Verbrauch des Chats nach Art: Cache lesen, Schreiben, Ausgabe, Anfragen) –
-Annahme, beim ersten Mess-Chat testen und den Weg hier eintragen. Fehlt sie in einem Chat, sagst du das einmal in einem
-Satz und nimmst den alten Weg.
+Belegt 14.11. Werkstatt 40: Der Skill liefert Anfragen, Cache lesen/schreiben, Ausgabe und Anteile je Gruppe (66 Anfragen,
+14,34 Mio Cache lesen → K ≈ 2 × 217 000 − 80 000 ≈ 355 000; Umzug lohnt ab N ≈ 13). Fehlt er in einem Chat, sagst du das
+einmal in einem Satz und nimmst den alten Weg.
 Angebot mit der Rechnung in einer Zeile: „Umzug lohnt: 0,1 × (240 000 − 80 000) × 30 = 0,48 Mio > 0,35 Mio.“
 
 Messwerte:
