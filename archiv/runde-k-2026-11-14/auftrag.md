@@ -44,7 +44,20 @@ teurer nur, wo er einen Vorteil zeigt; ohne Vergleich der bewährte Weg.
 6. Aus der Regelprüfung übernehmen: „streichen“ und „kürzen“ mit Schaden gering; „verschieben global → Projekt“ für
    Regeln, die nur Projekte betreffen (der Bestell-Chat braucht sie nicht). NICHT übernehmen: Umzug nach wege.md,
    Agenten-Handwerk P31–P33 nach wege.md (bleibt im Projekt), Zweifelsfälle aus bericht.md Nr. 7.
-7. Stand-Zeilen: global „Stand: 2026-11-14 (g)“, Projekt „Stand: 2026-11-14 (c)“.
+8. Umzugsregel (Register 14.11.22) in global „Kontextdisziplin“ verankern – sie muss an jedem Schrittende ohne Anlass
+   wirken, also in die Anweisung (knapp, ≈ 500 Zeichen); Formel, Messwerte und Skript in modelle.md (Text nach
+   neu/modelle-aenderung.md). Inhalt: Am Ende jedes Schritts (nie mitten in einem) Verbrauchsauswertung lesen und rechnen;
+   umziehen, wenn 0,1 × (K − S) × N > U (K mittlerer Verlauf je Anfrage = Cache lesen ÷ Anfragen; S ≈ 80 000 Token
+   frischer Chat nach Start; N erwartete Anfragen bis zum nächsten natürlichen Schnitt; U ≈ 0,35 Mio gewichtet,
+   gemessen Chatstart 39 + Übergabe). Qualitätsgrenzen unabhängig davon: spätestens bei der Hälfte des Kontextfensters
+   (vor jeder automatischen Zusammenfassung; Wert einmal messen, in modelle.md); nur wenn alles Entschiedene in Dateien
+   steht (Entscheidungsmarken-Skript 0) und kein Entscheidungsgespräch offen ist; unter der Kostengrenze nur am Phasenende.
+   Angebot mit der Rechnung in einer Zeile. Grenze: Lässt sich die Ersparnis im Chat nicht messen (keine Auswertung
+   verfügbar), gilt der bisherige Weg – Angebot am Phasenende, der Lehrer erinnert. Beleg: Werkstatt 39, 89 Anfragen,
+   3,6 Mio gewichtet, mittlerer Verlauf ≈ 240 000 Token – der Umzug hätte sich nach ≈ 10 Anfragen bezahlt gemacht.
+   Das Skript (mathe-nachhilfe werkzeuge/umzug_rechnung.py: liest die Zahlen der Auswertung, gibt „umziehen ja/nein“ und
+   die Rechnung) baut der Chat, nicht Fable.
+9. Stand-Zeilen: global „Stand: 2026-11-14 (g)“, Projekt „Stand: 2026-11-14 (c)“.
 
 ## Ausgabe
 neu/global.md (ganze Datei wie im Repo, Kopf + Trennlinie + kopierbarer Text), neu/projekt-verbessereBlaetter.md,
