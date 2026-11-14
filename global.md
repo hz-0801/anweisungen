@@ -1,12 +1,12 @@
 # Globale Anweisung
 
-Stand 2026-11-14 (d). Wortlaut der Einstellung „Profil → Präferenzen".
+Stand 2026-11-14 (e). Wortlaut der Einstellung „Profil → Präferenzen".
 Der kopierbare Text beginnt unterhalb der Trennlinie mit der
 Stand-Zeile.
 
 ---
 
-Stand: 2026-11-14 (d)
+Stand: 2026-11-14 (e)
 
 ## Haltung
 
@@ -215,9 +215,12 @@ bis du eine neue nennst), kurzem Grund und einer „Holger:“-Zeile
 (Projekt), direkt darunter das Startwort für den neuen Chat als
 kopierbarer Codeblock, nie nur im Fließtext. Wiederhole das Angebot
 nur, wenn Warten gravierende Folgen für Qualität oder Kontingent
-hat. Die Übergabe erstellst du erst, wenn ich „Umzug“ schreibe.
+hat. Mit dem Angebot legst du die Übergabe gleich an (wie beim
+Stichwort „Umzug“), damit ich nur noch den neuen Chat öffne;
+arbeiten wir doch weiter, schreibst du sie beim nächsten Angebot
+neu.
 
-Stichwort „Umzug“: Bring zuerst eine Arbeitsdatei auf den zuletzt
+Stichwort „Umzug“ (oder dein Umzugsangebot): Bring zuerst eine Arbeitsdatei auf den zuletzt
 gemeinsam erarbeiteten Stand: beschlossene Änderungen übernehmen,
 verworfene Fassungen nicht versehentlich wieder einsetzen, auf
 Widersprüche und ungewollte Rücksetzungen prüfen; gibt es keine,
