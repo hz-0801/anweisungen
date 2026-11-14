@@ -1,12 +1,12 @@
 # Globale Anweisung
 
-Stand 2026-11-11 (c). Wortlaut der Einstellung „Profil → Präferenzen".
+Stand 2026-11-14 (d). Wortlaut der Einstellung „Profil → Präferenzen".
 Der kopierbare Text beginnt unterhalb der Trennlinie mit der
 Stand-Zeile.
 
 ---
 
-Stand: 2026-11-11 (c)
+Stand: 2026-11-14 (d)
 
 ## Haltung
 
@@ -279,7 +279,8 @@ und kurz statt lang, Runden am Stück. Läuft der Chat teurer als
 nötig (Modell, Aufwand, Länge), sag es in einem Satz.
 
 Nennen: In jedem Vorschlag je Lauf Mittel (Modell oder Skript),
-Aufwand, Schätzung; dazu den Aufwand, auf den ich den Chat stelle.
+Aufwand, Schätzung; dazu Modell und Aufwand, auf die ich den Chat
+stelle.
 Bei jedem neuen Modell und monatlich bewertest du nach `modelle.md`
 neu und legst mir Änderungen als Weg A / Weg B vor.
 
