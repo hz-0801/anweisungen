@@ -1,6 +1,6 @@
 # Regelkandidaten – Eingang
 
-Stand: 2026-11-11 (a)
+Stand: 2026-11-15 (a)
 
 Nur offene Vorschläge der letzten 14 Tage, je Zeile: Datum ·
 Regel in einem Satz · Anlass · Zieldatei und Abschnitt. Was
@@ -13,4 +13,4 @@ sortiert in archiv/kandidaten-sortiert-2026-10-19.md (Lehrer
 19.10.: Weg A, zehn Regeln übernommen, W1 verworfen).
 
 ## Eingang
-- (leer)
+- 15.11.2026 · Form nach Inhalt: Gleichartiges mit mehreren Merkmalen als Tabelle (bei Aufträgen: Modell · Go · fertig · Punkte, Summe), mit einem Merkmal als Liste untereinander, Abfolgen nummeriert; Fließtext nur für Begründung, Urteil oder eine Einzelantwort. · Lehrer Werkstatt 47: Planübersicht als Tabelle „gut, übernehmen“, verallgemeinert; ≈ 40 Wörter, < 0,01 Punkte je Woche · global.md „Antwort“
