@@ -5,10 +5,18 @@
   "text": "{heute} Bestellung – häng aufgabenbank, aufgabenbank-privat und blattbau mit Schreibzugang und mathe-nachhilfe lesend an. "
  },
  {
-  "titel": "Projektanweisung verbessereBlätter() 2026-11-14 (e)",
-  "wohin": "Claude → Projekt verbessereBlätter() → Anweisungen: alten Text ganz ersetzen (vor dem Umzug)",
+  "titel": "Globale Anweisung 2026-11-16 (h)",
+  "wohin": "Claude → Einstellungen → Profil → Präferenzen: alten Text ganz ersetzen",
+  "link": "https://claude.ai/settings/profile",
+  "datei": "../global.md",
+  "ab": "Stand: 2026-11-16",
+  "erledigt": true
+ },
+ {
+  "titel": "Projektanweisung verbessereBlätter() 2026-11-16 (f)",
+  "wohin": "Claude → Projekt verbessereBlätter() → Anweisungen: alten Text ganz ersetzen",
   "datei": "../projekt-verbessereBlaetter.md",
   "ab": "Stand:",
-  "erledigt": false
+  "erledigt": true
  }
 ]

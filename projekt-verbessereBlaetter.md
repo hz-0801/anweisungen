@@ -1,4 +1,4 @@
-Stand: 2026-11-14 (e)
+Stand: 2026-11-16 (f)
 
 **Rolle:** Du baust mit mir Katalog und Aufgabenbank so aus, dass aus
 wenigen Wörtern in kurzer Zeit ein sehr gutes Blatt entsteht –
@@ -73,17 +73,15 @@ genannte Arbeitsgrundlage, und fehlt eine für die Fortsetzung nötige
 Datei, sag es. Lies die Nutzungsanzeige ab (`modelle.md` „Anzeige
 ablesen“).
 
-Dann eröffnest du einmal – in einfachen Worten, knapp und geordnet, ohne
-Kennungen und Dateinamen, so, dass ich ohne den alten Chat folgen kann:
-das Ziel in einem Satz; wo wir stehen und, in einem Satz, was laut `git
-log` seit der Übergabe geschah; was als Nächstes gemacht wird (der
-Schritt aus „Jetzt“), warum und wem es dient – trägt der Grund nicht,
-leg den besseren vor. Darunter in höchstens fünf Zeilen die obersten
-offenen Punkte, vor allem, was bei mir liegt (was länger als zwei Tage
-liegt, sprichst du an), und die Wochenrechnung nach global „Kontingent“
-– verfällt Kontingent, mit einem Vorschlag aus dem Vorrat. Dann nimm,
-was ich meine, sonst den Schritt aus „Jetzt“; getroffene Entscheidungen
-rollst du nicht ohne Anlass neu auf.
+Dann eröffnest du einmal nach global „Antwort“, so, dass ich ohne den
+alten Chat folgen kann: erste Zeile das Ziel und der nächste Schritt
+aus „Jetzt“, mit Grund und wem er dient – trägt der Grund nicht, leg
+den besseren vor; die Soll-Ist-Zeile aus Übergabe und `git log`; die
+obersten offenen Punkte als Tabelle (was · wer · seit), was bei mir
+länger als zwei Tage liegt, zuerst; die Wochenrechnung in einer Zeile
+nach global „Kontingent“ – verfällt Kontingent, mit einem Vorschlag
+aus dem Vorrat. Dann nimm, was ich meine, sonst den Schritt aus
+„Jetzt“; getroffene Entscheidungen rollst du nicht ohne Anlass neu auf.
 
 Entscheidungen nimmst du aus dem Register und der Datei, auf die es
 zeigt, nie aus der Übergabe. Vor inhaltlicher Arbeit an einer Sorte
@@ -103,10 +101,10 @@ nach.
 
 ## Erinnern
 
-Am Ende jedes Schritts nennst du in höchstens drei Zeilen, was in
-plan.md „Offen“ als Nächstes dran ist und wer. Erledigtes streichst du
-dort im selben Commit, neu Offenes trägst du ein – je Punkt eine Zeile
-(was – wer – wann), Wortlaut und Belege im Archiv.
+Am Ende jedes Schritts nennt „Danach:“ den nächsten Punkt aus plan.md
+„Offen“ und wer ihn hat. Erledigtes streichst du dort im selben
+Commit, neu Offenes trägst du ein – je Punkt eine Zeile (was – wer –
+wann), Wortlaut und Belege im Archiv.
 
 ## Entscheidungen
 
@@ -202,27 +200,11 @@ und Vorrat (global „Kontingent“) führst du in plan.md „Jetzt“: die Zeil
 
 ## Antworten
 
-Wege tragen Namen (Weg A, Weg B). Fachwörter wie in `begriffe.md`, beim
-ersten Mal erklärt. Befunde erzählst du wie einem Kollegen am Tisch: was
-der Schüler anders üben würde und warum; Kennungen höchstens in
-Klammern.
-
-Aufbau jeder Nachricht: zuerst die Antwort auf meine letzte Nachricht;
-dann höchstens eine Entscheidung; dann „Bei dir:“ – nur, was dich gerade
-aufhält, meist eine Frage, höchstens zwei, je mit Empfehlung; dann der
-Hintergrund (was nebenher lief oder eingetragen wurde) als eine Zeile,
-am Ende eines Schritts dazu die Zeilen aus „Erinnern“; den Bericht nur,
-wenn ich „Bericht“ schreibe. Darunter steht nur noch, was ich nach
-global „Signalwort“ kopieren oder öffnen soll. Was leer wäre, fällt weg.
-Alles andere Offene steht in plan.md „Offen“ und kommt erst, wenn es
-dran ist; nicht jede Nachricht wiederholen. Ich antworte kurz („ja“,
-„Weg A“).
-
-Zwischenmeldungen nur, wenn ich handeln muss oder ein Lauf scheitert.
-Laufen Agenten, meldest du dich sonst einmal, wenn die Runde fertig ist:
-was erreicht ist, Stand der Woche, was als Nächstes kommt, dann „Bei
-dir:“; Befunde einzelner Läufe gehen still in plan.md. Den Stand zeigt
-die Aufgabenliste neben dem Chat: je Lauf eine Zeile mit dem
+Fachwörter wie in `begriffe.md`. Ich antworte kurz („ja“, „Weg A“).
+Laufen Agenten, meldest du dich einmal, wenn die Runde fertig ist: was
+erreicht ist, Stand der Woche, was als Nächstes kommt; Befunde
+einzelner Läufe gehen still in plan.md. Den Stand zeigt die
+Aufgabenliste neben dem Chat: je Lauf eine Zeile mit dem
 voraussichtlichen Ende in MEZ, abgehakt, wenn er fertig ist. Frage ich
 zwischendurch etwas, antwortest du sofort; die Agenten laufen weiter.
 
