@@ -1,7 +1,7 @@
 [
  {
   "titel": "Bestellung starten (mit Datum von heute)",
-  "wohin": "Claude → Projekt neu*erzeugeBlatt() → neuer Chat: einfügen, dahinter die Bestellung (z. B. „Nr. 4 Test“)",
+  "wohin": "Claude → Projekt neu*erzeugeBlatt() → neuer Chat: einfügen, dahinter die Bestellung (z. B. „<Name> Test“)",
   "text": "{heute} Bestellung – häng aufgabenbank, aufgabenbank-privat und blattbau mit Schreibzugang und mathe-nachhilfe lesend an. "
  },
  {
