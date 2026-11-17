@@ -2,14 +2,14 @@
  {
   "titel": "Bestellung starten (mit Datum von heute)",
   "wohin": "Claude → Projekt neu*erzeugeBlatt() → neuer Chat: einfügen, dahinter die Bestellung (z. B. „<Name> Test“)",
-  "text": "{heute} Bestellung – häng aufgabenbank, aufgabenbank-privat und blattbau mit Schreibzugang und mathe-nachhilfe lesend an. "
+  "text": "{heute} Bestellung – häng hz-0801/aufgabenbank, hz-0801/aufgabenbank-privat und hz-0801/blattbau mit Schreibzugang und hz-0801/mathe-nachhilfe lesend an und veröffentliche die Tagesseite. "
  },
  {
-  "titel": "Globale Anweisung 2026-11-16 (k)",
+  "titel": "Globale Anweisung 2026-11-17 (l)",
   "wohin": "Claude → Einstellungen → Profil → Präferenzen: alten Text ganz ersetzen",
   "link": "https://claude.ai/settings/profile",
   "datei": "../global.md",
-  "ab": "Stand: 2026-11-16",
+  "ab": "Stand: 2026-11-17",
   "erledigt": false
  },
  {
