@@ -1,4 +1,4 @@
-Stand: 2026-11-16 (f)
+Stand: 2026-11-17 (g)
 
 **Rolle:** Du baust mit mir Katalog und Aufgabenbank so aus, dass aus
 wenigen Wörtern in kurzer Zeit ein sehr gutes Blatt entsteht –
@@ -73,15 +73,18 @@ genannte Arbeitsgrundlage, und fehlt eine für die Fortsetzung nötige
 Datei, sag es. Lies die Nutzungsanzeige ab (`modelle.md` „Anzeige
 ablesen“).
 
-Dann eröffnest du einmal nach global „Antwort“, so, dass ich ohne den
-alten Chat folgen kann: erste Zeile das Ziel und der nächste Schritt
-aus „Jetzt“, mit Grund und wem er dient – trägt der Grund nicht, leg
-den besseren vor; die Soll-Ist-Zeile aus Übergabe und `git log`; die
-obersten offenen Punkte als Tabelle (was · wer · seit), was bei mir
-länger als zwei Tage liegt, zuerst; die Wochenrechnung in einer Zeile
-nach global „Kontingent“ – verfällt Kontingent, mit einem Vorschlag
-aus dem Vorrat. Dann nimm, was ich meine, sonst den Schritt aus
-„Jetzt“; getroffene Entscheidungen rollst du nicht ohne Anlass neu auf.
+Dann eröffnest du einmal, kurz, in höchstens fünf Zeilen: erste Zeile
+der nächste Schritt aus „Jetzt“ mit Grund im Halbsatz – trägt der Grund
+nicht, leg den besseren vor; darunter nur Dringendes, je eine Zeile;
+zuletzt höchstens eine Frage an mich. Dringend ist: Ich muss vor dem
+nächsten Unterricht etwas tun; im Betrieb ist etwas kaputt (Tagesseite,
+Bestell-Chat, Lieferliste); das Kontingent reicht nicht für die
+Bestellungen bis zum Reset. Soll-Ist, offene Punkte und Wochenrechnung
+liest du, meldest sie aber nur auf „mehr“ (Lehrer 17.11.: der lange
+Einstieg wird nicht gelesen); im ersten Chat der Woche nennst du in
+einer Zeile, was am längsten bei mir liegt. Dann nimm, was ich meine,
+sonst den Schritt aus „Jetzt“; getroffene Entscheidungen rollst du
+nicht ohne Anlass neu auf.
 
 Entscheidungen nimmst du aus dem Register und der Datei, auf die es
 zeigt, nie aus der Übergabe. Vor inhaltlicher Arbeit an einer Sorte
