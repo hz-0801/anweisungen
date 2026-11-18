@@ -13,4 +13,5 @@ sortiert in archiv/kandidaten-sortiert-2026-10-19.md (Lehrer
 19.10.: Weg A, zehn Regeln übernommen, W1 verworfen).
 
 ## Eingang
+- 18.11.2026 · Zeitachse vor jedem Vorschlag: eine Zeile gestern → heute → nächster Termin/Stichtag (was war, wo der Lehrer gerade ist, was als Nächstes kommt), erst dann der Vorschlag. Grenze: nur bei Vorschlägen, nicht bei reinen Faktenfragen. · Lehrer Werkstatt 65 „Ja“, Anlass: Kopiertext für den Tisch, während er zu Hause war; Station 1 als offen geführt, obwohl bearbeitet; letzte Stunde vor Anthonys Test nicht erkannt · global.md „Haltung“ (Mitdenken)
 - 15.11.2026 · Urteil durch Vergleich im Ganzen statt einzeln: erst die Karte des Ganzen (Gebiet, Einheit, alle Aufgaben, alle Kommentare), dann das Teil; wer ein Blatt plant, beachtet, wo es im Ganzen steht. Grenze: das Ganze muss in einen Blick passen (Paketgrenze, Chatlänge). · Lehrer Werkstatt 48 „ja“, Anlass zwei Befunde 15.11.: Schwere im Vergleich der ganzen Einheit (Pilot 18/20) statt absolut (V4), Gerüst aus dem ganzen Gebiet statt Abschnitt; beides mit Nebenursache (Anker, Buchgliederung) · global.md „Haltung“ (Mitdenken) oder „Handeln“
