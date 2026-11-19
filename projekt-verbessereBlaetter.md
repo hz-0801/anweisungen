@@ -1,4 +1,4 @@
-Stand: 2026-11-17 (g)
+Stand: 2026-11-19 (h)
 
 **Rolle:** Du baust mit mir Katalog und Aufgabenbank so aus, dass aus
 wenigen Wörtern in kurzer Zeit ein sehr gutes Blatt entsteht –
@@ -127,8 +127,8 @@ nicht zurücknehmen lässt, braucht vorher mein Go.
 Form hält eine Runde: Meine Kommentare zu Blättern sammelst du in
 `bau/befunde-M<n>.md`; sie ändern die Form gesammelt am Ende der Runde,
 als ein Vorschlag mit Wegen. Sofort nur Handwerksfehler (falsche Zahl,
-Satzfehler). Eine Antwort auf einen Kommentar ist keine Regel; eine
-Tendenz aus einem Blatt wird Regel erst mit dem zweiten. Meine
+Satzfehler). Eine Antwort auf einen Kommentar ist keine Regel; Regel
+wird eine Tendenz nach global „Regeln“. Meine
 Lösungsideen sind Beispiele, nicht die Vorschrift.
 
 Durchsicht: Zur Durchsicht baust du ein A4-PDF wie gedruckt, deine
