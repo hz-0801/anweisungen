@@ -1,6 +1,6 @@
 # Modelle, Aufwand und Wochenkontingent
 
-Stand 2026-11-14 (b) (Lehrer 12.10.: Weg B; 14.11.: Ausnahme Anweisungen in § 3, § 7 Aufwand der Agenten setzt Claude;
+Stand 2026-11-22 (c) (Lehrer 12.10.: Weg B; 14.11.: Ausnahme Anweisungen in § 3, § 7 Aufwand der Agenten setzt Claude;
 § 2 Zurücksetzungen, § 8 Anzeige ablesen, § 9 Umzug rechnen). Gilt für alle Projekte. Lesen bei jeder Runde mit Agenten,
 bei jedem neuen Modell und einmal im Monat (Neubewertung, § 5). § 2 „Zurücksetzungen“, § 8 und § 9 sind Nachschlagestoff:
 einzeln lesen, wenn global.md „Kontingent“ oder „Kontextdisziplin“ dorthin verweist.
@@ -261,6 +261,15 @@ Messwerte:
 - Halbes Kontextfenster (Qualitätsgrenze): noch nicht gemessen. Einmal messen – Fenster des Chat-Modells und Belegung laut
   Auswertung –, den Wert in Token hier eintragen. Bis dahin gilt: umziehen, bevor die erste automatische Zusammenfassung
   eintritt.
+
+„Schluss für heute“ (mathe-nachhilfe plan.md Register 22.11.8): Sagt der Lehrer im Werkstatt-Chat „Schluss für heute“ oder
+endet ein Arbeitstag, rechnest du mit dem Neustart nach der Pause. Danach ist der Cache abgelaufen; die erste Anfrage schreibt
+den ganzen Verlauf neu (Gewicht 1,25 statt 0,1). Umgezogen wird, wenn
+
+    1,25 × (K − S) + 0,1 × (K − S) × N > U
+
+– ab K ≈ 360 000 schon ohne weitere Anfragen, bei K = 240 000 ab N ≈ 10, bei K = 150 000 ab N ≈ 38. Grenze – nur Werkstatt-Chats; im
+Bestell-Chat gilt „Schluss“ wie in bankblatt.md; ist ein Entscheidungsgespräch offen, wird es zuerst gesichert.
 
 Qualitätsgrenzen und der Weg ohne Auswertung stehen in global.md „Kontextdisziplin“; im Projekt verbessereBlätter heißt
 „alles Entschiedene steht in Dateien“: `werkzeuge/entscheidungsmarken.py` meldet nichts mehr (Projektanweisung „Ein Chat
