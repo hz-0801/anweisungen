@@ -194,6 +194,10 @@ Zugriff:
   nicht unter „Claude“ (Lehrer 15.10.)); Claude holt und schreibt Dateien über die
   Verbindung zum Rechner (device_stage_files / device_commit_files,
   bis 400 MB je Datei, ohne Token). Drive gleicht selbst ab.
+- Bücher suchen (Lehrer 23.11. W92: „Sorge nächstes Mal dafür, dass du findest, wo die Bücher sind“): zuerst
+  `Meine Ablage\Mathe\Bücher`, dann `C:\Users\holge\OneDrive\Desktop\Rohscans` (Fotos m1–m10 u. a. als PDF; je Buch ein
+  Unterordner mit dem fertigen Buch-PDF). Zugriff je Sitzung mit device_request_folder_access; den Lehrer nicht nach dem Ort fragen.
+  Ein fertiges Buch-PDF (Lesezeichen, Inhalt zum Anklicken, Rücksprung je Seite) kommt nach `Mathe\Bücher` (Regeln unten).
 - Rechner aus: Drive-Zugang im Chat nur für Suche und Text
   (search_files, read_file_content). Dateien laufen dort als base64
   durch den Kontext – 1 MB ≈ 0,4 Mio Token; keine PDFs so holen
