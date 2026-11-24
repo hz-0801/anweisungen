@@ -1,6 +1,6 @@
 [
  {
-  "titel": "Globale Anweisung 2026-11-24 (e)",
+  "titel": "Globale Anweisung 2026-11-24 (f)",
   "wohin": "Claude → Einstellungen → Profil → Präferenzen: alten Text ganz ersetzen",
   "link": "https://claude.ai/settings/profile",
   "datei": "../global.md",
@@ -12,7 +12,7 @@
   "wohin": "Claude → Projekt verbessereBlätter() → Anweisungen: alten Text ganz ersetzen",
   "datei": "../projekt-verbessereBlaetter.md",
   "ab": "Stand:",
-  "erledigt": false
+  "erledigt": true
  },
  {
   "titel": "Bestellung starten",
