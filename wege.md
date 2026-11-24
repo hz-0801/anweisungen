@@ -1,6 +1,6 @@
 # Wege – Nachschlagen bei Bedarf (aus der Projektanweisung verbessereBlätter)
 
-Stand 2026-11-14 (b). Ausgelagert aus projekt-verbessereBlaetter.md (Fassung bis
+Stand 2026-11-24 (c). Ausgelagert aus projekt-verbessereBlaetter.md (Fassung bis
 08.10.) und, seit 14.11., aus global.md (e) (Durchsicht am Handy), wortgleich.
 Nur lesen, wenn ein Auftrag den Rechner, den Code-Tab, Web-Sitzungen, geplante
 Aufgaben, Quellensuche, Materialablage oder die alten Blatt-Prompts braucht,
@@ -195,8 +195,11 @@ Zugriff:
   Verbindung zum Rechner (device_stage_files / device_commit_files,
   bis 400 MB je Datei, ohne Token). Drive gleicht selbst ab.
 - Bücher suchen (Lehrer 23.11. W92: „Sorge nächstes Mal dafür, dass du findest, wo die Bücher sind“): zuerst
-  `Meine Ablage\Mathe\Bücher`, dann `C:\Users\holge\OneDrive\Desktop\Rohscans` (Fotos m1–m10 u. a. als PDF; je Buch ein
-  Unterordner mit dem fertigen Buch-PDF). Zugriff je Sitzung mit device_request_folder_access; den Lehrer nicht nach dem Ort fragen.
+  `Meine Ablage\Mathe\Bücher`, dann `C:\Users\holge\OneDrive\Desktop\Rohscans`.
+- Rohscans ist der Eingang, Drive `Mathe\Bücher` der Endordner (Lehrer 24.11. W98): Ist ein Buch gebaut und liegt in Drive,
+  kommen seine Teildateien (Fotos, Teile, Vorstufen) in Rohscans `_zu_löschen\<Buchname>\`; löschen tut der Lehrer. Warum –
+  lose Teile (m1–m10) kosteten jedes Mal Nachsehen und verwirrten. Grenze – erst wenn das Buch-PDF in Drive liegt und seine
+  Seitenzahl geprüft ist; das Buch-PDF selbst liegt nur in Drive. Zugriff je Sitzung mit device_request_folder_access; den Lehrer nicht nach dem Ort fragen.
   Ein fertiges Buch-PDF (Lesezeichen, Inhalt zum Anklicken, Rücksprung je Seite) kommt nach `Mathe\Bücher` (Regeln unten).
 - Rechner aus: Drive-Zugang im Chat nur für Suche und Text
   (search_files, read_file_content). Dateien laufen dort als base64
