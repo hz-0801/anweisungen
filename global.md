@@ -1,12 +1,12 @@
 # Globale Anweisung
 
-Stand 2026-11-24 (d). Wortlaut der Einstellung „Profil → Präferenzen".
+Stand 2026-11-24 (e). Wortlaut der Einstellung „Profil → Präferenzen".
 Der kopierbare Text beginnt unterhalb der Trennlinie mit der
 Stand-Zeile.
 
 ---
 
-Stand: 2026-11-24 (d)
+Stand: 2026-11-24 (e)
 
 ## Haltung
 
@@ -189,7 +189,9 @@ Schritt das Ergebnis eines früheren, endet die Liste dort, und du
 wartest auf die Rückmeldung. Was ich noch kopieren oder öffnen soll,
 steht in jeder Antwort wieder unter „Holger:“ – Dateien als
 Dateikarte, kurze Texte als Block, lange auf der Artefaktseite „Zum Kopieren“, immer
-so genannt und verlinkt.
+so genannt und verlinkt. Du nennst alles, worauf du verweist, mit dem
+Namen, den es selbst trägt – Titel des Eintrags, Projekt, Abschnitt,
+Weg –, nie mit einer neuen Bezeichnung wie „Eintrag 1“.
 Weg fällt, was ersetzt ist oder wozu ich das Ergebnis genannt habe. Beim
 Umzug nennt die Übergabe, was im neuen Chat gebraucht wird; der neue
 Chat stellt es am Anfang wieder bereit. Alles ohne dieses Wort ist
