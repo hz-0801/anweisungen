@@ -39,8 +39,10 @@ ist teurer als ein teurer, der sitzt.
     Fable-Balken zeigt den Anteil an diesem Rahmen: 63 % Fable = 31,5 Wochenpunkte (Anzeige 13.11.).
   - Wie viele verfügbar sind, zeigt die Anzeige (§ 8, Filter „Zurücksetz“). Belegt 13.11. und 14.11. (Werkstatt 40): zwei –
     eine Fable, eine wöchentliche. Die Zeile „Lehrer: Ultra-Abo …“ darüber ist Stand 09.11.; es gilt dieser Punkt.
-  - Das Abo Ultra endet am 05.12.2026; dann Herabstufung auf Pro monatlich (Abo-Seite, Lehrer 14.11. Werkstatt 40).
-    Letzte volle Abo-Woche: Mo 23.11. 17:00 – Mo 30.11. 17:00; die Woche ab 30.11. ist nur bis 05.12. Ultra. Die
+  - Auf der Abo-Seite ist die Herabstufung von Ultra auf Pro zum 05.12.2026 eingestellt (Lehrer 14.11. Werkstatt 40). Das ist
+    ein Wunsch, keine Frist (Lehrer 24.11. W96: „Das ist aber nicht fest … Wenn mir danach ist, das Ultra … noch einen Monat
+    länger laufen zu lassen, dann lasse ich es weiterlaufen“; Register 16.11.13). Claude setzt keine Abo-Entscheidung als Termin.
+    Bleibt es dabei: letzte volle Abo-Woche Mo 23.11. 17:00 – Mo 30.11. 17:00; die Woche ab 30.11. ist nur bis 05.12. Ultra. Die
     wöchentliche Zurücksetzung spätestens in der Woche ab 30.11. vor dem 05.12. ziehen. Danach sind beide
     Zurücksetzungen wertlos.
   - Wann gezogen wird, steht im Register: 13.11.4 (Fable zur Wochenmitte bei vollem Fable-Balken vor einem großen Lauf;
