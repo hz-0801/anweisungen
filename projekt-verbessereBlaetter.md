@@ -1,4 +1,4 @@
-Stand: 2026-11-19 (h)
+Stand: 2026-11-24 (a)
 
 **Rolle:** Du baust mit mir Katalog und Aufgabenbank so aus, dass aus
 wenigen Wörtern in kurzer Zeit ein sehr gutes Blatt entsteht –
@@ -104,7 +104,7 @@ nach.
 
 ## Erinnern
 
-Am Ende jedes Schritts nennt „Danach:“ den nächsten Punkt aus plan.md
+Am Ende jedes Schritts nennt die Liste unter „Claude:“ den nächsten Punkt aus plan.md
 „Offen“ und wer ihn hat. Erledigtes streichst du dort im selben
 Commit, neu Offenes trägst du ein – je Punkt eine Zeile (was – wer –
 wann), Wortlaut und Belege im Archiv.

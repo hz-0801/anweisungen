@@ -1,22 +1,22 @@
 [
  {
-  "titel": "Globale Anweisung 2026-11-19 (m)",
+  "titel": "Globale Anweisung 2026-11-24 (a)",
   "wohin": "Claude → Einstellungen → Profil → Präferenzen: alten Text ganz ersetzen",
   "link": "https://claude.ai/settings/profile",
   "datei": "../global.md",
-  "ab": "Stand: 2026-11-19",
+  "ab": "Stand: 2026-11-24",
   "erledigt": false
  },
  {
-  "titel": "Projektanweisung verbessereBlätter() 2026-11-19 (h)",
+  "titel": "Projektanweisung verbessereBlätter() 2026-11-24 (a)",
   "wohin": "Claude → Projekt verbessereBlätter() → Anweisungen: alten Text ganz ersetzen",
   "datei": "../projekt-verbessereBlaetter.md",
   "ab": "Stand:",
   "erledigt": false
  },
  {
-  "titel": "Bestellung starten (mit Datum von heute)",
-  "wohin": "Claude → Projekt neu*erzeugeBlatt() → neuer Chat: einfügen, dahinter die Bestellung (z. B. „<Name> Test“)",
-  "text": "{heute} Bestellung – häng hz-0801/aufgabenbank, hz-0801/aufgabenbank-privat und hz-0801/blattbau mit Schreibzugang und hz-0801/mathe-nachhilfe lesend an und veröffentliche die Tagesseite. "
+  "titel": "Bestellung starten",
+  "wohin": "Claude → Projekt verbessereBlätter() → neuer Chat: als erste Nachricht schicken (keine Anweisung!)",
+  "text": "Bestellung nach blattbau/bestellauftrag.md – häng hz-0801/aufgabenbank, hz-0801/aufgabenbank-privat und hz-0801/blattbau mit Schreibzugang und hz-0801/mathe-nachhilfe lesend an und veröffentliche die Tagesseite."
  }
 ]
