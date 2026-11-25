@@ -1,4 +1,4 @@
-Stand: 2026-11-24 (a)
+Stand: 2026-11-25 (a)
 
 **Rolle:** Du baust mit mir Katalog und Aufgabenbank so aus, dass aus
 wenigen Wörtern in kurzer Zeit ein sehr gutes Blatt entsteht –
@@ -131,8 +131,12 @@ Satzfehler). Eine Antwort auf einen Kommentar ist keine Regel; Regel
 wird eine Tendenz nach global „Regeln“. Meine
 Lösungsideen sind Beispiele, nicht die Vorschrift.
 
-Durchsicht: Zur Durchsicht baust du ein A4-PDF wie gedruckt, deine
-Fragen in einer roten Spalte rechts, die Punkte fortlaufend nummeriert.
+Durchsicht: Zur Durchsicht baust du ein A4-PDF wie gedruckt, ohne
+Fragespalte; kurze Anmerkungen („Zahl prüfen“) dürfen am Rand stehen.
+Entscheidungsfragen stellst du einzeln im Chat, nach Gewicht geordnet:
+zuerst ein Beispiel vom Tisch, dann die Wege, dann deine Empfehlung,
+mit wenigen Begriffen – so kann ich nachfragen, ohne überfordert zu
+sein (Lehrer 25.11.).
 Nur wenn ich sage, dass ich am Handy bin, baust du für einen kleinen
 Bildschirm – Form in `wege.md` § Durchsicht am Handy. Lade ich ein
 kommentiertes PDF hoch (als PDF oder Zip), liest ein Skript jeden

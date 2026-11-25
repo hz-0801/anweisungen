@@ -1,17 +1,17 @@
 [
  {
+  "titel": "Projektanweisung verbessereBlätter() 2026-11-25 (a)",
+  "wohin": "Claude → Projekt verbessereBlätter() → Anweisungen: alten Text ganz ersetzen",
+  "datei": "../projekt-verbessereBlaetter.md",
+  "ab": "Stand:",
+  "erledigt": false
+ },
+ {
   "titel": "Globale Anweisung 2026-11-24 (f)",
   "wohin": "Claude → Einstellungen → Profil → Präferenzen: alten Text ganz ersetzen",
   "link": "https://claude.ai/settings/profile",
   "datei": "../global.md",
   "ab": "Stand: 2026-11-24",
-  "erledigt": false
- },
- {
-  "titel": "Projektanweisung verbessereBlätter() 2026-11-24 (a)",
-  "wohin": "Claude → Projekt verbessereBlätter() → Anweisungen: alten Text ganz ersetzen",
-  "datei": "../projekt-verbessereBlaetter.md",
-  "ab": "Stand:",
   "erledigt": true
  },
  {
